@@ -1,0 +1,5 @@
+# SeaSpark
+SeasPark Consultancy Ltd is a Kenyan based consultancy firm that offers Business and Technology Solutions. We provide advanced solutions to complex challenges experienced by Businesses. Our Key areas of focus include Staffing & Recruitment and Business Solutions & Consulting which involves SAP Services and SAP Business Solutions.
+
+# About Us
+The company was incorporated in December 2023 with a focus on Business & Technology Consultancy having particular attention to Staffing & Recruiting, SAP Services such as SAP implementations, Roll-outs, Upgrates & Migrations, Expert Consultancy and SAP Licensed Sales, while our SAP Business Solutions portfolio includes ERP Solutions (SAP ECC, S4HANA, SAP Business One, SAP Business ByDesign, SAP Business Planning & Consolidation, SAP EHS, GRC), Human Resource Solutions (Classic HR & SAP SuccessFactors), Data & Analytics Solutions (Business Intelligence - SAP BW on HANA & BW/4HANA, SAP HANA Data Warehouse Cloud, SAP Analytics Cloud). 
