@@ -16,7 +16,7 @@ const ProcessOne = ({className})=> (
         <div className="col-xl-6">
           <TitleWrap>
             <SecSubTitle>Our Work Process</SecSubTitle>
-            <SecTitle className="h1 text-capitalize">Work With Planing</SecTitle>
+            <SecTitle className="h1 text-">Work With Planing</SecTitle>
           </TitleWrap>
         </div>
       </div>

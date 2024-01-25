@@ -47,19 +47,14 @@ const TestimonialOne = ({...restProps})=> {
     ]
   };  
   
-  return (
+  return (  
     <div {...restProps}>
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-lg-auto text-center text-lg-start">
             <TitleWrap>
-              <SecSubTitle>
-                <i className="fas fa-bring-forward" />
-                Our Best Review’s
-              </SecSubTitle>
-              <SecTitle className="h1 text-capitalize">
-                Customer’s Feedback
-              </SecTitle>
+              <SecSubTitle><i className="fas fa-bring-forward"/>Our Best Review’s</SecSubTitle>
+              <SecTitle className="h1">Customer’s Feedback</SecTitle>
             </TitleWrap>
           </div>
           <div className="col-auto d-none d-lg-block">

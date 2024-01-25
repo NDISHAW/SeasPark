@@ -14,7 +14,7 @@ const AboutTwo = ({...restProps})=> (
         </div>
         <div className="col-lg-7 col-xxl-6 me-xl-auto">
           <SecSubTitle><i className="fas fa-bring-forward"/>The Great Company Skill</SecSubTitle>
-          <SecTitle className="h1 text-capitalize">Connecting People And Build Technology</SecTitle>
+          <SecTitle className="h1">Connecting People And Build Technology</SecTitle>
           <p className="mb-4 pb-1">Energistically evisculate an expanded array of meta-services after cross-media strategic theme areas. Interactively simplify interactive customer service before fully tested relationship parallel task high standards...</p>
           <ProgressOne title="Business Security" now={60}/>
           <ProgressOne title="Career Development" now={88}/>

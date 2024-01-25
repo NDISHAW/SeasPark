@@ -24,7 +24,7 @@ const FaqOne = ({className})=> (
         </div>
         <div className="col-lg-6 align-self-center">
           <SecSubTitle className="text-white"><i className="fas fa-bring-forward"/>Talk About Something</SecSubTitle>
-          <SecTitle className="text-white mb-4 pb-2 h1 text-capitalize">How can we help you?</SecTitle>
+          <SecTitle className="text-white mb-4 pb-2 h1 ">How can we help you?</SecTitle>
           <Accordion defaultActiveKey={faqData[0].questionId} className="accordion-style1">
             {faqData.map(item => (
               <Accordion.Item key={item.questionId} eventKey={item.questionId}>
