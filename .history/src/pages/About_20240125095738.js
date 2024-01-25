@@ -11,20 +11,19 @@ import {
   FooterOne
 } from '../containers';
 
-const About = () => (
+const About = ()=> (
   <Fragment>
     <Seo title="About Us" />
     <HeaderOne />
     <Breadcrumb pageName="About Us" bgImage="images/breadcumb/about.jpg" />
-    <ServiceFour className="space-top space-extra-bottom" />
-    <AboutSeven />
-    <TeamTwo className="space-top space-extra-bottom" />
-
-    <CtaOne className="space" />
+    <ServiceFour className="space-top space-extra-bottom"/>
+    <AboutSeven/>
+    <TeamTwo className="space-top space-extra-bottom"/>
+    <TestimonialThree className="space-top space-extra-bottom"/>
+    <CtaOne className="space"/>
     {/* <BlogFour className="space-top space-extra-bottom"/> */}
-    <TestimonialThree className="space-top space-extra-bottom" />
-    <FooterOne />
-    <ScrollTopBtn />
+    <FooterOne/>
+    <ScrollTopBtn/>
   </Fragment>
 );
 

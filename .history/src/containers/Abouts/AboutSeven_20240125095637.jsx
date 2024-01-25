@@ -14,7 +14,7 @@ const AboutSeven = () => (
     <div className="container container-style1">
       <div className="row flex-row-reverse align-items-center gx-70">
         <div className="col-lg-6 col-xl">
-          <img src="images/about/tech.jpg" alt="aboutthumb" />
+          <img src="images/about/about.jpg" alt="aboutthumb" />
         </div>
         <div className="col-lg-6 col-xl-auto">
           <div className="about-box2">

@@ -14,7 +14,7 @@ const AboutSeven = () => (
     <div className="container container-style1">
       <div className="row flex-row-reverse align-items-center gx-70">
         <div className="col-lg-6 col-xl">
-          <img src="images/about/tech.jpg" alt="aboutthumb" />
+          <img src="images/about/ab-7-1.jpg" alt="aboutthumb" />
         </div>
         <div className="col-lg-6 col-xl-auto">
           <div className="about-box2">
@@ -34,7 +34,7 @@ const AboutSeven = () => (
             <div className="row gx-0 align-items-center flex-row-reverse justify-content-end mt-sm-3 pt-sm-3 mb-30 pb-10">
               <div className="col-sm-auto">
                 <p className="author-degi">Founder & CEO</p>
-                <h3 className="h5 author-name">Rowland Simiyu</h3>
+                <h3 className="h5 author-name">Adam Smith</h3>
               </div>
               <div className="col-sm-auto">
                 <InfoMedia

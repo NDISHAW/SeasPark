@@ -21,8 +21,8 @@ const About = () => (
     <TeamTwo className="space-top space-extra-bottom" />
 
     <CtaOne className="space" />
-    {/* <BlogFour className="space-top space-extra-bottom"/> */}
-    <TestimonialThree className="space-top space-extra-bottom" />
+    {/* <BlogFour className="space-top space-extra-bottom"/> 
+    <TestimonialThree className="space-top space-extra-bottom"/>*/}
     <FooterOne />
     <ScrollTopBtn />
   </Fragment>
