@@ -130,7 +130,7 @@ const FooterOne = () => (
           . All rights reserved by{" "}
           <a
             className="text-white"
-            href="https://seaspark.co.ke"
+            href="https://themeforest.net/user/vecuro_themes"
           >
             SeasPark Consultancy Ltd
           </a>

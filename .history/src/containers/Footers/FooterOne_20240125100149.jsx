@@ -125,14 +125,14 @@ const FooterOne = () => (
         <p className="copyright-text">
           Copyright <i className="fal fa-copyright" /> 2024{" "}
           <Link className="text-white" to="/">
-            SeasPark
+            SeasPark Consultancy Ltd
           </Link>
           . All rights reserved by{" "}
           <a
             className="text-white"
-            href="https://seaspark.co.ke"
+            href="https://themeforest.net/user/vecuro_themes"
           >
-            SeasPark Consultancy Ltd
+            Vecuro
           </a>
           .
         </p>
