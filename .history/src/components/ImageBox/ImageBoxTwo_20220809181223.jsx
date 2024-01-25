@@ -8,7 +8,7 @@ const ImageBoxOne = ({imageOne, imageTwo, video})=> (
     </div>
     <div className="img-2">
       <img src={imageTwo} alt="imgTwo"/>
-      {/* <PlayBtn path={video} className="style3 position-center"><i className="fas fa-play"/></PlayBtn> */}
+      <PlayBtn path={video} className="style3 position-center"><i className="fas fa-play"/></PlayBtn>
     </div>
   </div>
 );

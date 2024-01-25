@@ -26,7 +26,7 @@
     "icon": "images/icon/sr-icon-3-3.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Roll Out",
+    "title": "Strategic Consulting Expertise",
     "text": "SeasPark offers strategic consulting expertise in areas like enterprise application support, custom application development, and cutting-edge technologies such as cloud, voice interfaces, and IoT."
   },
   {
@@ -36,7 +36,7 @@
     "icon": "images/icon/sr-icon-3-4.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "Expert Consultancy",
+    "title": "Tech Solutions Navigator",
     "text": "Let SeasPark's technologists guide you through a process of planning, building, and delivering technology solutions tailored to solve your unique business challenges."
   },
   {
@@ -46,13 +46,13 @@
     "icon": "images/icon/sr-icon-3-5.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
-    "title": "License sale",
+    "title": "Corporate Staffing Mastery",
     "text": "Explore a world beyond IT staffing. SeasPark excels in recruiting Senior Managers, Directors, and VPs, ensuring your organization is powered by leaders who drive business success."
   },
   {
     "id": "6",
     "path": "/service-details",
-    "image": "images/service/sr-d-1-1.jpg",
+    "image": "images/service/sr-3-6.jpg",
     "icon": "images/icon/sr-icon-3-6.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",

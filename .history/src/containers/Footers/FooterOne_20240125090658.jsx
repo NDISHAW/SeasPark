@@ -43,9 +43,9 @@ const FooterOne = () => (
               title="Contact Us"
               info={
                 <>
-                  <a href="mailto:info@example.com">info@seaspark.co.ke</a>
+                  <a href="mailto:info@example.com">info@example.com</a>
                   <br />
-                  <a href="tel:+2597462153">(+254) 780 170 536</a>
+                  <a href="tel:+2597462153">(+259) 746 2153</a>
                 </>
               }
             />
@@ -60,12 +60,8 @@ const FooterOne = () => (
             <Widget widgetTitle="About Us" className="footer-widget">
               <AboutWidget>
                 <AboutWidget.Text>
-                  Established in December 2023, our company specializes in
-                  Business & Technology Consultancy, with a core focus on
-                  Staffing & Recruiting and comprehensive SAP Services. Our SAP
-                  Business Solutions portfolio includes ERP Solutions, Human
-                  Resource Solutions, and Data & Analytics Solutions, covering a
-                  wide range of applications and services.
+                  Intrinsicly evisculate emerging cutting edge scenarios
+                  redefine future-proof e-markets demand line
                 </AboutWidget.Text>
                 <IconLink className="footer-social">
                   <IconLink.Item icon="fab fa-facebook-f" path="/" />
@@ -105,7 +101,7 @@ const FooterOne = () => (
               </CategoryWidget>
             </Widget>
           </div>
-          {/* <div className="col-md-6 col-xl-auto">
+          <div className="col-md-6 col-xl-auto">
             <Widget widgetTitle="Lastest Post" className="footer-widget">
               {recentPosts.slice(0, 2).map((post) => (
                 <RecentPostWidget
@@ -116,7 +112,7 @@ const FooterOne = () => (
                 />
               ))}
             </Widget>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

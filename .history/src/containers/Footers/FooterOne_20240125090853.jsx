@@ -60,12 +60,8 @@ const FooterOne = () => (
             <Widget widgetTitle="About Us" className="footer-widget">
               <AboutWidget>
                 <AboutWidget.Text>
-                  Established in December 2023, our company specializes in
-                  Business & Technology Consultancy, with a core focus on
-                  Staffing & Recruiting and comprehensive SAP Services. Our SAP
-                  Business Solutions portfolio includes ERP Solutions, Human
-                  Resource Solutions, and Data & Analytics Solutions, covering a
-                  wide range of applications and services.
+                  Intrinsicly evisculate emerging cutting edge scenarios
+                  redefine future-proof e-markets demand line
                 </AboutWidget.Text>
                 <IconLink className="footer-social">
                   <IconLink.Item icon="fab fa-facebook-f" path="/" />

@@ -18,7 +18,7 @@ const FaqOne = ({className})=> (
         <div className="col-lg-6 pb-20 pb-lg-0">
           <ImageBoxTwo 
             imageOne="images/faq/faq.jpg"
-            imageTwo="images/faq/faq2.jpg"
+            imageTwo="images/faq/faq-1-2.jpg"
             // video="https://www.dropbox.com/s/b4k0p5swok5l8t2/videoplayback.mp4?dl=1"
           />
         </div>

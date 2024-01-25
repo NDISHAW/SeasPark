@@ -45,7 +45,7 @@ const FeatureOne = ({className})=> {
             path="/service-details"
           />
           <FeatureBoxOne
-            title="Digital Solutions"
+            title="SAP Services"
             text="Our Digital Business Services is ready to help you build, succeed as an Intelligent Enterprise and accelerate faster value creation with greater visibility, focus and agility."
             image="images/icon/fe-1-1.png"
             path="/service-details"

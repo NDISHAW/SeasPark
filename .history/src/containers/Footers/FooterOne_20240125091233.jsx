@@ -55,7 +55,7 @@ const FooterOne = () => (
     </div>
     <div className="widget-area">
       <div className="container">
-        <div className="row justify-content-between">
+        <div className="row justify-content-start">
           <div className="col-md-6 col-xl-auto">
             <Widget widgetTitle="About Us" className="footer-widget">
               <AboutWidget>

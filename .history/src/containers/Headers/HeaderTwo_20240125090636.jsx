@@ -51,7 +51,7 @@ const HeaderTwo = () => (
             className="header-media col-auto d-none d-xl-flex"
             icon="fas fa-map-marker-alt"
             title="Office Address"
-            info="Sasio Rd, Off Lunga Lunga Rd, Nairobi-Kenya"
+            info="Sasio Rd, Off Lunga Lunga Rd, Nai-KENYA"
           />
         </div>
       </div>

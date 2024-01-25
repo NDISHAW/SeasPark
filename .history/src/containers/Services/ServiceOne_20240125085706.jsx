@@ -12,7 +12,7 @@ const ServiceOne = ({className})=>  (
         <div className="col-lg-8 col-xl-6">
           <TitleWrap>
             <SecSubTitle>Our Latest Services</SecSubTitle>
-            <SecTitle className="h1 text-capitalize">What Kind of Services We are Offering</SecTitle>
+            <SecTitle className="h1 text-capitali">What Kind of Services We are Offering</SecTitle>
           </TitleWrap>
         </div>
       </div>

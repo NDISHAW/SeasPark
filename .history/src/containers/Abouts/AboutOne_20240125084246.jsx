@@ -24,7 +24,7 @@ const AboutOne = ({ className }) => (
             <i className="fas fa-bring-forward " />
             Get best Business solution 2024
           </SecSubTitle>
-          <SecTitle className="h2 text-capitalize">
+          <SecTitle className="h2">
             Elevate Your Vision with Our Trusted Business Solutions & Consulting
             – Where Trust Transforms!
           </SecTitle>

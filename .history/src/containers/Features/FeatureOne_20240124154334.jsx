@@ -39,13 +39,13 @@ const FeatureOne = ({className})=> {
       <div className="container">
         <Slider className="row" {...settings}>
           <FeatureBoxOne
-            title="Staffing & Recruiting"
+            title="STAFFING & Recr"
             text="We harness a diverse talent pool for impactful staffing solutions, expertly pairing exemplary skills and cultural fit to propel individuals and businesses toward growth and success."
             image="images/icon/fe-1-2.png"
             path="/service-details"
           />
           <FeatureBoxOne
-            title="Digital Solutions"
+            title="SAP Services"
             text="Our Digital Business Services is ready to help you build, succeed as an Intelligent Enterprise and accelerate faster value creation with greater visibility, focus and agility."
             image="images/icon/fe-1-1.png"
             path="/service-details"

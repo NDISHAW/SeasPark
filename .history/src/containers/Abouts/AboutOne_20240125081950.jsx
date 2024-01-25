@@ -9,7 +9,7 @@ import {
 
 const AboutOne = ({ className }) => (
   <div className={`position-relative ${className || ""}`}>
-    <div className="about-shape1 d-none d-xl-block">SeasPark</div>
+    <div className="about-shape1 d-none d-xl-block">TechBiz</div>
     <div className="container z-index-common">
       <div className="row gx-60">
         <div className="col-lg-6 col-xl-5 mb-50 mb-lg-0">
@@ -21,10 +21,10 @@ const AboutOne = ({ className }) => (
         </div>
         <div className="col-lg-6 col-xl-7 align-self-center">
           <SecSubTitle>
-            <i className="fas fa-bring-forward " />
+            <i className="fas fa-bring-forward" />
             Get best Business solution 2024
           </SecSubTitle>
-          <SecTitle className="h2 text-capitalize">
+          <SecTitle className="h2">
             Elevate Your Vision with Our Trusted Business Solutions & Consulting
             – Where Trust Transforms!
           </SecTitle>
@@ -39,7 +39,7 @@ const AboutOne = ({ className }) => (
           <InfoMedia
             image="images/icon/tel-1-1.png"
             title="24 HOURS SERVICE AVAILABLE"
-            info="Call Us: +254 780 170 536"
+            info="Call Us: +(666) 888 0000"
             className="call-media"
           />
           <Button path="/about">

@@ -41,7 +41,7 @@ const TeamTwo = ({...restProps})=> {
         <TitleWrap className="text-center">
           <SecSubTitle>GREAT TEAM MEMBERS</SecSubTitle>
           <SecTitle className="h1 text-capitalize">
-            Our Team Of Experts
+            O
           </SecTitle>
         </TitleWrap>
         <Slider {...settings}>
