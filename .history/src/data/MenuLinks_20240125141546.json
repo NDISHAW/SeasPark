@@ -1,0 +1,28 @@
+[
+  {
+    "name": "HOME",
+    "path": "/"
+  },
+  {
+    "name": "About Us",
+    "path": "/about"
+  },
+  {
+    "name": "Service",
+    "path": "/service",
+    "subMenu": [
+      {
+        "name": "Service",
+        "path": "/service"
+      },
+      {
+        "name": "Service Details",
+        "path": "/service-details"
+      }
+    ]
+  },
+  {
+    "name": "Contact",
+    "path": "/contact"
+  }
+]
