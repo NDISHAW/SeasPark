@@ -88,32 +88,26 @@ const ServiceSingle = ({ ...restProps }) => (
             </div>
             <div className="col-xl-6">
               <div className="service-list-box">
-                <h3 className="h5 title"> Features</h3>
+                <h3 className="h5 title">Service Features</h3>
                 <List className="list-style3">
                   <List.Item>
-                    <i className="fal fa-check-circle" /> Implementation Project
-                    Plan and monitor the execution.
+                    <i className="fal fa-check-circle" /> Implementation
                   </List.Item>
                   <List.Item>
-                    <i className="fal fa-check-circle" /> Configure, set up and
-                    test the underlying technical infrastructure.
+                    <i className="fal fa-check-circle" /> SAP Upgrade &
+                    Migration
                   </List.Item>
                   <List.Item>
-                    <i className="fal fa-check-circle" /> Define, design, map
-                    and configure business processes.
+                    <i className="fal fa-check-circle" /> Roll Out
                   </List.Item>
                   <List.Item>
-                    <i className="fal fa-check-circle" /> Customize business
-                    processes if needed.
+                    <i className="fal fa-check-circle" /> Expert Consultancy
                   </List.Item>
                   <List.Item>
-                    <i className="fal fa-check-circle" /> Perform Change
-                    Management through effective Knowledge Transfer and end user
-                    education programs.
+                    <i className="fal fa-check-circle" /> focus and agility.
                   </List.Item>
                   <List.Item>
-                    <i className="fal fa-check-circle" /> Successful 'Go Live'
-                    and support
+                    <i className="fal fa-check-circle" /> License sale
                   </List.Item>
                 </List>
               </div>

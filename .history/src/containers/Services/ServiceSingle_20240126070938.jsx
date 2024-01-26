@@ -107,13 +107,10 @@ const ServiceSingle = ({ ...restProps }) => (
                     processes if needed.
                   </List.Item>
                   <List.Item>
-                    <i className="fal fa-check-circle" /> Perform Change
-                    Management through effective Knowledge Transfer and end user
-                    education programs.
+                    <i className="fal fa-check-circle" /> focus and agility.
                   </List.Item>
                   <List.Item>
-                    <i className="fal fa-check-circle" /> Successful 'Go Live'
-                    and support
+                    <i className="fal fa-check-circle" /> License sale
                   </List.Item>
                 </List>
               </div>

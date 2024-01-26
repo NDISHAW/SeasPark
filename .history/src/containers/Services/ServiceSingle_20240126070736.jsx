@@ -78,47 +78,6 @@ const ServiceSingle = ({ ...restProps }) => (
             competencies. Interactively engage distributed alignments via
             focused alignments.
           </p>
-          <div className="row gx-0 mb-4 pb-2 pt-3">
-            <div className="col-xl-6">
-              <img
-                src="images/service/sap.jpg"
-                alt="project"
-                className="w-100"
-              />
-            </div>
-            <div className="col-xl-6">
-              <div className="service-list-box">
-                <h3 className="h5 title"> Features</h3>
-                <List className="list-style3">
-                  <List.Item>
-                    <i className="fal fa-check-circle" /> Implementation Project
-                    Plan and monitor the execution.
-                  </List.Item>
-                  <List.Item>
-                    <i className="fal fa-check-circle" /> Configure, set up and
-                    test the underlying technical infrastructure.
-                  </List.Item>
-                  <List.Item>
-                    <i className="fal fa-check-circle" /> Define, design, map
-                    and configure business processes.
-                  </List.Item>
-                  <List.Item>
-                    <i className="fal fa-check-circle" /> Customize business
-                    processes if needed.
-                  </List.Item>
-                  <List.Item>
-                    <i className="fal fa-check-circle" /> Perform Change
-                    Management through effective Knowledge Transfer and end user
-                    education programs.
-                  </List.Item>
-                  <List.Item>
-                    <i className="fal fa-check-circle" /> Successful 'Go Live'
-                    and support
-                  </List.Item>
-                </List>
-              </div>
-            </div>
-          </div>
           <div className="row pt-3 mb-30 pb-10 gy-30">
             <div className="col-md-6">
               <img src="images/service/sr-d-1-3.jpg" alt="project" />

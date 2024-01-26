@@ -112,8 +112,7 @@ const ServiceSingle = ({ ...restProps }) => (
                     education programs.
                   </List.Item>
                   <List.Item>
-                    <i className="fal fa-check-circle" /> Successful 'Go Live'
-                    and support
+                    <i className="fal fa-check-circle" /> License sale
                   </List.Item>
                 </List>
               </div>
