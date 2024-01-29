@@ -72,7 +72,7 @@ const TeamTwo = ({...restProps})=> {
           <TeamBoxTwo
             image="images/team/t-2-4.jpg"
             name="ANGELA K. THOMAS"
-            desgination="Human Resource Manager"
+            desgination="Software Engineer"
             path="/team-details"
           />
         </Slider>

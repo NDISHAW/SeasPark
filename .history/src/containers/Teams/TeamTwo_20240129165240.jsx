@@ -63,18 +63,12 @@ const TeamTwo = ({...restProps})=> {
             desgination="ERP consultant"
             path="/team-details"
           />
-          <TeamBoxTwo
+          {/* <TeamBoxTwo
             image="images/team/t-2-4.jpg"
-            name="RICHARD OKELLO OMBOGA"
-            desgination="Software Engineer"
+            name="Daniel Matthew"
+            desgination="Developer"
             path="/team-details"
-          />
-          <TeamBoxTwo
-            image="images/team/t-2-4.jpg"
-            name="ANGELA K. THOMAS"
-            desgination="Human Resource Manager"
-            path="/team-details"
-          />
+          /> */}
         </Slider>
       </div>
     </div>
