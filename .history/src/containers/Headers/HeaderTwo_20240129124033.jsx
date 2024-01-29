@@ -36,7 +36,7 @@ const HeaderTwo = () => (
             <Logo image="images/mail.jpeg" />
           </div>
           <InfoMedia
-            className="header-media col-auto d-none d-lg-flex "
+            className="header-media col-auto d-none d-lg-flex gx-sm-0"
             icon="fas fa-phone-alt"
             title="Call Anytime 24/7"
             info={<a href="tel:+254780170536">+254 780 170 536</a>}
@@ -48,7 +48,7 @@ const HeaderTwo = () => (
             info={<a href="mailto:info@seaspark.co.ke">info@seaspark.co.ke</a>}
           />
           <InfoMedia
-            className="header-media col-auto d-none d-xl-flex "
+            className="header-media col-auto d-none d-xl-flex"
             icon="fas fa-map-marker-alt"
             title="Office Address"
             info="Sasio Rd, Off Lunga Lunga Rd, Nairobi-Kenya"

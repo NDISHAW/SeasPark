@@ -48,7 +48,7 @@ const HeaderTwo = () => (
             info={<a href="mailto:info@seaspark.co.ke">info@seaspark.co.ke</a>}
           />
           <InfoMedia
-            className="header-media col-auto d-none d-xl-flex "
+            className="header-media col-auto d-none d-xl-flex gx-sm-5"
             icon="fas fa-map-marker-alt"
             title="Office Address"
             info="Sasio Rd, Off Lunga Lunga Rd, Nairobi-Kenya"
