@@ -29,7 +29,7 @@ const HomeOne = ()=> (
       <AboutOne className="space-bottom"/>
     </div>
     <ServiceOne className="space-top space-extra-bottom"/>
-    {/* <CounterOne/> */}
+    <CounterOne/>
     <TeamTwo className="space-top space-extra-bottom"/>
     <FaqOne/>
     <AboutTwo className="space-top space-extra-bottom"/>
