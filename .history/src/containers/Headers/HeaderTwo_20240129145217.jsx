@@ -35,7 +35,7 @@ const HeaderTwo = () => (
           <div className="col gx-sm-26">
             {/* <Logo className="col gx-sm-6" image="images/mail.jpeg" /> */}
             <InfoMedia
-            
+            <Logo className="col gx-sm-6" image="images/mail.jpeg" /> 
               // className="header-media col-auto d-none d-lg-flex "
               // icon="fas fa-phone-alt"
               // title="Call Anytime 24/7"

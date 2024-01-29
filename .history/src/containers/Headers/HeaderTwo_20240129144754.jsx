@@ -32,15 +32,8 @@ const HeaderTwo = () => (
     <div className="container">
       <div className="menu-top">
         <div className="row justify-content-between align-items-center gx-sm-0">
-          <div className="col gx-sm-26">
-            {/* <Logo className="col gx-sm-6" image="images/mail.jpeg" /> */}
-            <InfoMedia
-            
-              // className="header-media col-auto d-none d-lg-flex "
-              // icon="fas fa-phone-alt"
-              // title="Call Anytime 24/7"
-              // info={<a href="tel:+254780170536">+254 780 170 536</a>}
-            />
+          <div className="col gx-sm-0 ">
+            <Logo image="images/mail.jpeg" />
           </div>
           <InfoMedia
             className="header-media col-auto d-none d-lg-flex "
