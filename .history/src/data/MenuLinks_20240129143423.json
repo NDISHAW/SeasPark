@@ -22,13 +22,9 @@
     ]
   },
   {
-    "name": "OUR TEAM",
-    "path": "/team"
-  },
-  {
     "name": "CAREERS",
     "path": "/careers"
-  },
+  },    
   {
     "name": "CONTACT US",
     "path": "/contact"
