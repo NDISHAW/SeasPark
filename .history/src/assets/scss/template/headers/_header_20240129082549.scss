@@ -329,18 +329,16 @@
   }
 
   .media-label {
-    font-size: 16px;
-    // color: $body-color;
-    color: $title-color;
+    font-size: 20px;
+    color: $body-color;
     display: block;
     margin-bottom: 2px;
-    font-weight: 400;
   }
 
   .media-link {
     color: $title-color;
     font-size: 20px;
-    font-weight: 400;
+    // font-weight: 400;
     margin: 0;
 
     a {
