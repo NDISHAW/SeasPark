@@ -17,17 +17,16 @@
       },
       {
         "name": "Service Details",
-        "path": "/service-details"
+        "path": "/service-details"OUR TEAM 
       }
     ]
   },
   {
     "name": "CAREERS",
     "path": "/careers"
-  },  
-  {
-    "name": "OUR TEAM",
-    "path": "/team"
+  },  {
+    "name": "CAREERS",
+    "path": "/careers"
   },
   {
     "name": "CONTACT US",
