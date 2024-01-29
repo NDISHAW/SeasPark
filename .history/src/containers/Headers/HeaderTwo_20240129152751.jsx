@@ -34,7 +34,7 @@ const HeaderTwo = () => (
     <div className="container">
       <div className="menu-top">
         <div className="row justify-content-between align-items-center gx-sm-0">
-          <div className="col gx-sm-26 max-w-20vw">
+          <div className="col gx-sm-26 max-w">
             <Logo className="col gx-sm-" image="images/logo1.png" />
           </div>
 
