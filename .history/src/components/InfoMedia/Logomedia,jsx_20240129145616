@@ -1,0 +1,11 @@
+import React from 'react';
+
+const Logomedia = ({number, image, icon, title, info, className }) => (
+  <div className={`info-media ${className || ''}`}>
+    <div className="media-icon">
+      {image && <img src={image} alt="infoIcon"/>}
+
+  </div>
+);
+
+export default Logomedia;

@@ -20,7 +20,6 @@ export {default as GalleryWidget} from './Widgets/GalleryWidget';
 export {default as HeaderTop} from './HeaderCore/HeaderTop';
 export {default as HeaderSticky} from './HeaderCore/HeaderSticky';
 export {default as InfoMedia} from './InfoMedia/InfoMedia';
-export { default as Logomedia } from "./Logomedia/Logomedia";
 export {default as IconLink} from './IconLink/IconLink';
 export {default as IconButton} from './Buttons/IconButton';
 export {default as ImageBoxOne} from './ImageBox/ImageBoxOne';

@@ -7,10 +7,8 @@ import {
   MainMenu,
   FormFour,
   MobileMenu,
-  IconLink,
-  Logomedia,
-} from "../../components";
-
+  IconLink
+} from '../../components';
 
 const HeaderTwo = () => (
   <header className="vs-header header-layout1">
@@ -36,13 +34,14 @@ const HeaderTwo = () => (
         <div className="row justify-content-between align-items-center gx-sm-0">
           <div className="col gx-sm-26">
             {/* <Logo className="col gx-sm-6" image="images/mail.jpeg" /> */}
-            {/* <Logomedia>
-              <Logo className="col gx-sm-6" image="images/mail.jpeg" />
-            </Logomedia> */}
-            <Logo className="col gx-sm-" image="images/logo1.png" />
-            {/* <Logomedia image="images/mail.jpeg" /> */}
+            <InfoMedia></InfoMedia>
+            
+              // className="header-media col-auto d-none d-lg-flex "
+              // icon="fas fa-phone-alt"
+              // title="Call Anytime 24/7"
+              // info={<a href="tel:+254780170536">+254 780 170 536</a>}
+            />
           </div>
-
           <InfoMedia
             className="header-media col-auto d-none d-lg-flex "
             icon="fas fa-phone-alt"

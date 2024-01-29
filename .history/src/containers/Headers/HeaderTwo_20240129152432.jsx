@@ -39,7 +39,7 @@ const HeaderTwo = () => (
             {/* <Logomedia>
               <Logo className="col gx-sm-6" image="images/mail.jpeg" />
             </Logomedia> */}
-            <Logo className="col gx-sm-" image="images/logo1.png" />
+            <Logo className="col gx-sm-" image="images/\" />
             {/* <Logomedia image="images/mail.jpeg" /> */}
           </div>
 
