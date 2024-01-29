@@ -21,7 +21,7 @@ const AboutOne = ({ className }) => (
         </div>
         <div className="col-lg-6 col-xl-7 align-self-center">
           <SecTitle className="">
-            {/* <i className="fas fa-bring-forward" /> */}
+            <i className="fas fa-bring-forward" />
             Get the best Business solutions 
           </SecTitle>
           <SecSubTitle className="h1">

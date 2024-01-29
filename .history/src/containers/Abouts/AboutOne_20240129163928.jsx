@@ -21,8 +21,8 @@ const AboutOne = ({ className }) => (
         </div>
         <div className="col-lg-6 col-xl-7 align-self-center">
           <SecTitle className="">
-            {/* <i className="fas fa-bring-forward" /> */}
-            Get the best Business solutions 
+            <i className="fas fa-bring-forward" />
+            Get  best Business solutions 2024
           </SecTitle>
           <SecSubTitle className="h1">
             Elevate Your Vision with Our Trusted Business Solutions & Consulting
