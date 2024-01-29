@@ -22,7 +22,7 @@ const HeroOne = ()=> {
       image: "images/hero/sap.jpg",
       title: (
         <>
-          SAP Business Solutions,
+          SAP Solutions,
           {/* <span className="hero-innertext">PROVIDE FREE CONSULTATION</span>{" "} */}
           <br /> Your Business Symphony.
         </>
