@@ -16,7 +16,7 @@ const CtaOne = ({ className }) => (
           <SecTitle className="cta-title1 h1 text-capitalize">
             Need A Consultation?
           </SecTitle>
-          <br />
+          br
           <SecSubTitle className="text-white">
             We are here to answer your questions 24/7
           </SecSubTitle>
