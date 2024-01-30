@@ -12,8 +12,8 @@ const TeamBoxTwo = ({path, desgination, image, name})=> (
         <Link to="#"><i className="fab fa-facebook-f"/></Link>
         <Link to="#"><i className="fab fa-twitter"/></Link>
         <Link to="#"><i className="fab fa-instagram"/></Link>
-        <Link to="#"><i className="fab fa-linkedin"/></Link>
-        {/* <Link to="#"><i className="fab fa-youtube"/></Link> */}
+        <Link to="#"><i className="fab fa-behance"/></Link>
+        <Link to="#"><i className="fab fa-youtube"/></Link>
       </div>
     </div>
     <div className="team-content">
@@ -23,4 +23,4 @@ const TeamBoxTwo = ({path, desgination, image, name})=> (
   </div>
 );
 
-export default TeamBoxTwo;
+export default TeamBoxOne;

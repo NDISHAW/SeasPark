@@ -80,8 +80,10 @@
 
   .team-degi {
     color: $theme-color;
-    margin: 0;
+    // margin: 0;
     font-size: 16px;
+    font-weight: 500;
+    font-family: $title-font;
   }
 
   &:hover {
