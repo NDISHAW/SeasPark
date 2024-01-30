@@ -13,7 +13,7 @@ const CtaOne = ({ className }) => (
     <div className="container">
       <div className="row text-center text-lg-start align-items-center justify-content-between">
         <div className="col-lg-auto">
-          <SecTitle className="cta-title1 h1 ">
+          <SecTitle className="cta-title1 h1 text-capitalize">
             Need a Consultant?
           </SecTitle>
           <br />

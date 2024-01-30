@@ -34,7 +34,7 @@ const FooterOne = () => (
             <InfoMedia
               icon="fal fa-clock"
               title="Working Hours"
-              info="Weekdays 8am - 5pm Sartuday 8am - 12pm"
+              info="Weekdays 8am - 5pm Sa 8am - 12pm"
             />
           </div>
           <div className="footer-media col-sm">
