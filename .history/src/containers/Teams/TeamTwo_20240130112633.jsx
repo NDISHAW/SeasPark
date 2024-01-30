@@ -54,7 +54,7 @@ const TeamTwo = ({...restProps})=> {
           <TeamBoxTwo
             image="images/team/Timothy.jpg"
             name="Timothy Mbogo"
-            desgination="Lead SAP Developer"
+            desgination="Software Developer || SAP Certified Associate – SAP Business One Version 10"
             path="/team-details"
           />
           <TeamBoxTwo
