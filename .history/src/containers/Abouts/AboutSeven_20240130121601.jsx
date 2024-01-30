@@ -19,8 +19,8 @@ const AboutSeven = () => (
         <div className="col-lg-6 col-xl-auto">
           <div className="about-box2">
             <SecTitle>
-              {/* <i className="fas fa-bring-forward" /> */}
-              Get the best solution
+              <i className="fas fa-bring-forward" />
+              Get best solution
             </SecTitle>
             <SecSubTitle className="text-capitalize h1">
               Inspiring Tech Needs for Business

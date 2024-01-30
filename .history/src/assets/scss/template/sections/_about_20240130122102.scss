@@ -273,7 +273,7 @@
   }
 
   .media-link {
-    font-weight: 700;
+    font-weight: 100;
     font-size: 16px;
     font-family: $title-font;
     text-transform: uppercase;
@@ -295,7 +295,7 @@
     color: $title-color;
     font-family: $title-font;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     max-width: 150px;
     margin-bottom: 15px;
@@ -518,7 +518,7 @@
 
   .media-link {
     margin: 0;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     font-family: $title-font;
     color: $theme-color;

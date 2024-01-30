@@ -40,7 +40,7 @@ const TestimonialThree = ({className})=> {
           <div className="col-lg-5 text-center text-lg-start">
             <TitleWrap>
               <SecTitle>
-                {/* <i className="fas fa-bring-forward"/> */}
+                <i className="fas fa-bring-forward"/>
                 Our Best Review’s</SecTitle>
               <SecSubTitle className="text-capitalize h1">Inspiring Tech Needs for Business</SecSubTitle>
             </TitleWrap>

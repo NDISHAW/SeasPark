@@ -7,10 +7,10 @@ const Breadcrumb = ({pageName, bgImage}) => (
           <div className="breadcumb-content">
               <h1 className="breadcumb-title">{pageName}</h1>
               <div className="breadcumb-menu-wrap ">
-                  {/* <ul className="breadcumb-menu">
+                  <ul className="breadcumb-menu">
                       <li ><Link to="/">Home</Link></li>
                       <li>{pageName}</li>
-                  </ul> */}
+                  </ul>
               </div>
           </div>
       </div>

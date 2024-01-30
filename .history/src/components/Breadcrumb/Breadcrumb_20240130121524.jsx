@@ -5,12 +5,12 @@ const Breadcrumb = ({pageName, bgImage}) => (
   <div className="breadcumb-wrapper background-image" style={{backgroundImage: `url('${bgImage}')`}}>
       <div className="container z-index-common">
           <div className="breadcumb-content">
-              <h1 className="breadcumb-title">{pageName}</h1>
+              {/* <h1 className="breadcumb-title">{pageName}</h1> */}
               <div className="breadcumb-menu-wrap ">
-                  {/* <ul className="breadcumb-menu">
+                  <ul className="breadcumb-menu">
                       <li ><Link to="/">Home</Link></li>
                       <li>{pageName}</li>
-                  </ul> */}
+                  </ul>
               </div>
           </div>
       </div>
