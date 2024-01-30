@@ -51,7 +51,7 @@ return (
           <TeamBoxOne
             path="/team-details"
             name="ANGELA K. THOMAS"
-            desgination="Human Resource Officer"
+            desgination="Human Resource Manager"
             image="images/team/t-1-6.jpg"
           />
         </div>

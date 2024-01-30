@@ -19,7 +19,7 @@ return (
           <TeamBoxOne
             path="/team-details"
             name="Dennis Kibunja"
-            desgination="Lead SAP Consultant"
+            desgination="SAP Business One Implementation and Support Consultant||SAP Business One Project Management"
             image="images/team/Dennis.jpg"
           />
         </div>
@@ -35,7 +35,7 @@ return (
           <TeamBoxOne
             path="/team-details"
             name="Anne Nderi"
-            desgination="ERP Consultant"
+            desgination="ERP consultant"
             image="images/team/Anne.jpg"
           />
         </div>
@@ -51,7 +51,7 @@ return (
           <TeamBoxOne
             path="/team-details"
             name="ANGELA K. THOMAS"
-            desgination="Human Resource Officer"
+            desgination="Human Resource Manager"
             image="images/team/t-1-6.jpg"
           />
         </div>

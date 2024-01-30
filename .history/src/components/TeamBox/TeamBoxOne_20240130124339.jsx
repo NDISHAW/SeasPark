@@ -9,7 +9,7 @@ const TeamBoxOne = ({path, desgination, image, name, className})=> (
         <Link to="#"><i className="fab fa-facebook-f"/></Link>
         <Link to="#"><i className="fab fa-twitter"/></Link>
         <Link to="#"><i className="fab fa-instagram"/></Link>
-        <Link to="#"><i className="fab fa-linkedin"/></Link>
+        {/* <Link to="#"><i className="fab fa-behance"/></Link> */}
         {/* <Link to="#"><i className="fab fa-youtube"/></Link> */}
       </div>
     </div>
