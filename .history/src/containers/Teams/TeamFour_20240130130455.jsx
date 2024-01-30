@@ -50,7 +50,7 @@ return (
         <div className="col-md-6 col-lg-4 col-xl-3">
           <TeamBoxOne
             path="/team-details"
-            name="Angela K. Thomas"
+            name="ANGELA K. THOMAS"
             desgination="Human Resource Officer"
             image="images/team/t-1-6.jpg"
           />
