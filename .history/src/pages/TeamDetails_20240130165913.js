@@ -6,14 +6,17 @@ import {
   FooterOne
 } from '../containers';
 
-const TeamDetails = ()=> (
+const TeamDetails = () => (
   <Fragment>
     <Seo title="Team Details" />
     <HeaderOne />
-    <Breadcrumb pageName="Team Details" bgImage="images/team/details.jpg" />
-    <TeamSingle className="space-top space-extra-bottom"/>
-    <FooterOne/>
-    <ScrollTopBtn/>
+    <Breadcrumb
+      pageName="Team Details"
+      bgImage="images/team/Team Details.jpg"
+    />
+    <TeamSingle className="space-top space-extra-bottom" />
+    <FooterOne />
+    <ScrollTopBtn />
   </Fragment>
 );
 

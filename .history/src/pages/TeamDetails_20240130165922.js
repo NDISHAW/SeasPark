@@ -10,7 +10,7 @@ const TeamDetails = ()=> (
   <Fragment>
     <Seo title="Team Details" />
     <HeaderOne />
-    <Breadcrumb pageName="Team Details" bgImage="images/team/details.jpg" />
+    <Breadcrumb pageName="Team Details" bgImage="images/team/team.jpg" />
     <TeamSingle className="space-top space-extra-bottom"/>
     <FooterOne/>
     <ScrollTopBtn/>
