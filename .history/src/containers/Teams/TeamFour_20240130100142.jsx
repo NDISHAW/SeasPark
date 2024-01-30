@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React{useState} from 'react';
 import {TeamBoxOne} from '../../components';
 
 const TeamFour = ({ ...restProps }) =>{

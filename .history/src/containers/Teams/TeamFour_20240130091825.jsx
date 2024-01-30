@@ -1,17 +1,7 @@
-import React,{useState} from 'react';
+import React from 'react';
 import {TeamBoxOne} from '../../components';
 
-const TeamFour = ({ ...restProps }) =>{
-
-
-  const [selectedTeamMember, setSelectedTeamMember] = useState(null);
-
-  // Function to handle team member click
-  const handleTeamMemberClick = (teamMember) => {
-    setSelectedTeamMember(teamMember);
-  };
-
-return(
+const TeamFour = ({ ...restProps }) => (
   <div {...restProps}>
     <div className="container">
       <div className="row">
@@ -55,14 +45,7 @@ return(
             image="images/team/t-1-6.jpg"
           />
         </div>
-        <div className="col-md-6 col-lg-4 col-xl-3">
-          <TeamBoxOne
-            path="/team-details"
-            name="Marian Widjya"
-            desgination="Lead Developer"
-            image="images/team/t-1-5.jpg"
-          />
-        </div>
+        
         <div className="col-md-6 col-lg-4 col-xl-3">
           <TeamBoxOne
             path="/team-details"
@@ -83,6 +66,6 @@ return(
     </div>
   </div>
 );
-}
+
 
 export default TeamFour;

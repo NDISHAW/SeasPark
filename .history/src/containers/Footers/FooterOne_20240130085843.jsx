@@ -43,9 +43,9 @@ const FooterOne = () => (
               title="Contact Us"
               info={
                 <>
-                  <a href="mailto:info@seaspark.co.ke">info@seaspark.co.ke</a>
+                  <a href="mailto:info@example.com">info@seaspark.co.ke</a>
                   <br />
-                  <a href="tel:+254780 170 536">(+254) 780 170 536</a>
+                  <a href="tel:+259780 170 536">(+254) 780 170 536</a>
                 </>
               }
             />

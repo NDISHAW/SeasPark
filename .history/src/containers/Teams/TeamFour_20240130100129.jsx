@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import {TeamBoxOne} from '../../components';
 
 const TeamFour = ({ ...restProps }) =>{
@@ -9,8 +9,7 @@ const TeamFour = ({ ...restProps }) =>{
   // Function to handle team member click
   const handleTeamMemberClick = (teamMember) => {
     setSelectedTeamMember(teamMember);
-  };
-
+  };  
 return(
   <div {...restProps}>
     <div className="container">
