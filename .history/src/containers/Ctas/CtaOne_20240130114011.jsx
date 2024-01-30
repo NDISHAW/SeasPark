@@ -14,11 +14,9 @@ const CtaOne = ({ className }) => (
       <div className="row text-center text-lg-start align-items-center justify-content-between">
         <div className="col-lg-auto">
           <SecSubTitle className="text-white">
-            Need A Consultation? 
+            Need A Consultation? We are here to answer your questions 24/7
           </SecSubTitle>
-          <SecTitle className="cta-title1 h1 text-capitalize">
-            We are here to answer your questions 24/7
-          </SecTitle>
+          <SecTitle className="cta-title1 h1 text-capitalize"></SecTitle>
         </div>
         <div className="col-lg-auto">
           <Button>
