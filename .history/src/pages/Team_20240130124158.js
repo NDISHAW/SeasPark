@@ -12,7 +12,7 @@ const Team = ()=> (
   <Fragment>
     <Seo title="Team" />
     <HeaderOne />
-    <Breadcrumb pageName="Team" bgImage="images/team/team.jpg" />
+    <Breadcrumb pageName="Team" bgImage="images/team/team1.jpg" />
     <TeamFour className="space-top space-extra-bottom"/>
     <CtaOne className="space"/>
     <AboutTwo className="space-top space-extra-bottom background-image" style={{backgroundImage: 'url(images/bg/skill-bg-2-1.jpg)'}} />
