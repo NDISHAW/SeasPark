@@ -67,6 +67,10 @@
       "path": "/service"
     },
     {
+      "name": "Latest Posts",
+      "path": "/blog"
+    },
+    {
       "name": "Help Center",
       "path": "/contact"
     },

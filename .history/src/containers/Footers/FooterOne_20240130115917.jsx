@@ -83,13 +83,6 @@ const FooterOne = () => (
                 ))}
               </CategoryWidget>
             </Widget>
-            <IconLink className="footer-social">
-              <IconLink.Item icon="fab fa-facebook-f" path="/" />
-              <IconLink.Item icon="fab fa-twitter" path="/" />
-              {/* <IconLink.Item icon="fab fa-behance" path="/" /> */}
-              <IconLink.Item icon="fab fa-linkedin" path="/" />
-              {/* <IconLink.Item icon="fab fa-instagram" path="/" /> */}
-            </IconLink>
           </div>
           <div className="col-6 col-xl-auto">
             <Widget
@@ -103,6 +96,13 @@ const FooterOne = () => (
                   </CategoryWidget.Item>
                 ))}
               </CategoryWidget>
+              <IconLink className="footer-social">
+                <IconLink.Item icon="fab fa-facebook-f" path="/" />
+                <IconLink.Item icon="fab fa-twitter" path="/" />
+                {/* <IconLink.Item icon="fab fa-behance" path="/" /> */}
+                <IconLink.Item icon="fab fa-linkedin" path="/" />
+                {/* <IconLink.Item icon="fab fa-instagram" path="/" /> */}
+              </IconLink>
             </Widget>
           </div>
           {/* <div className="col-md-6 col-xl-auto">

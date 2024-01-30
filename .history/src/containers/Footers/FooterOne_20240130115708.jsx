@@ -67,6 +67,13 @@ const FooterOne = () => (
                   Resource Solutions, and Data & Analytics Solutions, covering a
                   wide range of applications and services.
                 </AboutWidget.Text>
+                <IconLink className="footer-social">
+                  <IconLink.Item icon="fab fa-facebook-f" path="/" />
+                  <IconLink.Item icon="fab fa-twitter" path="/" />
+                  {/* <IconLink.Item icon="fab fa-behance" path="/" /> */}
+                  <IconLink.Item icon="fab fa-linke" path="/" />
+                  {/* <IconLink.Item icon="fab fa-instagram" path="/" /> */}
+                </IconLink>
               </AboutWidget>
             </Widget>
           </div>
@@ -83,13 +90,6 @@ const FooterOne = () => (
                 ))}
               </CategoryWidget>
             </Widget>
-            <IconLink className="footer-social">
-              <IconLink.Item icon="fab fa-facebook-f" path="/" />
-              <IconLink.Item icon="fab fa-twitter" path="/" />
-              {/* <IconLink.Item icon="fab fa-behance" path="/" /> */}
-              <IconLink.Item icon="fab fa-linkedin" path="/" />
-              {/* <IconLink.Item icon="fab fa-instagram" path="/" /> */}
-            </IconLink>
           </div>
           <div className="col-6 col-xl-auto">
             <Widget
@@ -128,7 +128,10 @@ const FooterOne = () => (
             SeasPark
           </Link>
           . All rights reserved by{" "}
-          <a className="text-white" href="https://seaspark.co.ke">
+          <a
+            className="text-white"
+            href="https://seaspark.co.ke"
+          >
             SeasPark Consultancy Ltd
           </a>
           .

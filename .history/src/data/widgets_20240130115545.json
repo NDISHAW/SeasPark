@@ -57,14 +57,30 @@
       "path": "/team"
     },
     {
+      "name": "Our Projects",
+      "path": "/project"
+    },
+    {
       "name": "Contact Us",
       "path": "/contact"
+    },
+    {
+      "name": "Privacy Policy",
+      "path": "/"
     }
   ],
   "exploreLinks": [
     {
       "name": "What we Offer",
       "path": "/service"
+    },
+    {
+      "name": "Our Story",
+      "path": "/about"
+    },
+    {
+      "name": "Latest Posts",
+      "path": "/blog"
     },
     {
       "name": "Help Center",
