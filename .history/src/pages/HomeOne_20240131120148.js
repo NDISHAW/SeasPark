@@ -12,7 +12,7 @@ import {
   HeroOne, 
   FeatureOne, 
   AboutOne, 
-  ServiceThree,
+  ServiceOne,
   CounterOne,
   TeamOne,
   FaqOne,
@@ -42,7 +42,7 @@ const HomeOne = () => {
         <FeatureOne className="space-top space-extra-bottom" />
         <AboutOne className="space-bottom" />
       </div>
-      <ServiceThree className="space-top space-extra-bottom" />
+      <ServiceOne className="space-top space-extra-bottom" />
       {/* <CounterOne/> */}
       <TeamTwo className="space-top space-extra-bottom" />
       <FaqOne />

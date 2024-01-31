@@ -51,34 +51,25 @@ const ServiceThree = ({className})=> {
   };
   
   return (
-    <div
-      className={`background-image ${className || ""}`}
-      style={{ backgroundImage: "url(images/bg/sr-bg-3-1.jpg)" }}
-    >
+    <div className={`background-image ${className || ''}`} style={{backgroundImage: 'url(images/bg/sr-bg-3-1.jpg)'}}>
       <div className="container">
         <div className="row justify-content-center justify-content-lg-between align-items-center">
           <div className="col-md-8 col-lg-6 text-center text-lg-start">
             <TitleWrap>
-              <SecTitle>Our Services</SecTitle>
-              <SecSubTitle className="h1 text-capitalize">
-                What Kind of Services We are Offering
-              </SecSubTitle>
+              <SecSubTitle><i className="fas fa-bring-forward"/>Our Featured Services</SecSubTitle>
+              <SecTitle className="h1 text-capitalize">We Provide Great IT & Business Solutions</SecTitle>
             </TitleWrap>
           </div>
           <div className="col-auto d-none d-lg-block">
             <div className="sec-btns2">
-              <Button path="/service">
-                View All Services
-                <i className="far fa-arrow-right" />
-              </Button>
+              <Button path="/service">View All Services<i className="far fa-arrow-right"/></Button>
             </div>
           </div>
         </div>
         <Slider className="row" {...settings}>
-          {serviceData.map((item) => (
+          {serviceData.map(item => (
             <div className="col-md-6 col-lg-4" key={item.id}>
-              <ServiceBoxThree
-                path={item.path}
+              <ServiceBoxThree path={item.path}
                 image={item.image}
                 icon={item.icon}
                 title={item.title}
