@@ -37,7 +37,7 @@ const MobileMenu = ()=> {
           <button className="vs-menu-toggle" onClick={menuCloseHandler}>
             <i className="fal fa-times"></i>
           </button>
-          <div className="mobile-logo">{<Logo image="images/logo21.png" />}</div>
+          <div className="mobile-logo">{<Logo image="images/logo.png" />}</div>
           <div className="vs-mobile-menu">
             <ul>
               {menuLinks.map((item, index) => (
