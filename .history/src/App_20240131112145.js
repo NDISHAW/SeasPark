@@ -11,10 +11,11 @@ import "./assets/scss/style.scss";
 
 
 function App() {
+    const { pathname } = useLocation();
 
-const scrollToTop = () => {
-  window.scrollTo(0, 0);
-};
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname];
   return (
     <BrowserRouter>
       <AppRouters />

@@ -11,6 +11,7 @@ import "./assets/scss/style.scss";
 
 
 function App() {
+    const { pathname } = useLocation();
 
 const scrollToTop = () => {
   window.scrollTo(0, 0);

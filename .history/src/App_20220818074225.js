@@ -11,10 +11,6 @@ import "./assets/scss/style.scss";
 
 
 function App() {
-
-const scrollToTop = () => {
-  window.scrollTo(0, 0);
-};
   return (
     <BrowserRouter>
       <AppRouters />
