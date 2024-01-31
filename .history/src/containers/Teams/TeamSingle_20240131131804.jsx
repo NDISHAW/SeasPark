@@ -393,8 +393,8 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
                     "No personal biography available."
                   : "Team member details not found."}
               </p>
-              {/* Display teamMember data if available, otherwise use default text */}
-              <p>
+              Display teamMember data if available, otherwise use default text */}
+              {/* <p>
                 {teamMember
                   ? teamMember.additionalInfo ||
                     "No additional information available."

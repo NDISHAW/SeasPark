@@ -4,12 +4,11 @@
   "teamMembers": [
     {
       "id": 1,
-      "name": "Rowland Simiyu",
-      "desgination": "Managing Director",
+      "name": "Richard O. Omboga",
+      "desgination": "Software Engineer",
       "image": "images/team/722.jpg",
-      "biography": "Rowland is the founder of SeasPark Consultancy. He has more than 10 years’ experience in Business Management and Technology consulting. Throughout his career, he’s worked closely with Businesses in distribution, manufacturing, oil and gas, financial and pharmaceutical industries, offering critical business strategy advice on meeting future talent and growth demands. Under Rowland’s leadership SeasPark has successfully executed staffing, Business and Technology services, and implementation of projects.",
-      "personalBiography": "A graduate of University of Nairobi, Rowland has cultivated working relationships with colleges and businesses across the nation in development of innovative workforce solutions."
-
+      "biography": "With over 6 years of experience in designing, developing, and maintaining web and desktop applications, Richard is Proficient in Java, C#, Kotlin, PHP, and JavaScript. Skilled in modern software development methodologies, cloud technologies, and DevOps practices. Adept at leading teams and mentoring junior developers. Strong problem-solving skills and a passion for staying updated with emerging technologies.",
+      "experience": "Six years"
     },
     {
       "id": 2,
@@ -46,7 +45,7 @@
       "additionalInfo": "⭐Being a strategic leader in the technology space, I embody a transformative management style that prioritizes effective performance, motivating IT teams to deliver business solutions as per client requests and providing technical user support to optimize the user experience. In the course of my career progression, I have developed technical skills, including RAID configuration, conducting SAP Business One Upgrade testing, preparing data extraction plans, providing post-go-live support, and project life cycle management. I take pride in inspiring mutual team collaboration to ensure the achievement of project objectives and standardizing service delivery through maintaining compliance with quality assurance standards."
     },
     {
-      "id": 6,
+      "id": 1,
       "name": "Richard O. Omboga",
       "desgination": "Software Engineer",
       "image": "images/team/722.jpg",
