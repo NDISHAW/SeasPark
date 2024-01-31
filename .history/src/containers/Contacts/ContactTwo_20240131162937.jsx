@@ -30,22 +30,13 @@ const ContactTwo = ({ ...restProps }) => (
                   </p> */}
                   <InfoMedia
                     icon="fal fa-phone-alt"
-                    title="Phone Number"
+                    title="Phone Number & Email"
                     info={<a href="tel:+254780170536">+254 780 170 536</a>}
                   />
                   <InfoMedia
                     icon="far fa-map-marker-alt"
                     title="Our Office Address"
                     info="Sasio Rd, Off Lunga Lunga Rd, Nairobi-Kenya"
-                  />
-                  <InfoMedia
-                    icon="fas fa-envelope"
-                    title="Email Address"
-                    info={
-                      <a href="mailto:info@seaspark.co.ke">
-                        info@seaspark.co.ke
-                      </a>
-                    }
                   />
                   <>
                     <iframe

@@ -50,7 +50,7 @@ const HomeOne = () => {
       <CtaOne className="space" />
       <ProcessOne className="space-top space-extra-bottom" />
       <TestimonialOne className="space-top space-extra-bottom" />
-      {/* <BrandOne className="space-bottom" /> */}
+      <BrandOne className="space-bottom" />
       {/* <BlogTwo className="space-top space-extra-bottom"/> */}
       {/* <ContactTwo/> */}
 
