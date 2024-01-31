@@ -77,7 +77,7 @@ const AboutSix = ({className})=> {
       path: "/service-details",
     },
     {
-      id: "tab5",
+      id: "tab4",
       title: "Software Services",
       subtitle: "1259 Jobs Done",
       icon: "images/icon/sr-icon-3-4.png",
@@ -92,7 +92,22 @@ const AboutSix = ({className})=> {
       btntext: "Learn More",
       path: "/service-details",
     },
-    
+    {
+      id: "tab6",
+      title: "Software Services",
+      subtitle: "1259 Jobs Done",
+      icon: "images/icon/sr-icon-3-4.png",
+      image: "images/about/ab-6-4.jpg",
+      text: "Energistically brand efficient paradigms vis resource maximizing process improvements. Dramatically repurpose stand-alone bandwidth after centric strategic theme areas. Intrinsicly build synergistic...",
+      feature: [
+        "Fast Growing Sells",
+        "24/7 Quality Services",
+        "Skilled Team Members",
+        "Best Quality Services",
+      ],
+      btntext: "Learn More",
+      path: "/service-details",
+    },
   ];  
   
   return (

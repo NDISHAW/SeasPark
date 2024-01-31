@@ -339,16 +339,16 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
           </div>
           <div className="col-lg-7 col-xl-7 align-self-center mb-30">
             <div className="team-about">
-              <h1 className="team-name h1">              
-                  {/* {teamMember ? teamMember.name : "Unknown Name"} */}
-                  {teamMember.name}              
-              </h1>
+              <h3 className="team-name h4">
+                {/* {teamMember ? teamMember.name : "Unknown Name"} */}
+                {teamMember.name}
+              </h3>
               <span className="team-degi">
-                {/* <h5 className="team-name h5"> */}
+                <h3 className="team-name h4">
                   <SecTitle>
                     {teamMember ? teamMember.desgination : "NULL"}
                   </SecTitle>
-                {/* </h5> */}
+                </h3>
               </span>
               {/* Display teamMember data if available, otherwise use default text */}
               <p className="team-text">

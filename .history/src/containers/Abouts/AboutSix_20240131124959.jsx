@@ -77,7 +77,7 @@ const AboutSix = ({className})=> {
       path: "/service-details",
     },
     {
-      id: "tab5",
+      id: "tab4",
       title: "Software Services",
       subtitle: "1259 Jobs Done",
       icon: "images/icon/sr-icon-3-4.png",
@@ -92,7 +92,6 @@ const AboutSix = ({className})=> {
       btntext: "Learn More",
       path: "/service-details",
     },
-    
   ];  
   
   return (

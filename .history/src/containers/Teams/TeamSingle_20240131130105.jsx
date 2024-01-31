@@ -339,9 +339,11 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
           </div>
           <div className="col-lg-7 col-xl-7 align-self-center mb-30">
             <div className="team-about">
-              <h1 className="team-name h1">              
+              <h1 className="team-name h1">
+                <SecSubTitle className="h1 text-capitalize">
                   {/* {teamMember ? teamMember.name : "Unknown Name"} */}
-                  {teamMember.name}              
+                  {teamMember.name}
+                </SecSubTitle>
               </h1>
               <span className="team-degi">
                 {/* <h5 className="team-name h5"> */}
