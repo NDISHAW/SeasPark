@@ -390,7 +390,7 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
               {/* Display teamMember data if available, otherwise use default text */}
               <p className="team-text">{teamMember.personalBiography}</p>
               {/* Display teamMember data if available, otherwise use default text */}
-              <p className="team-text">
+              <p cl>
                 {/* {teamMember
                   ? teamMember.additionalInfo ||
                     "No additional information available."

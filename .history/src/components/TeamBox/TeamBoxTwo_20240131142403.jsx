@@ -17,7 +17,7 @@ const TeamBoxTwo = ({path, desgination, image, name})=> (
       </div>
     </div>
     <div className="team-content">
-      <h3 className="team-title "><Link className="text-inherit" to={path}>{name}</Link></h3>
+      <h3 className="team-title h5"><Link className="text-inherit" to={path}>{name}</Link></h3>
       <p className="team-degi">{desgination}</p>
     </div>
   </div>

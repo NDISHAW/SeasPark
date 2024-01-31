@@ -385,12 +385,12 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
       >
         <div className="container">
           <div className="row gx-60 gy-3">
-            <div className="team-about col-lg-6">
+            <div className="col-lg-6">
               <h3 className=" mb-3 pb-1 ">Personal Biography</h3>
               {/* Display teamMember data if available, otherwise use default text */}
-              <p className="team-text">{teamMember.personalBiography}</p>
+              <p className="pe-xxl-5">{teamMember.personalBiography}</p>
               {/* Display teamMember data if available, otherwise use default text */}
-              <p className="team-text">
+              <p>
                 {/* {teamMember
                   ? teamMember.additionalInfo ||
                     "No additional information available."

@@ -398,7 +398,7 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
                 {teamMember.additionalInfo}
               </p>
             </div>
-            <div className="col-lg-6">
+            <div className="team-aboutcol-lg-6">
               <h3 className="h4 mb-3 pb-1">Professional Skills</h3>
               <ProgressOne
                 title="Business Security"

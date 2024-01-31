@@ -390,7 +390,7 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
               {/* Display teamMember data if available, otherwise use default text */}
               <p className="team-text">{teamMember.personalBiography}</p>
               {/* Display teamMember data if available, otherwise use default text */}
-              <p className="team-text">
+              <p>
                 {/* {teamMember
                   ? teamMember.additionalInfo ||
                     "No additional information available."
@@ -398,7 +398,7 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
                 {teamMember.additionalInfo}
               </p>
             </div>
-            <div className="col-lg-6">
+            <div className="team-about col-lg-6">
               <h3 className="h4 mb-3 pb-1">Professional Skills</h3>
               <ProgressOne
                 title="Business Security"
