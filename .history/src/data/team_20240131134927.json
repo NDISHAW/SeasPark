@@ -22,7 +22,8 @@
       "id": 3,
       "name": "Timothy Mbogo",
       "desgination": "Lead SAP Developer",
-      "image": "images/team/Timothy.jpg",      
+      "image": "images/team/Timothy.jpg",
+      
       "biography": "Software Developer || SAP Certified Associate – SAP Business One Version 10.",
       "personalBiography": "I am a professional software developer, with years of experience in designing and implementing complex business systems",
       "additionalInfo": "Jomo Kenyatta University of Agriculture and TechnologyJomo Kenyatta University of Agriculture and Technology BSC Computer Technology, Systems Engineering."
@@ -32,8 +33,7 @@
       "id": 4,
       "name": "Anne Nderi",
       "desgination": "ERP Consultant",
-      "image": "images/team/Anne.jpg",
-      "biography": "Ms. Anne Nderi is an ERP consultant, who has implemented tailored ERP solutions for various businesses, optimizing their operations and increasing efficiency. Her achievements include identifying and resolving business challenges, leading seamless system integrations, providing comprehensive training to staff, and delivering ongoing support to ensure sustained success. Through her expertise, businesses have achieved streamlined processes and improved decision-making capabilities."
+      "image": "images/team/Anne.jpg"
     },
     {
       "id": 5,

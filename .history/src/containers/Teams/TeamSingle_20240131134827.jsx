@@ -345,7 +345,7 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
               </h1>
               <span className="team-degi">
                 {/* <h5 className="team-name h5"> */}
-                <SecTitle className="h4 text-capitalize">
+                <SecTitle className="h4">
                   {teamMember ? teamMember.desgination : "NULL"}
                 </SecTitle>
                 {/* </h5> */}
@@ -396,7 +396,15 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
                     "No additional information available."
                   : ""} */}
                 {teamMember.additionalInfo}
-              </p>              
+              </p>
+              Ms. Anne Nderi is an ERP consultant, who has implemented tailored
+              ERP solutions for various businesses, optimizing their operations
+              and increasing efficiency. Her achievements include identifying
+              and resolving business challenges, leading seamless system
+              integrations, providing comprehensive training to staff, and
+              delivering ongoing support to ensure sustained success. Through
+              her expertise, businesses have achieved streamlined processes and
+              improved decision-making capabilities.
             </div>
             <div className="col-lg-6">
               <h3 className="h4 mb-3 pb-1">Professional Skills</h3>

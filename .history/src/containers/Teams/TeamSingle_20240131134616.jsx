@@ -345,7 +345,7 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
               </h1>
               <span className="team-degi">
                 {/* <h5 className="team-name h5"> */}
-                <SecTitle className="h4 text-capitalize">
+                <SecTitle className="h4">
                   {teamMember ? teamMember.desgination : "NULL"}
                 </SecTitle>
                 {/* </h5> */}
@@ -388,7 +388,7 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
             <div className="col-lg-6">
               <h3 className="h4 mb-3 pb-1">Personal Biography</h3>
               {/* Display teamMember data if available, otherwise use default text */}
-              <p className="pe-xxl-5">{teamMember.personalBiography}</p>
+              <p className="pe-xxl-5">{teamMember.biography}</p>
               {/* Display teamMember data if available, otherwise use default text */}
               <p>
                 {/* {teamMember
@@ -396,7 +396,7 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
                     "No additional information available."
                   : ""} */}
                 {teamMember.additionalInfo}
-              </p>              
+              </p>
             </div>
             <div className="col-lg-6">
               <h3 className="h4 mb-3 pb-1">Professional Skills</h3>

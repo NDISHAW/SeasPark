@@ -33,7 +33,7 @@ const TeamBoxOne = ({ to, desgination, image, name, className }) => (
           {name}
         </Link>
       </h3>
-      <h4 className="team-degi">{desgination}</h4>
+      <h5 className="team-degi">{desgination}</h5>
     </div>
   </div>
 );

@@ -345,7 +345,7 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
               </h1>
               <span className="team-degi">
                 {/* <h5 className="team-name h5"> */}
-                <SecTitle className="h4 text-capitalize">
+                <SecTitle className="h4">
                   {teamMember ? teamMember.desgination : "NULL"}
                 </SecTitle>
                 {/* </h5> */}

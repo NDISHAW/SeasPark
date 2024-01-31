@@ -339,15 +339,15 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
           </div>
           <div className="col-lg-7 col-xl-7 align-self-center mb-30">
             <div className="team-about">
-              <h1 className="team-title">
-                {/* {teamMember ? teamMember.name : "Unknown Name"} */}
-                {teamMember.name}
+              <h1 className="team-name h1">              
+                  {/* {teamMember ? teamMember.name : "Unknown Name"} */}
+                  {teamMember.name}              
               </h1>
               <span className="team-degi">
                 {/* <h5 className="team-name h5"> */}
-                <SecTitle className="h4 text-capitalize">
-                  {teamMember ? teamMember.desgination : "NULL"}
-                </SecTitle>
+                  <SecTitle>
+                    {teamMember ? teamMember.desgination : "NULL"}
+                  </SecTitle>
                 {/* </h5> */}
               </span>
               {/* Display teamMember data if available, otherwise use default text */}
@@ -364,7 +364,6 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
                     title="Experience"
                     info={
                       teamMember ? teamMember.experience || "Not specified" : ""
-                      // teamMember.experience
                     }
                   />
                 </div>
@@ -388,15 +387,19 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
             <div className="col-lg-6">
               <h3 className="h4 mb-3 pb-1">Personal Biography</h3>
               {/* Display teamMember data if available, otherwise use default text */}
-              <p className="pe-xxl-5">{teamMember.personalBiography}</p>
+              <p className="pe-xxl-5">
+                {teamMember
+                  ? teamMember.personalBiography ||
+                    "No personal biography available."
+                  : "Team member details not found."}
+              </p>
               {/* Display teamMember data if available, otherwise use default text */}
               <p>
-                {/* {teamMember
+                {teamMember
                   ? teamMember.additionalInfo ||
                     "No additional information available."
-                  : ""} */}
-                {teamMember.additionalInfo}
-              </p>              
+                  : ""}
+              </p>
             </div>
             <div className="col-lg-6">
               <h3 className="h4 mb-3 pb-1">Professional Skills</h3>
