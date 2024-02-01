@@ -61,7 +61,7 @@ const HomeOne = () => {
       >
         <TitleWrap className="text-center">
           <SecTitle className="text-capitalize h1">GET IN TOUCH</SecTitle>
-          <p >
+          <p className="font-size">
             We would like to hear from you. Send us a message
            </p>
         </TitleWrap>
