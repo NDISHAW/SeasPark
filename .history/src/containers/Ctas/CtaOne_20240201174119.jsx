@@ -13,7 +13,9 @@ const CtaOne = ({ className }) => (
     <div className="container">
       <div className="row text-center text-lg-start align-items-center justify-content-between">
         <div className="col-lg-auto">
-          <SecTitle className="cta-title1 h1 ">Need a Consultant?</SecTitle>
+          <SecTitle className="cta-title1 h1 ">
+            Need a Consultant?
+          </SecTitle>
           <br />
           <SecSubTitle className="text-white">
             We are here to answer your questions 24/7
@@ -21,7 +23,7 @@ const CtaOne = ({ className }) => (
         </div>
         <div className="col-lg-auto">
           <Button>
-            BOOK A DEMO
+            Get A Quote
             <i className="far fa-arrow-right" />
           </Button>
         </div>

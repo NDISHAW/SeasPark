@@ -63,7 +63,7 @@ const HomeOne = () => {
           <SecTitle className="text-capitalize h1">GET IN TOUCH</SecTitle>
           <SecSubTitle>
             We would like to hear from you. Send us a message
-           </SecSubTitle>
+          </SecSubTitle>
         </TitleWrap>
         <div className="row justify-content-center">
           <div className="col-lg-10 col-xl-8">

@@ -29,7 +29,7 @@ const FormFive = ()=> {
               Wordpress Development
             </option>
             <option defaultValue="Wordpress Development">
-              Other
+              Wordpress Development
             </option>
           </select>
         </div>

@@ -47,7 +47,7 @@ const HomeOne = () => {
       <TeamTwo className="space-top space-extra-bottom" />
       <FaqOne />
       <AboutTwo className="space-top space-extra-bottom" />
-      <CtaOne className="space" />
+      <Cta One className="space" />
       <ProcessOne className="space-top space-extra-bottom" />
       <TestimonialOne className="space-top space-extra-bottom" />
       {/* <BrandOne className="space-bottom" /> */}
