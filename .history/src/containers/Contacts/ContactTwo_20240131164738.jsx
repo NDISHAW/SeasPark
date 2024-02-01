@@ -37,6 +37,7 @@ const ContactTwo = ({ ...restProps }) => (
                     icon="far fa-map-marker-alt"
                     title="Our Office Address"
                     info="Sasio Rd, Off Lunga Lunga Rd, Nairobi-Kenya"
+                    
                   />
                   <InfoMedia
                     icon="fas fa-envelope"

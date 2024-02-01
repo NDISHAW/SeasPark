@@ -18,7 +18,7 @@ const {pageList, exploreLinks, recentPosts} = widgetsdata;
 const FooterOne = () => (
   <footer
     className="footer-wrapper footer-layout1 background-image"
-    style={{ backgroundImage: "url(images/shape/bg-footer-1-1.jpg)" }}
+    style={{ backgroundImage: "url(images/shape/bg-footer-1-1-2.jpg)" }}
   >
     <div className="footer-top">
       <div className="container">
@@ -83,9 +83,15 @@ const FooterOne = () => (
                 ))}
               </CategoryWidget>
             </Widget>
-            
+            <IconLink className="footer-social">
+              <IconLink.Item icon="fab fa-facebook-f" path="/" />
+              <IconLink.Item icon="fab fa-twitter" path="/" />
+              {/* <IconLink.Item icon="fab fa-behance" path="/" /> */}
+              <IconLink.Item icon="fab fa-linkedin" path="/" />
+              {/* <IconLink.Item icon="fab fa-instagram" path="/" /> */}
+            </IconLink>
           </div> */}
-          {/* <div className="col-6 col-xl-auto">
+          <div className="col-6 col-xl-auto">
             <Widget
               widgetTitle="Explore"
               className="widget_nav_menu footer-widget"
@@ -98,7 +104,7 @@ const FooterOne = () => (
                 ))}
               </CategoryWidget>
             </Widget>
-          </div> */}
+          </div>
           {/* <div className="col-md-6 col-xl-auto">
             <Widget widgetTitle="Lastest Post" className="footer-widget">
               {recentPosts.slice(0, 2).map((post) => (

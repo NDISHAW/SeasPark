@@ -34,7 +34,6 @@ import Contact from '../pages/Contact';
 
 // Not Fouond Page
 import NotFound from '../pages/NotFound';
-import Careers from "../pages/Careers";
 
 
 const AppRouters = () => (
@@ -53,8 +52,7 @@ const AppRouters = () => (
       <Route path="/team-details/:id" exact element={<TeamDetails />} />
       <Route path="/blog" exact element={<Blog />} />
       <Route path="/blog-grid" exact element={<BlogGrid />} />
-      <Route path="/careers" exact element={<Careers />} />
-      
+      <Route path="/careers" exact element={<BlogDetails />} />
       <Route path="/contact" exact element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>

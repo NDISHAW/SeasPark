@@ -47,7 +47,8 @@ const ContactTwo = ({ ...restProps }) => (
                       </a>
                     }
                   />
-                  
+                  <>
+                    
                   <InfoMedia
                     icon="far fa-clock"
                     title="Official Work Time"

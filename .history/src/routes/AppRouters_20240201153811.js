@@ -54,7 +54,6 @@ const AppRouters = () => (
       <Route path="/blog" exact element={<Blog />} />
       <Route path="/blog-grid" exact element={<BlogGrid />} />
       <Route path="/careers" exact element={<Careers />} />
-      
       <Route path="/contact" exact element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>

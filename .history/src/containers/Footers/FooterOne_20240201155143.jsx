@@ -18,7 +18,7 @@ const {pageList, exploreLinks, recentPosts} = widgetsdata;
 const FooterOne = () => (
   <footer
     className="footer-wrapper footer-layout1 background-image"
-    style={{ backgroundImage: "url(images/shape/bg-footer-1-1.jpg)" }}
+    style={{ backgroundImage: "url(images/shape/bg-footer-1-1-1.jpg)" }}
   >
     <div className="footer-top">
       <div className="container">

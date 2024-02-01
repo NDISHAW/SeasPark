@@ -12,7 +12,7 @@ import {
 } from "../../components";
 
 
-const HeaderTwo = () => (
+const  HeaderTwo = () => (
   <header className="vs-header header-layout1">
     <HeaderTop>
       <HeaderTop.Left>
