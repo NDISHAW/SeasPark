@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from 'react';
 import {
   InfoMedia,
   SecSubTitle,
@@ -12,29 +12,9 @@ import Modal from "./modal";
 
 
 const ProjectSingle = ({ career, ...restProps }) => {
-  const [isOpen, setIsOpen] = useState(false);
 
-  const customStyles = {
-    content: {
-      top: "70%",
-      left: "70%",
-      right: "auto",
-      bottom: "auto",
-      marginRight: "-50%",
-      transform: "translate(-30%, -30%)",
-      maxWidth: "100%",
-      width: "100%",
-    },
-    overlay: {
-      padding: "8rem",
-    },
-  };  
-    function openModal() {
-      setIsOpen(true);
-    }
-  function closeModal() {
-    setIsOpen(true);
-  }
+
+  
   return (
     <div {...restProps}>
       <div className="container">
@@ -63,7 +43,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
                 Job No: 010 {career.id}
               </List.Item>
               {/* ))} */}
-            </List>
+            </List>          
             <h3 className="h5 pt-xl-3">Job Description:</h3>
             <p>
               <List className="list-style3">
@@ -239,7 +219,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
                 {/* ))} */}
               </List>
             </p>
-            <Button className="style1" onclick={openModal}>
+            <Button className="style1">
               Apply Now
               {/* <i className="far fa-long-arrow-right" /> */}
             </Button>
@@ -249,62 +229,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
               }}
               open={isOpen}
               style={customStyles}
-            >
-              <button
-                onClick={() => {
-                  closeModal();
-                }}
-                className="bg-gradient-to-br bg-blue-900 hover:bg-red-600 w-flex md:w-auto px-4 py-2  rounded-lg hover:shadow-lg transition-all ease-in-out duration-100 fixed z-10"
-              >
-                <i
-                  class="fa-sharp fa-solid fa-xmark"
-                  // style={`color: #74C0FC`}
-                ></i>
-                <form action="#" className="row gx-20 form-style3">
-                  <div className="col-md-6 form-group">
-                    <input type="text" placeholder="Full Name" />
-                  </div>
-                  <div className="col-md-6 form-group">
-                    <input type="email" placeholder="Email Address" />
-                  </div>
-                  <div className="col-md-6 form-group">
-                    <input type="number" placeholder="Phone Number" />
-                  </div>
-                  <div className="col-md-6 form-group">
-                    {/* <select>
-                      <option defaultValue="nothing">Select subject</option>
-                      <option defaultValue="Web Development">
-                        Web Development
-                      </option>
-                      <option defaultValue="UI Design">UI Design</option>
-                      <option defaultValue="CMS Development">
-                        CMS Development
-                      </option>
-                      <option defaultValue="Theme Development">
-                        Theme Development
-                      </option>
-                      <option defaultValue="Wordpress Development">
-                        Wordpress Development
-                      </option>
-                    </select> */}
-                    <input type="text" placeholder="Job No:" />
-                  </div>
-                  <div className="col-12 form-group">
-                    <textarea
-                      name="message"
-                      id="message"
-                      placeholder="Type Your Message"
-                    />
-                  </div>
-                  <div className="col-12 text-center">
-                    <Button>
-                      SUBMIT
-                      <i className="far fa-arrow-right" />
-                    </Button>
-                  </div>
-                </form>
-              </button>
-            </Modal>
+            ></Modal>
           </div>
           <div className="col-lg-4 mt-30 mt-lg-0">
             <div className="project-box">

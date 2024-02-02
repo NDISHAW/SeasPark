@@ -287,7 +287,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
                         Wordpress Development
                       </option>
                     </select> */}
-                    <input type="text" placeholder="Job No:" />
+                    <input type="text" placeholder="Phone Number" />
                   </div>
                   <div className="col-12 form-group">
                     <textarea

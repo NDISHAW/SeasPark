@@ -29,7 +29,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
       padding: "8rem",
     },
   };  
-    function openModal() {
+    function openModal(labReagent) {
       setIsOpen(true);
     }
   function closeModal() {
@@ -239,7 +239,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
                 {/* ))} */}
               </List>
             </p>
-            <Button className="style1" onclick={openModal}>
+            <Button className="style1" onclick={formHandle}>
               Apply Now
               {/* <i className="far fa-long-arrow-right" /> */}
             </Button>
@@ -258,9 +258,9 @@ const ProjectSingle = ({ career, ...restProps }) => {
               >
                 <i
                   class="fa-sharp fa-solid fa-xmark"
-                  // style={`color: #74C0FC`}
+                  style={`color: #74C0FC`}
                 ></i>
-                <form action="#" className="row gx-20 form-style3">
+                <form action="#" className="row gx-20 form-style2">
                   <div className="col-md-6 form-group">
                     <input type="text" placeholder="Full Name" />
                   </div>
@@ -271,7 +271,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
                     <input type="number" placeholder="Phone Number" />
                   </div>
                   <div className="col-md-6 form-group">
-                    {/* <select>
+                    <select>
                       <option defaultValue="nothing">Select subject</option>
                       <option defaultValue="Web Development">
                         Web Development
@@ -286,8 +286,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
                       <option defaultValue="Wordpress Development">
                         Wordpress Development
                       </option>
-                    </select> */}
-                    <input type="text" placeholder="Job No:" />
+                    </select>
                   </div>
                   <div className="col-12 form-group">
                     <textarea
