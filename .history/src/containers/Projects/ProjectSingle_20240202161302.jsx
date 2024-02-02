@@ -332,7 +332,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
             </div>
             <ContactWidget
               title="Need Any Help?"
-              text="Call Us 24/7 For Support"
+              text="Need Any Help, Call Us 24/7 For Support"
               bgImage="images/bg/sidebox-bg-1-1.jpg"
             >
               <ContactWidget.Info>

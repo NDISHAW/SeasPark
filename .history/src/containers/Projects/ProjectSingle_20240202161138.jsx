@@ -21,9 +21,9 @@ const ProjectSingle = ({ career, ...restProps }) => {
       right: "auto",
       bottom: "auto",
       marginRight: "-50%",
-      transform: "translate(-10%, -30%)",
-      maxWidth: "80%",
-      width: "80%",
+      transform: "translate(-30%, -30%)",
+      maxWidth: "100%",
+      width: "100%",
     },
     overlay: {
       padding: "8rem",
@@ -248,7 +248,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
                 setIsOpen(false);
               }}
               open={isOpen}
-              // style={customStyles}
+              style={customStyles}
             >
               <button
                 onClick={() => {
@@ -332,7 +332,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
             </div>
             <ContactWidget
               title="Need Any Help?"
-              text="Call Us 24/7 For Support"
+              text="Need Any Help, Call Us 24/7 For Support"
               bgImage="images/bg/sidebox-bg-1-1.jpg"
             >
               <ContactWidget.Info>
