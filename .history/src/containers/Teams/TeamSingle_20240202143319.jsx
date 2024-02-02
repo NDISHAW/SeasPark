@@ -419,8 +419,10 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
         </div>
       </div>
       <TitleWrap className="text-center">
-        <SecTitle className="text-capitalize h1">GET IN TOUCH</SecTitle>
-        <p>We would like to hear from you. Send us a message</p>
+        <SecTitle>GET IN TOUCH</SecTitle>
+        <SecSubTitle className="text-capitalize h1">
+          We would like to hear from you. Send us a message
+        </SecSubTitle>
       </TitleWrap>
       <div className="container" ref={contactArea}>
         <div className="row justify-content-center">

@@ -63,8 +63,8 @@ const ContactTwo = ({ ...restProps }) => (
                     </SecTitle>
                     <p>We would like to hear from you. Send us a message</p>
                   </TitleWrap>
-                  {/* <h3 className="contact-box__title h4">Leave a Message</h3>
-                  <p className="contact-box__text">We’re Ready To Help You</p> */}
+                  <h3 className="contact-box__title h4">Leave a Message</h3>
+                  <p className="contact-box__text">We’re Ready To Help You</p>
                   <FormFive />
                 </div>
               </div>
