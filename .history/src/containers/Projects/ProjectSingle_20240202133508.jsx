@@ -1,15 +1,12 @@
 import React from 'react';
 import {
   InfoMedia,
-  SecSubTitle,
   SecTitle,
-  List,
   TitleWrap,
   ContactWidget,
-  Button,
 } from "../../components";
 
-const ProjectSingle = ({ career, ...restProps }) => (
+const ProjectSingle = ({c ...restProps }) => (
   <div {...restProps}>
     <div className="container">
       <div className="row">
@@ -17,28 +14,8 @@ const ProjectSingle = ({ career, ...restProps }) => (
           {/* <div className="mb-3 pb-3">
             <img src="/images/careers/career1.jpg" alt="Project" />
           </div> */}
-          <h2 className="h4">{career.title}</h2>
-          <List className="list-style2">
-            {/* {item.feature.map((list, index) => ( */}
-            <List.Item>
-              <i className="fas fa-check-circle" />
-              Job Description
-            </List.Item>
-            <List.Item>
-              <i className="fas fa-check-circle" />
-              Exp: 2-3 yrs
-            </List.Item>
-            <List.Item>
-              <i className="fas fa-map-marker-alt" />
-              Nairobi
-            </List.Item>
-            <List.Item>
-              <i className="fas fa-check-circle" />
-              Job No: 010 {career.id}
-            </List.Item>
-            {/* ))} */}
-          </List>
-          {/* <p>
+          <h2 className="h4">SAP Consultant</h2>
+          <p>
             Holisticly benchmark functional products before excellent methods of
             empowerment. Seamlessly visualize innovative web-readiness whereas
             extensive initiatives. Completely unleash frictionless data via
@@ -50,35 +27,16 @@ const ProjectSingle = ({ career, ...restProps }) => (
             productivate pandemic e-business rather than state of the art
             e-tailers. Continually expedite customized information with go
             forward potentialities.
-          </p> */}
-          <h3 className="h5 pt-xl-3">Job Description:</h3>
-          <p>
-            <List className="list-style3">
-              {/* {item.feature.map((list, index) => ( */}
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Interactively engage distributed alignments via focused
-                alignments.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Dynamically fabricate excellent innovation for go forward
-                technology.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Intrinsicly impact empowered scenarios after cost effective
-                outsourcing.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Synergistically productivate pandemic e-business rather than
-                state of the art e-tailers.
-              </List.Item>
-              {/* ))} */}
-            </List>
           </p>
-          {/* <div
+          <h3 className="h5 pt-xl-3">Job Description</h3>
+          <p>
+            Interactively engage distributed alignments via focused alignments.
+            Dynamically fabricate excellent innovation for go forward
+            technology. Intrinsicly impact empowered scenarios after cost
+            effective outsourcing. Synergistically productivate pandemic
+            e-business rather than state of the art e-tailers.
+          </p>
+          <div
             className="row pt-xl-1 mb-xl-2   wow fadeInUp"
             data-wow-delay="0.2s"
           >
@@ -88,38 +46,16 @@ const ProjectSingle = ({ career, ...restProps }) => (
             <div className="col-sm-6 mb-30">
               <img src="/images/project/p-d-1-3.jpg" alt="project" />
             </div>
-          </div> */}
-          <h3 className="h5 pt-xl-3">Requirements:</h3>
+          </div>
           <p className="mb-4">
-            <List className="list-style3">
-              {/* {item.feature.map((list, index) => ( */}
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Interactively engage distributed alignments via focused
-                alignments.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Dynamically fabricate excellent innovation for go forward
-                technology.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Intrinsicly impact empowered scenarios after cost effective
-                outsourcing.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Synergistically productivate pandemic e-business rather than
-                state of the art e-tailers.
-              </List.Item>
-              {/* ))} */}
-            </List>
+            Completely unleash frictionless data via end-to-end services.
+            Continually unleash virtual e-tailers through magnetic core
+            competencies. Interactively engage distributed alignments via
+            focused alignments. Dynamically fabricate excellent innovation for
+            go forward technology. Intrinsicly impact empowered scenarios after
+            cost effective outsourcing. Synergistically productivate pandemic
+            e-business rather than state...
           </p>
-          <Button className="style1">
-            Apply Now
-            {/* <i className="far fa-long-arrow-right" /> */}
-          </Button>
         </div>
         <div className="col-lg-4 mt-30 mt-lg-0">
           <div className="project-box">

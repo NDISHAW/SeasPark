@@ -36,7 +36,7 @@ const ProjectSingle = ({ career, ...restProps }) => (
               <i className="fas fa-check-circle" />
               Job No: 010 {career.id}
             </List.Item>
-            {/* ))} */}
+            {/* ))} */}far fa-arrow-right
           </List>
           {/* <p>
             Holisticly benchmark functional products before excellent methods of

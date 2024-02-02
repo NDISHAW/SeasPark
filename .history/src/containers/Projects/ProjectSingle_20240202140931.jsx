@@ -36,7 +36,7 @@ const ProjectSingle = ({ career, ...restProps }) => (
               <i className="fas fa-check-circle" />
               Job No: 010 {career.id}
             </List.Item>
-            {/* ))} */}
+            {/* ))} */}far fa-arrow-right
           </List>
           {/* <p>
             Holisticly benchmark functional products before excellent methods of
@@ -116,9 +116,9 @@ const ProjectSingle = ({ career, ...restProps }) => (
               {/* ))} */}
             </List>
           </p>
-          <Button className="style1">
+          <Button className="style3">
             Apply Now
-            {/* <i className="far fa-long-arrow-right" /> */}
+            <i className="far fa-long-arrow-right" />
           </Button>
         </div>
         <div className="col-lg-4 mt-30 mt-lg-0">

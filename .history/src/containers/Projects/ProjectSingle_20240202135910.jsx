@@ -6,7 +6,6 @@ import {
   List,
   TitleWrap,
   ContactWidget,
-  Button,
 } from "../../components";
 
 const ProjectSingle = ({ career, ...restProps }) => (
@@ -33,10 +32,10 @@ const ProjectSingle = ({ career, ...restProps }) => (
               Nairobi
             </List.Item>
             <List.Item>
-              <i className="fas fa-check-circle" />
+              <i className="far fa-arrow-circle-right" />
               Job No: 010 {career.id}
             </List.Item>
-            {/* ))} */}
+            {/* ))} */}far fa-arrow-right
           </List>
           {/* <p>
             Holisticly benchmark functional products before excellent methods of
@@ -53,30 +52,11 @@ const ProjectSingle = ({ career, ...restProps }) => (
           </p> */}
           <h3 className="h5 pt-xl-3">Job Description:</h3>
           <p>
-            <List className="list-style3">
-              {/* {item.feature.map((list, index) => ( */}
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Interactively engage distributed alignments via focused
-                alignments.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Dynamically fabricate excellent innovation for go forward
-                technology.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Intrinsicly impact empowered scenarios after cost effective
-                outsourcing.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Synergistically productivate pandemic e-business rather than
-                state of the art e-tailers.
-              </List.Item>
-              {/* ))} */}
-            </List>
+            Interactively engage distributed alignments via focused alignments.
+            Dynamically fabricate excellent innovation for go forward
+            technology. Intrinsicly impact empowered scenarios after cost
+            effective outsourcing. Synergistically productivate pandemic
+            e-business rather than state of the art e-tailers.
           </p>
           {/* <div
             className="row pt-xl-1 mb-xl-2   wow fadeInUp"
@@ -91,35 +71,14 @@ const ProjectSingle = ({ career, ...restProps }) => (
           </div> */}
           <h3 className="h5 pt-xl-3">Requirements:</h3>
           <p className="mb-4">
-            <List className="list-style3">
-              {/* {item.feature.map((list, index) => ( */}
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Interactively engage distributed alignments via focused
-                alignments.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Dynamically fabricate excellent innovation for go forward
-                technology.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Intrinsicly impact empowered scenarios after cost effective
-                outsourcing.
-              </List.Item>
-              <List.Item>
-                <i className="fas fa-check-circle" />
-                Synergistically productivate pandemic e-business rather than
-                state of the art e-tailers.
-              </List.Item>
-              {/* ))} */}
-            </List>
+            Completely unleash frictionless data via end-to-end services.
+            Continually unleash virtual e-tailers through magnetic core
+            competencies. Interactively engage distributed alignments via
+            focused alignments. Dynamically fabricate excellent innovation for
+            go forward technology. Intrinsicly impact empowered scenarios after
+            cost effective outsourcing. Synergistically productivate pandemic
+            e-business rather than state...
           </p>
-          <Button className="style1">
-            Apply Now
-            {/* <i className="far fa-long-arrow-right" /> */}
-          </Button>
         </div>
         <div className="col-lg-4 mt-30 mt-lg-0">
           <div className="project-box">
