@@ -44,13 +44,13 @@ const Content = styled.div`
   position: fixed;
   padding: 80px;
   box-sizing: border-box;
-  min-height: 180px;
+  min-height: 50px;
   min-width: 100px;
   max-height: 100%;
-  max-width: 70%;
+  max-width: 60%;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background-color: white;
-  border-radius: 1px;
+  border-radius: 6px;
 `;
 
 export default function Modal(props) {

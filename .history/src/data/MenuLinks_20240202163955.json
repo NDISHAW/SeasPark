@@ -16,20 +16,20 @@
         "path": "/service-details/1"
       },
       {
-        "name": "SAP Services",
-        "path": "/service-details/2"
+        "name": "Service Details",
+        "path": "/service-details"
       },
       {
-        "name": "SAP Business Solutions",
-        "path": "/service-details/3"
+        "name": "Service Details",
+        "path": "/service-details"
       },
       {
-        "name": "Digital Platform",
-        "path": "/service-details/4"
+        "name": "Service Details",
+        "path": "/service-details"
       },
       {
-        "name": "Trainings",
-        "path": "/service-details/5"
+        "name": "Service Details",
+        "path": "/service-details"
       }
     ]
   },

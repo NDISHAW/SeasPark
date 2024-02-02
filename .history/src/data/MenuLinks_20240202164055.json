@@ -28,8 +28,8 @@
         "path": "/service-details/4"
       },
       {
-        "name": "Trainings",
-        "path": "/service-details/5"
+        "name": "Service Details",
+        "path": "/service-details"
       }
     ]
   },

@@ -44,7 +44,7 @@ const Content = styled.div`
   position: fixed;
   padding: 80px;
   box-sizing: border-box;
-  min-height: 180px;
+  min-height: 100px;
   min-width: 100px;
   max-height: 100%;
   max-width: 70%;
