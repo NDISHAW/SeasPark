@@ -26,7 +26,7 @@ const ContactTwo = ({ ...restProps }) => (
                   <TitleWrap className="">
                     <SecTitle className="text-capitalize h1">
                       Contact Information
-                    </SecTitle>
+                    </h3>
                   </TitleWrap>
                   {/* <p className="contact-box__text">
                     Completely recaptiualize 24/7 communities via standards
