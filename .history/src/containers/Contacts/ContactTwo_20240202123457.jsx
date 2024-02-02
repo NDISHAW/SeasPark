@@ -23,7 +23,7 @@ const ContactTwo = ({ ...restProps }) => (
             <div className="row">
               <div className="col-lg-6 mb-30">
                 <div className="contact-box">
-                  <h3 className="contact-box__title h4">Contact Information</h3>
+                  <p className="contact-box__title h5">Contact Information</p>
                   {/* <p className="contact-box__text">
                     Completely recaptiualize 24/7 communities via standards
                     compliant metrics whereas web-enabled content
@@ -53,7 +53,6 @@ const ContactTwo = ({ ...restProps }) => (
                     title="Our Office Address"
                     info="Sasio Rd, Off Lunga Lunga Rd, Nairobi-Kenya"
                   />
-                  
                 </div>
               </div>
               <div className="col-lg-6 mb-30">
