@@ -96,7 +96,7 @@ const ProjectSingle = ({ ...restProps }) => (
             </ContactWidget.Info>
             <ContactWidget.Info>
               <i className="fas fa-map-marker-alt" />
-              Sasio Rd, Off Lunga Lunga Rd,
+              Sandell St, London SE1
               <br />
               Nairobi-Kenya
             </ContactWidget.Info>

@@ -14,7 +14,7 @@ export default function Careers() {
     <Fragment>
       <Seo title="Careers" />
       <HeaderOne />
-      <Breadcrumb pageName="Careers" bgImage="images/careers/career2.jpg" />
+      <Breadcrumb pageName="Careers" bgImage="images/careers/careers.jpg" />
       <CareerOne careersclassName="space-top space-extra-bottom" />
       <FooterOne />
       <ScrollTopBtn />
