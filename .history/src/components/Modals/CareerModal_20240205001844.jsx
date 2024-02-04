@@ -62,7 +62,7 @@ import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import { Button } from "../";
 
-const CareerModal = ({ title, id, onHide }) => {
+const Caree = ({ title, id, onHide }) => {
   const [message, setMessage] = useState("");
   const form = useRef();
 

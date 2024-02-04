@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import { Button } from "../";
 
-const FormFive = ({ title, id, onHide }) => {
+const FormFive = () => {
   const form = useRef();
   const formHandle = (event) => {
     event.preventDefault();
@@ -28,7 +28,7 @@ const FormFive = ({ title, id, onHide }) => {
   };
 
   return (
-    <form ref={form} onSubmit={formHandle} className="vs-contact-form">
+    <form action="#" className="vs-contact-form">
       <div className="row gx-20">
         <div className="col-md-6 form-group">
           <input type="text" placeholder="Your Name" />
@@ -52,7 +52,7 @@ const FormFive = ({ title, id, onHide }) => {
           </select>
         </div>
         <div className="col-12 form-group">
-          <textarea name="message" placeholder="Type Your Message" />
+          <textarea placeholder="Type Your Message" />
         </div>
         <div className="col-12">
           <Button onclick={formHandle}>

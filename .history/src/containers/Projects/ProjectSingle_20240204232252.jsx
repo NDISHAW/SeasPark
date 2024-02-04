@@ -231,7 +231,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
             <textarea
               name="message"
               placeholder="Message"
-              // onChange={formHandle}
+              onChange={formHandle}
               required
             ></textarea>
             {/* <Button className="style1" onclick={openModal}>

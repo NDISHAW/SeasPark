@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.0",
     "firebase": "^9.6.10",
-    "@emailjs/browser": "^3.9.1",
     "react-hot-toast": "^2.4.0",
     "node-sass": "^7.0.1",
     "react": "^18.2.0",

@@ -9,8 +9,8 @@ import {
   Button,
   PlayBtn,
 } from "../../components";
-import Modal from "./modal";
-// import Modal from "react-bootstrap/Modal";
+// import Modal from "./modal";
+import Modal from "react-bootstrap/Modal";
 
 
 const ProjectSingle = ({ career, ...restProps }) => {
@@ -228,17 +228,13 @@ const ProjectSingle = ({ career, ...restProps }) => {
                 {/* ))} */}
               </List>
             </p>
-            <textarea
-              name="message"
-              placeholder="Message"
-              // onChange={formHandle}
-              required
-            ></textarea>
             {/* <Button className="style1" onclick={openModal}>
               Apply Now
               <i className="far fa-long-arrow-right" />
             </Button> */}
-            <PlayBtn className="style5" title={career.title} id={career.id}>
+            <PlayBtn className="style5" title={career.title}
+            id={career.id}
+            >
               <Button className="style1">
                 Apply Now
                 <i className="far fa-long-arrow-right" />
@@ -299,9 +295,3 @@ const ProjectSingle = ({ career, ...restProps }) => {
 
 
 export default ProjectSingle;
-
-
-
-
-
-

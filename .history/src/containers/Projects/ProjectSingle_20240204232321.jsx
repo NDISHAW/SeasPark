@@ -227,18 +227,19 @@ const ProjectSingle = ({ career, ...restProps }) => {
                 </List.Item>
                 {/* ))} */}
               </List>
-            </p>
-            <textarea
-              name="message"
-              placeholder="Message"
-              // onChange={formHandle}
-              required
-            ></textarea>
+            </p><textarea
+                  name="message"
+                  placeholder="Message"
+                  onChange={formHandle}
+                  required
+                ></textarea>
             {/* <Button className="style1" onclick={openModal}>
               Apply Now
               <i className="far fa-long-arrow-right" />
             </Button> */}
-            <PlayBtn className="style5" title={career.title} id={career.id}>
+            <PlayBtn className="style5" title={career.title}
+            id={career.id}
+            >
               <Button className="style1">
                 Apply Now
                 <i className="far fa-long-arrow-right" />
