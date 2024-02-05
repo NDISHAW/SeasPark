@@ -28,18 +28,18 @@ const FormThree = () => {
   };
 
   return (
-    <form ref={form} onSubmit={formHandle} className="row gx-20 form-style2">
+    <form action="#" className="row gx-20 form-style2">
       <div className="col-md-6 form-group">
         <input name="from_name" type="text" placeholder="Full Name" />
       </div>
       <div className="col-md-6 form-group">
-        <input name="userEmail" type="email" placeholder="Email Address" />
+        <input type="email" placeholder="Email Address" />
       </div>
       <div className="col-md-6 form-group">
-        <input name="phone" type="number" placeholder="Phone Number" />
+        <input type="number" placeholder="Phone Number" />
       </div>
       <div className="col-md-6 form-group">
-        <select name="option">
+        <select>
           <option defaultValue="nothing">Select subject</option>
           <option defaultValue="Web Development">Web Development</option>
           <option defaultValue="UI Design">UI Design</option>
@@ -54,7 +54,7 @@ const FormThree = () => {
         <textarea name="message" id="message" placeholder="Type Your Message" />
       </div>
       <div className="col-12 text-center">
-        <Button onClick={formHandle}>
+        <Button onclick={formHandle}>
           SUBMIT
           <i className="far fa-arrow-right" />
         </Button>

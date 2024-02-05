@@ -33,7 +33,7 @@ const FormThree = () => {
         <input name="from_name" type="text" placeholder="Full Name" />
       </div>
       <div className="col-md-6 form-group">
-        <input name="userEmail" type="email" placeholder="Email Address" />
+        <input name="usermail" type="email" placeholder="Email Address" />
       </div>
       <div className="col-md-6 form-group">
         <input name="phone" type="number" placeholder="Phone Number" />

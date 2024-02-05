@@ -3,7 +3,6 @@ import Tab from 'react-bootstrap/Tab';
 import Nav from 'react-bootstrap/Nav';
 import {InfoMedia, FormFive} from '../../components';
 import { TitleWrap, SecTitle, SecSubTitle } from "../../components";
-import { Toaster } from 'react-hot-toast';
 const ContactTwo = ({ ...restProps }) => (
   <div {...restProps}>
     <div className="container">
@@ -62,7 +61,7 @@ const ContactTwo = ({ ...restProps }) => (
               </div>
               <div className="col-lg-6 mb-30">
                 <div className="contact-box">
-                  <Toaster/>
+                  
                   <TitleWrap className="">
                     <SecTitle className="text-capitalize h1">
                       GET IN TOUCH

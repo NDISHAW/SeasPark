@@ -28,12 +28,12 @@ const FormThree = () => {
   };
 
   return (
-    <form ref={form} onSubmit={formHandle} className="row gx-20 form-style2">
+    <form action="#" className="row gx-20 form-style2">
       <div className="col-md-6 form-group">
         <input name="from_name" type="text" placeholder="Full Name" />
       </div>
       <div className="col-md-6 form-group">
-        <input name="userEmail" type="email" placeholder="Email Address" />
+        <input name="user_email" type="email" placeholder="Email Address" />
       </div>
       <div className="col-md-6 form-group">
         <input name="phone" type="number" placeholder="Phone Number" />

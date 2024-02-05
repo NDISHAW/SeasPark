@@ -62,7 +62,7 @@ const ContactTwo = ({ ...restProps }) => (
               </div>
               <div className="col-lg-6 mb-30">
                 <div className="contact-box">
-                  <Toaster/>
+                  <Toaster
                   <TitleWrap className="">
                     <SecTitle className="text-capitalize h1">
                       GET IN TOUCH

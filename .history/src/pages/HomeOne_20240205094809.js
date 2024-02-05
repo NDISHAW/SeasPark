@@ -26,7 +26,6 @@ import {
   TeamTwo,
   ContactTwo,
 } from '../containers';
-import { Toaster } from "react-hot-toast";
 
 const HomeOne = () => {
   const contactArea = useRef(null);

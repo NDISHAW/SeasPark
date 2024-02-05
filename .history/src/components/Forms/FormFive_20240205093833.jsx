@@ -39,7 +39,7 @@ const FormFive = ({ title, id, onHide }) => {
           <i className="fal fa-envelope" />
         </div>
         <div className="col-md-6 form-group">
-          <input name="phone" type="text" placeholder="Phone : 0712345678" />
+          <input name="phone" type="text" placeholder="Phone  0712345678" />
           <i className="fal fa-phone" />
         </div>
         <div className="col-6 form-group">

@@ -38,12 +38,8 @@ const FormFive = ({ title, id, onHide }) => {
           <input name="user_email" type="email" placeholder="Email Address" />
           <i className="fal fa-envelope" />
         </div>
-        <div className="col-md-6 form-group">
-          <input name="phone" type="text" placeholder="Phone : 0712345678" />
-          <i className="fal fa-phone" />
-        </div>
-        <div className="col-6 form-group">
-          <select name="option">
+        <div className="col-12 form-group">
+          <select>
             <option defaultValue="nothing">Select subject</option>
             <option defaultValue="Web Development">Web Development</option>
             <option defaultValue="UI Design">UI Design</option>

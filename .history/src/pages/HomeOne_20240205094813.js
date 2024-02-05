@@ -26,7 +26,6 @@ import {
   TeamTwo,
   ContactTwo,
 } from '../containers';
-import { Toaster } from "react-hot-toast";
 
 const HomeOne = () => {
   const contactArea = useRef(null);
@@ -60,7 +59,7 @@ const HomeOne = () => {
         ref={contactArea}
         style={{ backgroundImage: "url(images/shape/process-bg-1-1.jpg)" }}
       >
-        <Toaster />
+        <Toaste />
         <TitleWrap className="text-center">
           <SecTitle className="text-capitalize h1">GET IN TOUCH</SecTitle>
           <p>We would like to hear from you. Send us a message</p>
