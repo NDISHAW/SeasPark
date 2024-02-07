@@ -301,7 +301,7 @@ const PlayBtn = ({
   
   const [pdfFile, setPdfFile] = useState(null);
 
-  const formHandle = async (event) => {
+  const formHandle = async () => {
     event.preventDefault();
     try {
       const formData = new FormData();
@@ -311,6 +311,7 @@ const PlayBtn = ({
       formData.append("jobNumber", jobNumber);
       formData.append("message", message);
       formData.append("pdfData", pdfFile);
+
 
       await axios.post("http://localhost:5000/sendEmail", formData, {
         headers: {
@@ -417,7 +418,7 @@ const PlayBtn = ({
               />
 
               <div className="col-12 text-center">
-                <button className="vs-btn" type="submit" onClick={formHandle}>
+                <button  onClick={formHandle}>
                   SUBMIT
                   <i className="far fa-arrow-right" />
                 </button>

@@ -417,7 +417,7 @@ const PlayBtn = ({
               />
 
               <div className="col-12 text-center">
-                <button className="vs-btn" type="submit" onClick={formHandle}>
+                <button type="submit" onClick={formHandle}>
                   SUBMIT
                   <i className="far fa-arrow-right" />
                 </button>
