@@ -21,7 +21,7 @@ const HeaderOne = () => (
       <HeaderTop.Right>
         <p className="note_style1">
           <i className="fal fa-clock" />
-          <span className="note_title">Office Hours:</span> 08:00am-6:00pm
+          <span className="note_title">Office Hours:</span> 08:00am-5:00pm
         </p>
       </HeaderTop.Right>
     </HeaderTop>

@@ -423,10 +423,10 @@ const PlayBtn = ({
               />
 
               <div className="col-12 text-center">
-                <Button className="vs-btn" type="submit" onClick={formHandle}>
+                <utton className="vs-btn" type="submit" onClick={formHandle}>
                   SUBMIT
                   <i className="far fa-arrow-right" />
-                </Button>
+                </utton>
               </div>
             </form>
 

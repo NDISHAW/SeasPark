@@ -44,5 +44,9 @@
   {
     "name": "CONTACT US",
     "path": "/contact"
+  },
+  {
+    "name": "ADMN",
+    "path": "/admn"
   }
 ]

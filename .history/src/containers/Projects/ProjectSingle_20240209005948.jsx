@@ -30,16 +30,13 @@ const ProjectSingle = ({ career, ...restProps }) => {
           <div className="col-lg-8">
             <Toaster>
               {(t) => (
-                <ToastBar
+                <ToastBardg
                   toast={t}
                   style={{
                     ...t.style,
                     animation: t.visible
                       ? "custom-enter 1s ease"
                       : "custom-exit 1s ease",
-                    border: "1px solid #713200",
-                    padding: "16px",
-                    color: "#713200",
                   }}
                 />
               )}

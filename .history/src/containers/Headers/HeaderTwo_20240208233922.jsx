@@ -1,15 +1,18 @@
 import React from 'react';
 import {
-  HeaderTop, 
-  InfoMedia, 
-  Logo, 
-  MainMenu, 
-  FormFour, 
+  HeaderTop,
+  HeaderSticky,
+  InfoMedia,
+  Logo,
+  MainMenu,
+  FormFour,
   MobileMenu,
-  HeaderSticky
-} from '../../components';
+  IconLink,
+  Logomedia,
+} from "../../components";
 
-const HeaderOne = () => (
+
+const HeaderTwo = () => (
   <header className="vs-header header-layout1">
     <HeaderTop>
       <HeaderTop.Left>
@@ -24,15 +27,25 @@ const HeaderOne = () => (
           <span className="note_title">Office Hours:</span> 08:00am-5:00pm
         </p>
       </HeaderTop.Right>
+      {/* <HeaderTop.Right>
+        <IconLink className="header-social style-white" title="Follow Us On:">
+          <IconLink.Item icon="fab fa-facebook-f" path="/" />
+          <IconLink.Item icon="fab fa-twitter" path="/" />
+          <IconLink.Item icon="fab fa-instagram" path="/" />
+          <IconLink.Item icon="fab fa-linkedin" path="/" />
+          <IconLink.Item icon="fab fa-youtube" path="/" />
+        </IconLink>
+      </HeaderTop.Right> */}
     </HeaderTop>
     <div className="container">
       <div className="menu-top">
         <div className="row justify-content-between align-items-center gx-sm-0">
-          <div className="col">
-            <Logo image="/images/logo21.png" />
+          <div className="col gx-sm-26 max-w-20vw">
+            <Logo className="col gx-sm-" image="images/logo21.png" />
           </div>
+
           <InfoMedia
-            className="header-media col-auto"
+            className="header-media col-auto d-none d-lg-flex "
             icon="fas fa-phone-alt"
             title="Call Anytime 24/7"
             info={<a href="tel:+254780170536">+254 780 170 536</a>}
@@ -44,10 +57,10 @@ const HeaderOne = () => (
             info={<a href="mailto:info@seaspark.co.ke">info@seaspark.co.ke</a>}
           />
           <InfoMedia
-            className="header-media col-auto d-none d-xl-flex"
+            className="header-media col-auto d-none d-xl-flex "
             icon="fas fa-map-marker-alt"
             title="Office Address"
-            info="Sasio Rd, Off Lunga Lunga Rd,NRB-KENYA"
+            info="Sasio Rd, Off Lunga Lunga Rd, Nairobi-Kenya"
           />
         </div>
       </div>
@@ -56,7 +69,7 @@ const HeaderOne = () => (
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-auto">
-            <MainMenu className="menu-style1 d-none d-xl-block" />
+            <MainMenu className="menu-style1 d-none d-lg-block" />
             <MobileMenu />
           </div>
           <div className="col-auto">
@@ -69,4 +82,4 @@ const HeaderOne = () => (
 );
 
 
-export default HeaderOne;
+export default HeaderTwo;

@@ -356,7 +356,7 @@ app.delete('/api/careers/:id', async (req, res) => {
 
 // Nodemailer transporter setup
 const transporter = nodemailer.createTransport({
-  host: "lon106.truehost.cloud", // Update with your SMTP host
+  host: "lon106.truehost.cloud:2096", // Update with your SMTP host
   port: 465, // Update with your SMTP port
   // secure: true, // Update based on your SMTP settings
   auth: {
@@ -380,13 +380,13 @@ app.post("/sendEmail", upload.single("pdfFile"), async (req, res) => {
     // Setup email data
     const mailOptions = {
       from: "abraham.it@seaspark.co.ke",
-      to: "hr@seaspark.co.ke",
+      to: "abraham.it@seaspark.co.ke",
       subject: "Job Application",
       html: `
         <h3>Job title: ${title} Job id ${jobNumber}</h3>
         <p><span>Full Names: ${fullName} </span> </p></br>
         <p><span>phoneNumber: ${phoneNumber} </span> </p>
-        <p><span type={email}>SenderEmail: ${email} </span> </p>
+        <p><span>phoneNumber: ${email} </span> </p>
         <p>${message}</p>
       
       `,

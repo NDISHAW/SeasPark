@@ -10,7 +10,7 @@ import {
   PlayBtn,
 } from "../../components";
 import Modal from "./modal";
-import { ToastBar, Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 // import Modal from "react-bootstrap/Modal";
 
 const ProjectSingle = ({ career, ...restProps }) => {
@@ -37,9 +37,6 @@ const ProjectSingle = ({ career, ...restProps }) => {
                     animation: t.visible
                       ? "custom-enter 1s ease"
                       : "custom-exit 1s ease",
-                    border: "1px solid #713200",
-                    padding: "16px",
-                    color: "#713200",
                   }}
                 />
               )}

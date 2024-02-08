@@ -319,8 +319,7 @@ const PlayBtn = ({
           "Content-Type": "multipart/form-data",
         },
       });
-      toast.success("Email sent successfully!");
-      modalCloseHandler();
+      toast("Email sent successfully!");
     } catch (error) {
       console.error("Error sending email:", error);
       toast.error("Error sending email");
@@ -351,8 +350,6 @@ const PlayBtn = ({
           centered
         >
           <Toaster
-            
-          />
           <Modal.Body>
             <form onSubmit={formHandle} className="row gx-20 form-style1">
               <h2 className="form-title h4">{title}</h2>
@@ -423,10 +420,10 @@ const PlayBtn = ({
               />
 
               <div className="col-12 text-center">
-                <Button className="vs-btn" type="submit" onClick={formHandle}>
+                <button className="vs-btn" type="submit" onClick={formHandle}>
                   SUBMIT
                   <i className="far fa-arrow-right" />
-                </Button>
+                </button>
               </div>
             </form>
 

@@ -10,7 +10,6 @@ import {
   PlayBtn,
 } from "../../components";
 import Modal from "./modal";
-import { ToastBar, Toaster } from "react-hot-toast";
 // import Modal from "react-bootstrap/Modal";
 
 const ProjectSingle = ({ career, ...restProps }) => {
@@ -28,23 +27,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
-            <Toaster>
-              {(t) => (
-                <ToastBar
-                  toast={t}
-                  style={{
-                    ...t.style,
-                    animation: t.visible
-                      ? "custom-enter 1s ease"
-                      : "custom-exit 1s ease",
-                    border: "1px solid #713200",
-                    padding: "16px",
-                    color: "#713200",
-                  }}
-                />
-              )}
-            </Toaster>
-            ;
+            <T
             {/* <div className="mb-3 pb-3">
             <img src="/images/careers/career1.jpg" alt="Project" />
           </div> */}
@@ -216,6 +199,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
                 {/* ))} */}
               </List>
             </p>
+
             <h3 className="h5 pt-xl-3">Requirements:</h3>
             <p className="mb-4">
               <List className="list-style3">
@@ -243,6 +227,7 @@ const ProjectSingle = ({ career, ...restProps }) => {
                 {/* ))} */}
               </List>
             </p>
+
             {/* <Button className="style1" onclick={openModal}>
               Apply Now
               <i className="far fa-long-arrow-right" />

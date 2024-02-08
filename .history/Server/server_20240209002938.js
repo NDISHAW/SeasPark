@@ -380,7 +380,7 @@ app.post("/sendEmail", upload.single("pdfFile"), async (req, res) => {
     // Setup email data
     const mailOptions = {
       from: "abraham.it@seaspark.co.ke",
-      to: "hr@seaspark.co.ke",
+      to: "abraham.it@seaspark.co.ke",
       subject: "Job Application",
       html: `
         <h3>Job title: ${title} Job id ${jobNumber}</h3>
