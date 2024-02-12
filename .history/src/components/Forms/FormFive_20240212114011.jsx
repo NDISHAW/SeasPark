@@ -8,12 +8,13 @@ const FormFive = ({ title, id, onHide }) => {
 
   const formHandle = (event) => {
     event.preventDefault();
+
     emailjs
       .sendForm(
-        "service_0wmgnbl",
-        "template_xmmshxs",
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
         form.current,
-        "Z0CbWT44L2zlf5Ag-"
+        "YOUR_USER_ID"
       )
       .then(
         (result) => {

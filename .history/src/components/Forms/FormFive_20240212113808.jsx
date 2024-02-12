@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import toast, { Toaster } from "react-hot-toast";
+import emailjs from "emailjs-com";
+import toast from "react-hot-toast";
 import { Button } from "../";
 
 const FormFive = ({ title, id, onHide }) => {
@@ -8,12 +8,13 @@ const FormFive = ({ title, id, onHide }) => {
 
   const formHandle = (event) => {
     event.preventDefault();
+
     emailjs
       .sendForm(
-        "service_0wmgnbl",
-        "template_xmmshxs",
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
         form.current,
-        "Z0CbWT44L2zlf5Ag-"
+        "YOUR_USER_ID"
       )
       .then(
         (result) => {
@@ -30,7 +31,7 @@ const FormFive = ({ title, id, onHide }) => {
 
   return (
     <>
-      <Toaster />
+      <Toaste />
       <form ref={form} onSubmit={formHandle} className="vs-contact-form">
         <div className="row gx-20">
           <div className="col-md-6 form-group">
@@ -62,7 +63,7 @@ const FormFive = ({ title, id, onHide }) => {
           </div>
           <div className="col-6 form-group">
             <select name="option" required>
-              <option defaultValue="nothing" disabledyyy>Select subject</option>
+              <option defaultValue="nothing">Select subject</option>
               <option value="Web Development">Web Development</option>
               <option value="UI Design">UI Design</option>
               <option value="CMS Development">CMS Development</option>

@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import { Button } from "../";
 
-const FormThree = () => {
+const FormFive = ({ title, id, onHide }) => {
   const form = useRef();
   const formHandle = (event) => {
     event.preventDefault();
@@ -28,19 +28,32 @@ const FormThree = () => {
   };
 
   return (
-    <>
-      <form ref={form} onSubmit={formHandle} className="row gx-20 form-style2">
+    <form ref={form} onSubmit={formHandle} className="vs-contact-form">
+      <div className="row gx-20">
         <div className="col-md-6 form-group">
-          <input name="from_name" type="text" placeholder="Full Name" required/>
+          <input name="from_name" type="text" placeholder="Your Name" />
+          <i className="fal fa-user" />
         </div>
         <div className="col-md-6 form-group">
-          <input name="userEmail" type="email" placeholder="Email Address" required/>
+          <input
+            name="user_email"
+            type="email"
+            placeholder="Email Address"
+            required
+          />
+          <i className="fal fa-envelope" />
         </div>
         <div className="col-md-6 form-group">
-          <input name="phone" type="number" placeholder="Phone Number" required/>
+          <input
+            name="phone"
+            type="text"
+            required
+            placeholder="Phone : 0712345678"
+          />
+          <i className="fal fa-phone" />
         </div>
-        <div className="col-md-6 form-group">
-          <select name="option"required>
+        <div className="col-6 form-group">
+          <select name="option" required autofocus>
             <option defaultValue="nothing">Select subject</option>
             <option defaultValue="Web Development">Web Development</option>
             <option defaultValue="UI Design">UI Design</option>
@@ -49,24 +62,21 @@ const FormThree = () => {
             <option defaultValue="Wordpress Development">
               Wordpress Development
             </option>
+            <option defaultValue="Wordpress Development">Other</option>
           </select>
         </div>
         <div className="col-12 form-group">
-          <textarea
-            name="message"
-            id="message"
-            placeholder="Type Your Message"
-          required/>
+          <textarea name="message" placeholder="Type Your Message" />
         </div>
-        <div className="col-12 text-center">
-          <Button onClick={formHandle}>
-            SUBMIT
+        <div className="col-12">
+          <Button onclick={formHandle}>
+            Submit
             <i className="far fa-arrow-right" />
           </Button>
         </div>
-      </form>
-    </>
+      </div>
+    </form>
   );
 };
 
-export default FormThree;
+export default FormFive;
