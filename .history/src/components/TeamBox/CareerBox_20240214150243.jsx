@@ -44,8 +44,9 @@ export default function CareerBox({ image, icon, title, text, path = "#" }) {
         </Link>
       </h3>
       <p className="feature-text">{text}</p>
+       
+       </div>
       <Button path={path} className="style3">Read More<i className="far fa-long-arrow-right"/></Button>
-      
     </div>
   );
 }

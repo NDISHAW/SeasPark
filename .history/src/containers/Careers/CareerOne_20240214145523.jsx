@@ -20,7 +20,7 @@ export default function CareerOne({ ...restProps }) {
               <CareerBox
                 path={`/careers-details/${item.id}`}
                 // image={item.image}
-                image={`/images/icon/process-2-2.png`}
+                image={`/images`}
                 icon={item.icon}
                 title={item.title}
                 text={item.text.slice(0, 53)}

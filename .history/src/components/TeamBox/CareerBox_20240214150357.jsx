@@ -45,7 +45,23 @@ export default function CareerBox({ image, icon, title, text, path = "#" }) {
       </h3>
       <p className="feature-text">{text}</p>
       <Button path={path} className="style3">Read More<i className="far fa-long-arrow-right"/></Button>
-      
+      <div className="service-back">
+        <div className="service-content">
+          <div className="service-icon">
+            <img src={icon} alt="icon" />
+          </div>
+          <h3 className="service-title h6">
+            <Link className="text-inherit" to={path}>
+              {title}
+            </Link>
+          </h3>
+          <p className="service-text">{text}</p>
+          <Button path={path} className="style3">
+            Read More
+            <i className="far fa-long-arrow-right" />
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }
