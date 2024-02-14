@@ -3,7 +3,7 @@
     {
       "id": "1",
       "path": "/service-details",
-      "image": "/images/service/sr-3-1.jpg",
+      "image": "/images/service/recruit.jpg",
       "icon": "/images/icon/sr-icon-3-1.png",
       "bgShape": "/images/bg/sr-box-bg-1.jpg",
       "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
@@ -13,7 +13,7 @@
     {
       "id": "2",
       "path": "/service-details",
-      "image": "/images/service/sr-3-2.jpg",
+      "image": "/images/service/erp.jpg",
       "icon": "/images/icon/sr-icon-3-2.png",
       "bgShape": "/images/bg/sr-box-bg-1.jpg",
       "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
@@ -23,7 +23,7 @@
     {
       "id": "3",
       "path": "/service-details",
-      "image": "/images/service/sr-3-3.jpg",
+      "image": "/images/service/solutions.jpg",
       "icon": "/images/icon/sr-icon-3-3.png",
       "bgShape": "/images/bg/sr-box-bg-1.jpg",
       "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
@@ -33,7 +33,7 @@
     {
       "id": "4",
       "path": "/service-details",
-      "image": "/images/service/sr-3-4.jpg",
+      "image": "/images/service/platform.jpg",
       "icon": "/images/icon/sr-icon-3-4.png",
       "bgShape": "/images/bg/sr-box-bg-1.jpg",
       "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
@@ -43,7 +43,7 @@
     {
       "id": "5",
       "path": "/service-details",
-      "image": "/images/service/sr-3-5.jpg",
+      "image": "/images/service/training.jpg",
       "icon": "/images/icon/sr-icon-3-5.png",
       "bgShape": "/images/bg/sr-box-bg-1.jpg",
       "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
@@ -53,7 +53,7 @@
     {
       "id": "6",
       "path": "/service-details",
-      "image": "/images/service/sr-d-1-1.jpg",
+      "image": "/images/service/data.jpg",
       "icon": "/images/icon/sr-icon-1-6.png",
       "bgShape": "/images/bg/sr-box-bg-1.jpg",
       "bgShape2": "/images/shape/sr-bg-shape-2-1.png",

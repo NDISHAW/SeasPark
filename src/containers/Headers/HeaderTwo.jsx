@@ -27,15 +27,15 @@ const HeaderTwo = () => (
           <span className="note_title">Office Hours:</span> 08:00am-5:00pm
         </p>
       </HeaderTop.Right>
-      {/* <HeaderTop.Right>
+      <HeaderTop.Right>
         <IconLink className="header-social style-white" title="Follow Us On:">
           <IconLink.Item icon="fab fa-facebook-f" path="/" />
           <IconLink.Item icon="fab fa-twitter" path="/" />
-          <IconLink.Item icon="fab fa-instagram" path="/" />
+          {/* <IconLink.Item icon="fab fa-instagram" path="/" /> */}
           <IconLink.Item icon="fab fa-linkedin" path="/" />
-          <IconLink.Item icon="fab fa-youtube" path="/" />
+          {/* <IconLink.Item icon="fab fa-youtube" path="/" /> */}
         </IconLink>
-      </HeaderTop.Right> */}
+      </HeaderTop.Right>
     </HeaderTop>
     <div className="container">
       <div className="menu-top">
