@@ -41,7 +41,7 @@ const HomeOne = () => {
         style={{ backgroundImage: "url(images/bg/ab-bg-1-1.jpg)" }}
       >
         <FeatureOne className="space-top " />
-        <AboutOne className="space-top" />
+        <AboutOne className="space-bottom" />
       </div>
       <ServiceThree className="space-top " />
       {/* <CounterOne/> */}

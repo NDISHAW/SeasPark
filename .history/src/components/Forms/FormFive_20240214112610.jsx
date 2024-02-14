@@ -61,7 +61,7 @@ const FormFive = ({ title, id, onHide }) => {
             <i className="fal fa-phone" />
           </div>
           <div className="col-6 form-group">
-            <select name="subject" placeholder="Select subject" required>
+            <select name="subject" value="Select subject" required>
               <option  disabled>Select subject</option>
               <option value="Web Development">Web Development</option>
               <option value="UI Design">UI Design</option>

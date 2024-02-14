@@ -29,42 +29,27 @@ const FormThree = () => {
 
   return (
     <>
-      <Toaster />
+    <Toaster />
       <form ref={form3} onSubmit={formHandle} className="row gx-20 form-style2">
         <div className="col-md-6 form-group">
-          <input
-            name="from_name"
-            type="text"
-            placeholder="Full Name"
-            required
-          />
+          <input name="from_name" type="text" placeholder="Full Name" required/>
         </div>
         <div className="col-md-6 form-group">
-          <input
-            name="userEmail"
-            type="email"
-            placeholder="Email Address"
-            required
-          />
+          <input name="userEmail" type="email" placeholder="Email Address" required/>
         </div>
         <div className="col-md-6 form-group">
-          <input
-            name="phone"
-            type="number"
-            placeholder="Phone Number"
-            required
-          />
+          <input name="phone" type="number" placeholder="Phone Number" required/>
         </div>
         <div className="col-md-6 form-group">
-          <select name="subject" required>
-            <option selected="true" disabled="disabled">
-              Select subject
-            </option>
+          <select name="subject"required>
+            <option defaultValue="nothing" >Select subject</option>
             <option defaultValue="Web Development">Web Development</option>
-            <option value="UI Design">UI Design</option>
-            <option value="CMS Development">CMS Development</option>
-            <option value="Theme Development">Theme Development</option>
-            <option value="Wordpress Development">Wordpress Development</option>
+            <option defaultValue="UI Design">UI Design</option>
+            <option defaultValue="CMS Development">CMS Development</option>
+            <option defaultValue="Theme Development">Theme Development</option>
+            <option defaultValue="Wordpress Development">
+              Wordpress Development
+            </option>
           </select>
         </div>
         <div className="col-12 form-group">
@@ -72,8 +57,7 @@ const FormThree = () => {
             name="message"
             id="message"
             placeholder="Type Your Message"
-            required
-          />
+          required/>
         </div>
         <div className="col-12 text-center">
           <Button onClick={formHandle}>

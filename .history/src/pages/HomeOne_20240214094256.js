@@ -40,14 +40,14 @@ const HomeOne = () => {
         className="background-image"
         style={{ backgroundImage: "url(images/bg/ab-bg-1-1.jpg)" }}
       >
-        <FeatureOne className="space-top " />
-        <AboutOne className="space-top" />
+        <FeatureOne className="space-top space-bottom" />
+        <AboutOne className="space-bottom" />
       </div>
-      <ServiceThree className="space-top " />
+      <ServiceThree className="space-top space-extra-bottom" />
       {/* <CounterOne/> */}
-      <TeamTwo className="space-top " />
+      <TeamTwo className="space-top space-extra-bottom" />
       <FaqOne />
-      <AboutTwo className="space-top " />
+      <AboutTwo className="space-top space-extra-bottom" />
       <CtaOne className="space" />
       <ProcessOne className="space-top space-extra-bottom" />
       <TestimonialOne className="space-top space-extra-bottom" />

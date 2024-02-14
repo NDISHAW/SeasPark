@@ -57,14 +57,16 @@ const FormThree = () => {
         </div>
         <div className="col-md-6 form-group">
           <select name="subject" required>
-            <option selected="true" disabled="disabled">
+            <option defaultValue="nothing" disabled>
               Select subject
             </option>
             <option defaultValue="Web Development">Web Development</option>
             <option value="UI Design">UI Design</option>
             <option value="CMS Development">CMS Development</option>
             <option value="Theme Development">Theme Development</option>
-            <option value="Wordpress Development">Wordpress Development</option>
+            <option value="Wordpress Development">
+              Wordpress Development
+            </option>
           </select>
         </div>
         <div className="col-12 form-group">

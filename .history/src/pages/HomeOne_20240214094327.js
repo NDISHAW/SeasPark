@@ -41,13 +41,13 @@ const HomeOne = () => {
         style={{ backgroundImage: "url(images/bg/ab-bg-1-1.jpg)" }}
       >
         <FeatureOne className="space-top " />
-        <AboutOne className="space-top" />
+        <AboutOne className="space-bottom" />
       </div>
       <ServiceThree className="space-top " />
       {/* <CounterOne/> */}
-      <TeamTwo className="space-top " />
+      <TeamTwo className="space-top space-extra-bottom" />
       <FaqOne />
-      <AboutTwo className="space-top " />
+      <AboutTwo className="space-top space-extra-bottom" />
       <CtaOne className="space" />
       <ProcessOne className="space-top space-extra-bottom" />
       <TestimonialOne className="space-top space-extra-bottom" />
