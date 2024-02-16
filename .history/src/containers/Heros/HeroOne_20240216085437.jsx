@@ -56,7 +56,7 @@ const HeroOne = ()=> {
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
-    arrows: false,
+    arrows: true,
     responsive: [
       {
         breakpoint: 1439,

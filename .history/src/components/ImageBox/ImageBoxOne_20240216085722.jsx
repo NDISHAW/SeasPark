@@ -6,11 +6,10 @@ const ImageBoxOne = ({imageOne, imageTwo, video})=> (
     <div className="img-1">
       <img src={imageOne} alt="imgOne"/>
     </div>
-    {/* <div className="img-2">
+    <div className="img-2">
       <img src={imageTwo} alt="imgTwo"/>
       <PlayBtn path={video} className="style2 position-center"><i className="fas fa-play"/></PlayBtn>
-    </div> */}
-
+    </div>
   </div>
 );
 

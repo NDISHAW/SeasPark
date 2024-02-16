@@ -12,17 +12,17 @@ const AboutOne = ({ className }) => (
     <div className="about-shape1 d-none d-xl-block">SeasPark</div>
     <div className="container z-index-common">
       <div className="row gx-60">
-        <div className="col-lg-6 col-xl-5 mb-50 mb-lg-0">
+        {/* <div className="col-lg-6 col-xl-5 mb-50 mb-lg-0">
           <ImageBoxOne
             imageOne="images/about/solution.jpg"
-            // imageTwo="images/about/trust.jpg"
+            imageTwo="images/about/trust.jpg"
             // video="https://www.dropbox.com/s/b4k0p5swok5l8t2/videoplayback.mp4?dl=1"
           />
-        </div>
+        </div> */}
         <div className="col-lg-6 col-xl-7 align-self-center">
           <SecTitle className="">
             {/* <i className="fas fa-bring-forward" /> */}
-            Get the best Business solutions
+            Get the best Business solutions 
           </SecTitle>
           <SecSubTitle className="h1">
             Elevate Your Vision with Our Trusted Business Solutions & Consulting
@@ -38,10 +38,8 @@ const AboutOne = ({ className }) => (
           </p>
           <InfoMedia
             image="images/icon/tel-1-1.png"
-            // title="24 HOURS SERVICE AVAILABLE"
-            info={
-              <a href="tel:+254 780 170 536">Call Us: (+254) 780 170 536</a>
-            }
+            title="24 HOURS SERVICE AVAILABLE"
+            info="Call Us: +254 780 170 536"
             className="call-media"
           />
           <Button path="/about">

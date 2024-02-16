@@ -56,7 +56,7 @@ const HeroOne = ()=> {
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
-    arrows: false,
+    // arrows: true,
     responsive: [
       {
         breakpoint: 1439,
@@ -81,7 +81,7 @@ const HeroOne = ()=> {
                 <h1 className="hero-title">{slide.title}</h1>
                 <p className="hero-text">{slide.text}</p>
                 <div className="hero-btns">
-                  <Button path={slide.btn1.path}>{slide.btn1.text}<i className="far fa-arrow-right"/></Button>
+                  {/* <Button path={slide.btn1.path}>{slide.btn1.text}<i className="far fa-arrow-right"/></Button> */}
                   <Button path={slide.btn2.path} className="style2">{slide.btn2.text}<i className="far fa-arrow-right"/></Button>
                 </div>
               </div>

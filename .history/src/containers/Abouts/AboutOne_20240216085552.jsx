@@ -22,7 +22,7 @@ const AboutOne = ({ className }) => (
         <div className="col-lg-6 col-xl-7 align-self-center">
           <SecTitle className="">
             {/* <i className="fas fa-bring-forward" /> */}
-            Get the best Business solutions
+            Get the best Business solutions 
           </SecTitle>
           <SecSubTitle className="h1">
             Elevate Your Vision with Our Trusted Business Solutions & Consulting
@@ -38,10 +38,8 @@ const AboutOne = ({ className }) => (
           </p>
           <InfoMedia
             image="images/icon/tel-1-1.png"
-            // title="24 HOURS SERVICE AVAILABLE"
-            info={
-              <a href="tel:+254 780 170 536">Call Us: (+254) 780 170 536</a>
-            }
+            title="24 HOURS SERVICE AVAILABLE"
+            info="Call Us: +254 780 170 536"
             className="call-media"
           />
           <Button path="/about">

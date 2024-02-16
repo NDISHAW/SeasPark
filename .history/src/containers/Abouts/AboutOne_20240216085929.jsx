@@ -34,14 +34,12 @@ const AboutOne = ({ className }) => (
             one-stop solution for strategic guidance, enterprise support, custom
             development, and cutting-edge technologies. Trust our experts to
             plan, build, and deliver tailored technology solutions for your
-            business challenges.
+            business challenges. 
           </p>
           <InfoMedia
             image="images/icon/tel-1-1.png"
             // title="24 HOURS SERVICE AVAILABLE"
-            info={
-              <a href="tel:+254 780 170 536">Call Us: (+254) 780 170 536</a>
-            }
+            info={<a href="tel:+25632542598">(+256) 3254 2598</a>}
             className="call-media"
           />
           <Button path="/about">

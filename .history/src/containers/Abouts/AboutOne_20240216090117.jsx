@@ -40,7 +40,7 @@ const AboutOne = ({ className }) => (
             image="images/icon/tel-1-1.png"
             // title="24 HOURS SERVICE AVAILABLE"
             info={
-              <a href="tel:+254 780 170 536">Call Us: (+254) 780 170 536</a>
+              <a href="tel:+254 780 170 536">Call Us: {' '} (+254) 780 170 536</a>
             }
             className="call-media"
           />
