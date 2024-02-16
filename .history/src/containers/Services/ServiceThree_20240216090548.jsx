@@ -56,12 +56,16 @@ const ServiceThree = ({className})=> {
       style={{ backgroundImage: "url(images/bg/sr-bg-3-1.jpg)" }}
     >
       <div className="container">
-        <TitleWrap className="text-center">
-          <SecTitle>Our Services</SecTitle>
-          <SecSubTitle className="h1 text-capitalize">
-            What Kind of Services We are Offering
-          </SecSubTitle>
-        </TitleWrap>
+        <div className="row justify-content-center justify-content-lg-between align-items-center">
+          <div className="col-md-8 col-lg-6 text-center ">
+            <TitleWrap c>
+              <SecTitle>Our Services</SecTitle>
+              <SecSubTitle className="h1 text-capitalize">
+                What Kind of Services We are Offering
+              </SecSubTitle>
+            </TitleWrap>
+          </div>
+        </div>
         <Slider className="row" {...settings}>
           {services.services.map((item) => (
             <div className="col-md-6 col-lg-4" key={item.id}>
@@ -75,7 +79,7 @@ const ServiceThree = ({className})=> {
             </div>
           ))}
         </Slider>
-        <div className="col-auto d-none d-lg-block text-center">
+        <div className="col-auto d-none d-lg-block">
           <div className="sec-btns2">
             <Button path="/service">
               View All Our Services

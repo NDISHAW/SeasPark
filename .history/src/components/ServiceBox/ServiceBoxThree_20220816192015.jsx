@@ -5,7 +5,7 @@ const ServiceBoxThree = ({image, icon, title,text, path="#"})=> (
   <div className="service-style3">
     <div className="service-front">
       <div className="service-img">
-        <img src={image} alt="serviceicon" className="w-100 h-50"/>
+        <img src={image} alt="serviceicon" className="w-100"/>
       </div>
       <div className="service-content">
         <div className="service-icon"><img src={icon} alt="icon"/></div>

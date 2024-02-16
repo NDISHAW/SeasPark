@@ -57,9 +57,9 @@ const ServiceThree = ({className})=> {
     >
       <div className="container">
         <TitleWrap className="text-center">
-          <SecTitle>Our Services</SecTitle>
+          <SecTitle>Meet SeasPark</SecTitle>
           <SecSubTitle className="h1 text-capitalize">
-            What Kind of Services We are Offering
+            Our Team Of Experts
           </SecSubTitle>
         </TitleWrap>
         <Slider className="row" {...settings}>
@@ -75,7 +75,7 @@ const ServiceThree = ({className})=> {
             </div>
           ))}
         </Slider>
-        <div className="col-auto d-none d-lg-block text-center">
+        <div className="col-auto d-none d-lg-block">
           <div className="sec-btns2">
             <Button path="/service">
               View All Our Services
