@@ -8,7 +8,7 @@ const TeamTwo = ({...restProps})=> {
 
   const settings = {
     autoplay: true,
-    autoplaySpeed: 7000,
+    autoplaySpeed: 8000,
     infinite: true,
     arrows: true,
     speed: 1000,

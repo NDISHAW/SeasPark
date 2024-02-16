@@ -23,8 +23,8 @@ const FaqOne = ({ className }) => (
       <div className="row gx-60">
         <div className="col-lg-6 pb-20 pb-lg-0">
           <ImageBoxTwo
-            imageOne="images/faq/fqq.jpg"
-            // imageTwo="images/faq/faq2.jpg"
+            imageOne="images/faq/faq1.jpg"
+            imageTwo="images/faq/faq2.jpg"
             // video="https://www.dropbox.com/s/b4k0p5swok5l8t2/videoplayback.mp4?dl=1"
           />
         </div>

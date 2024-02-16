@@ -50,20 +50,21 @@ const TestimonialOne = ({...restProps})=> {
   return (
     <div {...restProps}>
       <div className="container">
-        <TitleWrap className="text-center">
-          <SecTitle>
-            {/* <i className="fas fa-bring-forward" /> */}
-            Our Best Review’s
-          </SecTitle>
-          <SecSubTitle className="h1 text-capitalize">
-            Customer’s Feedback
-          </SecSubTitle>
-        </TitleWrap>
-
-        {/* <div className="col-auto d-none d-lg-block">
+          
+            <TitleWrap>
+              <SecTitle>
+                {/* <i className="fas fa-bring-forward" /> */}
+                Our Best Review’s
+              </SecTitle>
+              <SecSubTitle className="h1 text-capitalize">
+                Customer’s Feedback
+              </SecSubTitle>
+            </TitleWrap>
+         
+          {/* <div className="col-auto d-none d-lg-block">
             <SlideNavBtn slideParent={sliderWrap} />
           </div> */}
-
+        
         <Slider ref={sliderWrap} className="row" {...settings}>
           {testimonialData.map((item, index) => (
             <div key={index}>

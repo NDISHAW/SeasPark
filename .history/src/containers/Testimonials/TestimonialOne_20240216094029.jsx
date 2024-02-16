@@ -21,7 +21,7 @@ const TestimonialOne = ({...restProps})=> {
     autoplay: true,
     autoplaySpeed: 8000,
     infinite: true,
-    arrows: true,
+    arrows: false,
     speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -50,20 +50,22 @@ const TestimonialOne = ({...restProps})=> {
   return (
     <div {...restProps}>
       <div className="container">
-        <TitleWrap className="text-center">
-          <SecTitle>
-            {/* <i className="fas fa-bring-forward" /> */}
-            Our Best Review’s
-          </SecTitle>
-          <SecSubTitle className="h1 text-capitalize">
-            Customer’s Feedback
-          </SecSubTitle>
-        </TitleWrap>
-
-        {/* <div className="col-auto d-none d-lg-block">
+        <div className="row justify-content-between">
+          <div className="col-lg-auto text-center">
+            <TitleWrap>
+              <SecTitle>
+                {/* <i className="fas fa-bring-forward" /> */}
+                Our Best Review’s
+              </SecTitle>
+              <SecSubTitle className="h1 text-capitalize">
+                Customer’s Feedback
+              </SecSubTitle>
+            </TitleWrap>
+          </div>
+          <div className="col-auto d-none d-lg-block">
             <SlideNavBtn slideParent={sliderWrap} />
-          </div> */}
-
+          </div>
+        </div>
         <Slider ref={sliderWrap} className="row" {...settings}>
           {testimonialData.map((item, index) => (
             <div key={index}>

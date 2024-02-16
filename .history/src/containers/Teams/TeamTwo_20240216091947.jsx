@@ -8,12 +8,12 @@ const TeamTwo = ({...restProps})=> {
 
   const settings = {
     autoplay: true,
-    autoplaySpeed: 7000,
+    autoplaySpeed: 8000,
     infinite: true,
     arrows: true,
     speed: 1000,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1200,
