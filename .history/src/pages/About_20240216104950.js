@@ -8,14 +8,13 @@ import {
   TestimonialThree,
   CtaOne,
   BlogFour,
-  FooterOne,
-  HeaderTwo
+  FooterOne
 } from '../containers';
 
 const About = () => (
   <Fragment>
     <Seo title="About Us" />
-    <HeaderTwo />
+    <Headert />
     <Breadcrumb pageName="About Us" bgImage="images/breadcumb/about.jpg" />
     <ServiceFour className="space-top space-extra-bottom" />
     <AboutSeven />

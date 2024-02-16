@@ -37,7 +37,7 @@ const FormThree = ({ className }) => {
         ref={form3}
         onSubmit={formHandle}
         className="row gx-20 form-style2"
-        // style={{ backgroundImage: "url(images/bg/testi-bg-4-1.jpg)" }}
+        style={{ backgroundImage: "url(images/bg/testi-bg-4-1.jpg)" }}
       >
         <div className="col-md-6 form-group">
           <input

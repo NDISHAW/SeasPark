@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import { Button } from "../";
 
-const FormThree = ({ className }) => {
+const FormThree = () => {
   const form3 = useRef();
   const formHandle = (event) => {
     event.preventDefault();
@@ -30,14 +30,14 @@ const FormThree = ({ className }) => {
   return (
     <div
       className={`background-image ${className || ""}`}
-      // style={{ backgroundImage: "url(images/bg/testi-bg-4-1.jpg)" }}
+      style={{ backgroundImage: "url(images/bg/testi-bg-4-1.jpg)" }}
     >
       <Toaster />
       <form
         ref={form3}
         onSubmit={formHandle}
         className="row gx-20 form-style2"
-        // style={{ backgroundImage: "url(images/bg/testi-bg-4-1.jpg)" }}
+        style={{ backgroundImage: "url(images/bg/testi-bg-4-1.jpg)" }}
       >
         <div className="col-md-6 form-group">
           <input

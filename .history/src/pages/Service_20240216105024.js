@@ -1,18 +1,18 @@
 import React, {Fragment} from 'react';
 import {Seo, Breadcrumb, ScrollTopBtn} from '../components';
 import {
-  HeaderTwo,
+  HeaderOne,
   ServiceFive,
   CtaOne,
   ProcessThree,
   TestimonialOne,
-  FooterOne,
-} from "../containers";
+  FooterOne
+} from '../containers';
 
 const Service = () => (
   <Fragment>
     <Seo title="Services" />
-    <HeaderTwo />
+    <HeaderTw />
     <Breadcrumb pageName="Services" bgImage="images/service/service.jpg" />
     <ServiceFive className="space-top space-extra-bottom" />
     <CtaOne className="space" />

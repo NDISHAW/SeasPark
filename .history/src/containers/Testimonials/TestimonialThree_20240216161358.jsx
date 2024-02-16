@@ -35,16 +35,12 @@ const TestimonialThree = ({className})=> {
   };   
   
   return (
-    // <div
-    //   className={`background-image ${className || ""}`}
-    //   style={{ backgroundImage: "url(images/bg/testi-bg-4-1.jpg)" }}
-    // >
     <div
       className={`background-image ${className || ""}`}
-      
+      style={{ backgroundImage: "url(images/bg/testi-bg-4-1.jpg)" }}
     >
       <div className="container">
-        {/* <div className="row justify-content-between align-items-center">
+        <div className="row justify-content-between align-items-center">
           <div className="col-lg-5 text-center text-lg-start">
             
           </div>
@@ -53,17 +49,7 @@ const TestimonialThree = ({className})=> {
               <Button path="/project">Latest Projects<i className="far fa-long-arrow-right"/></Button>
             </div>
           </div>
-        </div> */}
-
-        <TitleWrap className="text-center">
-          <SecTitle>
-            {/* <i className="fas fa-bring-forward"/> */}
-            Our Best Review’s
-          </SecTitle>
-          <SecSubTitle className="text-capitalize h1">
-            Customer’s Feedback
-          </SecSubTitle>
-        </TitleWrap>
+        </div>
         <Slider className="row testi-style2-slide" {...settings}>
           {testimonialData.map((item, index) => (
             <div key={index}>

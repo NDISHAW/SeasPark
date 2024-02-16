@@ -14,7 +14,7 @@ const TeamTwo = ({...restProps})=> {
     dots: true,
     speed: 1000,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     responsive: [
       {
         breakpoint: 1200,

@@ -25,8 +25,6 @@ import {
   FooterOne,
   TeamTwo,
   ContactTwo,
-  TestimonialTwo,
-  TestimonialThree,
 } from '../containers';
 import { Toaster } from "react-hot-toast";
 
@@ -52,21 +50,22 @@ const HomeOne = () => {
       <AboutTwo className="space-top " />
       <CtaOne className="space" />
       <ProcessOne className="" />
-      <TestimonialThree className="" />
+      <Testimonial className="" />
       {/* <BrandOne className="space-bottom" /> */}
       {/* <BlogTwo className="space-top space-extra-bottom"/> */}
       {/* <ContactTwo/> */}
 
-      <div className="container background-image" ref={contactArea}>
+      <div
+        className="container background-image"
+        ref={contactArea}
+        style={{ backgroundImage: "url(images/shape/process-bg-1-1.jpg)" }}
+      >
         <Toaster />
         <TitleWrap className="text-center">
           <SecTitle className="text-capitalize h1">GET IN TOUCH</SecTitle>
           <p>We would like to hear from you. Send us a message</p>
         </TitleWrap>
-        <div
-          className="row justify-content-center"
-          style={{ backgroundImage: "url(images/shape/process-bg-1-1.jpg)" }}
-        >
+        <div className="row justify-content-center">
           <div className="col-lg-10 col-xl-8">
             <FormThree />
           </div>

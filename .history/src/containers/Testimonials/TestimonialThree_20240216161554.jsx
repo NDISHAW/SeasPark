@@ -41,7 +41,7 @@ const TestimonialThree = ({className})=> {
     // >
     <div
       className={`background-image ${className || ""}`}
-      
+      style={{ backgroundImage: "url(images/bg/testi-bg-4-1.jpg)" }}
     >
       <div className="container">
         {/* <div className="row justify-content-between align-items-center">

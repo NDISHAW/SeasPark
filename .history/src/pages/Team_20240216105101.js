@@ -1,17 +1,17 @@
 import React, {Fragment} from 'react';
 import {Seo, Breadcrumb, ScrollTopBtn} from '../components';
 import {
-  HeaderTwo,
+  HeaderOne,
   TeamFour,
   CtaOne,
   AboutTwo,
-  FooterOne,
-} from "../containers";
+  FooterOne
+} from '../containers';
 
 const Team = ()=> (
   <Fragment>
     <Seo title="Team" />
-    <HeaderTwo />
+    <HeaderT />
     <Breadcrumb pageName="Team" bgImage="images/team/team.jpg" />
     <TeamFour className="space-top space-extra-bottom"/>
     {/* <CtaOne className="space"/> */}

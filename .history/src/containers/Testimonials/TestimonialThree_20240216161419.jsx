@@ -35,13 +35,9 @@ const TestimonialThree = ({className})=> {
   };   
   
   return (
-    // <div
-    //   className={`background-image ${className || ""}`}
-    //   style={{ backgroundImage: "url(images/bg/testi-bg-4-1.jpg)" }}
-    // >
     <div
       className={`background-image ${className || ""}`}
-      
+      style={{ backgroundImage: "url(images/bg/testi-bg-4-1.jpg)" }}
     >
       <div className="container">
         {/* <div className="row justify-content-between align-items-center">
@@ -61,7 +57,7 @@ const TestimonialThree = ({className})=> {
             Our Best Review’s
           </SecTitle>
           <SecSubTitle className="text-capitalize h1">
-            Customer’s Feedback
+            Inspiring Tech Needs for Business
           </SecSubTitle>
         </TitleWrap>
         <Slider className="row testi-style2-slide" {...settings}>

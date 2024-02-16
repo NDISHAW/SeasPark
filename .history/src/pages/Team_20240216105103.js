@@ -1,12 +1,12 @@
 import React, {Fragment} from 'react';
 import {Seo, Breadcrumb, ScrollTopBtn} from '../components';
 import {
-  HeaderTwo,
+  HeaderOne,
   TeamFour,
   CtaOne,
   AboutTwo,
-  FooterOne,
-} from "../containers";
+  FooterOne
+} from '../containers';
 
 const Team = ()=> (
   <Fragment>
