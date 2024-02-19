@@ -36,7 +36,6 @@ const AboutOne = ({ className }) => (
             plan, build, and deliver tailored technology solutions for your
             business challenges.
           </p>
-          
           <InfoMedia
             image="images/icon/tel-1-1.png"
             // title="24 HOURS SERVICE AVAILABLE"

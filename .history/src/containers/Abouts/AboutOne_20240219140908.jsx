@@ -36,7 +36,7 @@ const AboutOne = ({ className }) => (
             plan, build, and deliver tailored technology solutions for your
             business challenges.
           </p>
-          
+          <p className="mb-4 mt-1 pb-3">
           <InfoMedia
             image="images/icon/tel-1-1.png"
             // title="24 HOURS SERVICE AVAILABLE"
@@ -48,7 +48,7 @@ const AboutOne = ({ className }) => (
           <Button path="/about">
             About Us
             <i className="far fa-long-arrow-right" />
-          </Button>
+          </Button></p>
         </div>
       </div>
     </div>
