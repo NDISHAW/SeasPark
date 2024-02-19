@@ -20,7 +20,7 @@ const TestimonialThree = ({className})=> {
     autoplaySpeed: 8000,
     infinite: true,
     arrows: true,
-    // dots: true,
+    dots: true,
     speed: 1000,
     slidesToShow: 2,
     slidesToScroll: 1,
