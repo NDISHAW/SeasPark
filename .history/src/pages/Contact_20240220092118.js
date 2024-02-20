@@ -3,8 +3,7 @@ import {Seo, Breadcrumb, ScrollTopBtn} from '../components';
 import {
   HeaderTwo, 
   ContactTwo, 
-  FooterOne,
-  FaqOne
+  FooterOne
 } from '../containers';
 
 const Contact = () => (
@@ -13,7 +12,7 @@ const Contact = () => (
     <HeaderTwo />
     <Breadcrumb pageName="Contact Us" bgImage="/images/contact/contact11.jpg" />
     <ContactTwo className="space-top space-extra-bottom" />
-    <FaqOne/>
+    <Faq
     <FooterOne />
     <ScrollTopBtn />
   </Fragment>
