@@ -38,7 +38,7 @@ const TeamTwo = ({...restProps})=> {
   };  
   
   return (
-    <div className='' {...restProps}>
+    // <div className='' {...restProps}>
       <div className="container background-image">
         <TitleWrap className="text-center">
           <SecTitle>Meet SeasPark</SecTitle>
@@ -59,7 +59,7 @@ const TeamTwo = ({...restProps})=> {
           ))}
         </Slider></TitleWrap>
       </div>
-    </div>
+    {/* </div> */}
   );
 }
 

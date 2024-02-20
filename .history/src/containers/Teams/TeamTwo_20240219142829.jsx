@@ -39,7 +39,7 @@ const TeamTwo = ({...restProps})=> {
   
   return (
     <div className='' {...restProps}>
-      <div className="container background-image">
+      <div className=" background-image">
         <TitleWrap className="text-center">
           <SecTitle>Meet SeasPark</SecTitle>
           <SecSubTitle className="h1 text-capitalize">

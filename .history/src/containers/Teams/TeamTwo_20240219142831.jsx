@@ -38,26 +38,27 @@ const TeamTwo = ({...restProps})=> {
   };  
   
   return (
-    <div className='' {...restProps}>
-      <div className="container background-image">
+    <div className="container" {...restProps}>
+      <div className=" background-image">
         <TitleWrap className="text-center">
           <SecTitle>Meet SeasPark</SecTitle>
           <SecSubTitle className="h1 text-capitalize">
             Our Team Of Experts
           </SecSubTitle>
-        
-        <Slider {...settings}>
-          {teamMembers.teamMembers.map((member) => (
-            <div key={member.id} className="col-md-6 col-lg-4 col-xl-3">
-              <TeamBoxTwo
-                path={`/team-details/${member.id}`}
-                name={member.name}
-                desgination={member.desgination}
-                image={member.image}
-              />
-            </div>
-          ))}
-        </Slider></TitleWrap>
+
+          <Slider {...settings}>
+            {teamMembers.teamMembers.map((member) => (
+              <div key={member.id} className="col-md-6 col-lg-4 col-xl-3">
+                <TeamBoxTwo
+                  path={`/team-details/${member.id}`}
+                  name={member.name}
+                  desgination={member.desgination}
+                  image={member.image}
+                />
+              </div>
+            ))}
+          </Slider>
+        </TitleWrap>
       </div>
     </div>
   );
