@@ -9,7 +9,7 @@
   },
   {
     "name": "SERVICES",
-    "path": "/service"
+    "path": "/service",
 
   },
   {
@@ -25,4 +25,3 @@
     "path": "/contact"
   }
 ]
-

@@ -166,13 +166,13 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
   <div {...restProps}>
     <div className="container">
       <div className="row flex-row-reverse">
-        <div className="col-lg-12">
+        <div className="col-lg-8">
           <div className="mb-3 pb-3">
-            {/* <img
+            <img
               src={service ? service.image : "/images/team/default-image.jpg"}
               alt="Project"
               className="w-100"
-            /> */}
+            />
           </div>
           <h2 className="h4">{service.title}</h2>
           <p>{service.text}</p>

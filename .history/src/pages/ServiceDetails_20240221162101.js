@@ -35,7 +35,7 @@
 
 import React, { Fragment } from "react";
 import { Seo, Breadcrumb, ScrollTopBtn } from "../components";
-import { HeaderOne, ServiceSingle, FooterOne, HeaderTwo } from "../containers";
+import { HeaderOne, ServiceSingle, FooterOne } from "../containers";
 import { useParams } from "react-router-dom";
 import services from "../data/service.json";
 

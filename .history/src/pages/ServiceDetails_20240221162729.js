@@ -48,7 +48,7 @@ const ServiceDetails = () => {
   return (
     <Fragment>
       <Seo title="Services Details" />
-      <HeaderTwo />
+      <HeaderOne />
       <Breadcrumb
         pageName="Services Details"
         bgImage={ "/images/service/serviced.jpg"}
