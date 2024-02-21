@@ -25,9 +25,7 @@ const About = () => (
     {/* <ServiceFour className="space-top space-extra-bottom" /> */}
     <AboutSeven />
     <AboutFour />
-    <AboutFive />
-    <AboutThree />
-
+    <AboutFour />
     {/* <TeamTwo className="space-top space-extra-bottom" /> */}
 
     {/* <CtaOne className="space" /> */}

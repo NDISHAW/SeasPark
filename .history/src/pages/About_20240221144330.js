@@ -26,7 +26,7 @@ const About = () => (
     <AboutSeven />
     <AboutFour />
     <AboutFive />
-    <AboutThree />
+    <AboutTwo />
 
     {/* <TeamTwo className="space-top space-extra-bottom" /> */}
 
