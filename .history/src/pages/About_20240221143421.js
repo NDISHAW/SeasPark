@@ -17,11 +17,11 @@ const About = () => (
     <Seo title="About Us" />
     <HeaderTwo />
     <Breadcrumb pageName="About Us" bgImage="images/breadcumb/about.jpg" />
-    {/* <ServiceFour className="space-top space-extra-bottom" /> */}
+    <ServiceFour className="space-top space-extra-bottom" />
     <AboutSeven />
     {/* <TeamTwo className="space-top space-extra-bottom" /> */}
 
-    {/* <CtaOne className="space" /> */}
+    <CtaOne className="space" />
     {/* <BlogFour className="space-top space-extra-bottom"/> */}
     <TestimonialThree className="space-top space-extra-bottom" />
     <FooterOne />

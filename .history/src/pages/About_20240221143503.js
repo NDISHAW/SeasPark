@@ -21,7 +21,7 @@ const About = () => (
     <AboutSeven />
     {/* <TeamTwo className="space-top space-extra-bottom" /> */}
 
-    {/* <CtaOne className="space" /> */}
+    <CtaOne className="space" />
     {/* <BlogFour className="space-top space-extra-bottom"/> */}
     <TestimonialThree className="space-top space-extra-bottom" />
     <FooterOne />
