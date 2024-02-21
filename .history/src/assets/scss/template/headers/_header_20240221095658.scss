@@ -1,13 +1,10 @@
 .vs-header {
   position: relative;
   z-index: 41;
-  height: 120px;
-  line-height: 10px;
 }
 
 .will-sticky {
   .sticky-active {
-    height: 90px;
     position: fixed;
     top: -100%;
     right: 0;
@@ -574,10 +571,9 @@
 
 .logo-style1 {
   display: block;
-  height: 100px;
-
+  height: 1%;
   // background: linear-gradient(278.46deg, #00BCFA 0.91%, #0E59F2 71.89%, #0E59F2 100%);
-  padding: 3px 3px 3px 3px;
+  padding: 3px 3px 30px 35px;
   border-radius: 5px 0px 0px 5px;
   padding-left: 100px;
 }
@@ -758,7 +754,6 @@
 
   .header-logo {
     padding: 15px 0;
-    height: 500px;
     display: inline-block;
   }
 

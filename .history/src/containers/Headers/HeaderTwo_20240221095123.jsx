@@ -14,7 +14,7 @@ import {
 
 
 const HeaderTwo = () => (
-  <header className="vs-header header-layout1">
+  <header className="vs-header header-layout">
     <HeaderTop>
       <HeaderTop.Left>
         <List className="header-links style-white">
@@ -41,13 +41,11 @@ const HeaderTwo = () => (
           <i className="fal fa-clock" />
           <span className="header-social style-white">Office Hours:</span>{" "}
           08:00am-5:00pm
-        </p> */}
-        <List className="header-links style-white">
-          <List.Item className="d-none d-xxl-inline-block">
-            <span className="header-social style-white">Office Hours:</span>{" "}
-            08:00am-5:00pm
-          </List.Item>
-        </List>
+        </p> */}<List className="header-links style-white">
+        <List.Item className="d-none d-xxl-inline-block">          
+          <span className="header-social style-white">Office Hours:</span>{" "}
+          08:00am-5:00pm
+        </List.Item></List>
       </HeaderTop.Right>
       <HeaderTop.Right>
         <IconLink className="header-social style-white" title="Follow Us On:">
@@ -57,17 +55,13 @@ const HeaderTwo = () => (
         </IconLink>
       </HeaderTop.Right>
     </HeaderTop>
-
+    
     <HeaderSticky>
       <div className="container">
         <div className="menu-area">
           <div className="row align-items-center justify-content-between">
             <div className="col-auto">
-              <Logo
-                image="images/logo21.png"
-                className="header-logo "
-                style={{ height: "10px" }}
-              />
+              <Logo image="images/logo211.png" className="header-logo" />
             </div>
             <div className="col-auto">
               <MainMenu className="menu-style3 d-none d-lg-block" />

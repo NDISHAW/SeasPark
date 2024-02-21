@@ -14,7 +14,7 @@ import {
 
 
 const HeaderTwo = () => (
-  <header className="vs-header header-layout1">
+  <header className="vs-header header-layout2">
     <HeaderTop>
       <HeaderTop.Left>
         <List className="header-links style-white">
@@ -65,8 +65,7 @@ const HeaderTwo = () => (
             <div className="col-auto">
               <Logo
                 image="images/logo21.png"
-                className="header-logo "
-                style={{ height: "10px" }}
+                className="header-logo logo-style1"
               />
             </div>
             <div className="col-auto">

@@ -66,7 +66,7 @@ const HeaderTwo = () => (
               <Logo
                 image="images/logo21.png"
                 className="header-logo "
-                style={{ height: "10px" }}
+                style={{ height: "50px" }}
               />
             </div>
             <div className="col-auto">
