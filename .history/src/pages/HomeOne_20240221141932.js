@@ -65,7 +65,7 @@ const HomeOne = () => {
           style={{ backgroundImage: "url(images/shape/process-bg-1-1.jpg)" }}
         >
           <div className="col-lg-10 col-xl-8"> */}
-        {/* <FormThree /> */}
+        <FormThree />
         {/* </div>
         </div> */}
       {/* </div> */}
