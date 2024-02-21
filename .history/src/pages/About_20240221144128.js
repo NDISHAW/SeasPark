@@ -12,8 +12,7 @@ import {
   HeaderTwo,
   AboutFive,
   AboutOne,
-  AboutTwo,
-  AboutThree
+  AboutTwo
 } from '../containers';
 
 const About = () => (
@@ -23,7 +22,7 @@ const About = () => (
     <Breadcrumb pageName="About Us" bgImage="images/breadcumb/about.jpg" />
     {/* <ServiceFour className="space-top space-extra-bottom" /> */}
     <AboutSeven />
-    <AboutThree />
+    <AboutTwo />
     {/* <TeamTwo className="space-top space-extra-bottom" /> */}
 
     {/* <CtaOne className="space" /> */}
