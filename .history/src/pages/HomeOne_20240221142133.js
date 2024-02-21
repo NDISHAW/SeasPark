@@ -43,33 +43,33 @@ const HomeOne = () => {
         style={{ backgroundImage: "url(images/bg/ab-bg-1-1.jpg)" }}
       >
         {/* <FeatureOne className="" /> */}
-        <AboutOne className="space-top" />
+        <AboutOne className="" />
       </div>
-      <ServiceThree className="space-top" />
+      <ServiceThree className="" />
       {/* <CounterOne/> */}
       {/* <TeamTwo className="" /> */}
       {/* <FaqOne className="" /> */}
-      <AboutTwo className="space-top" />
+      <AboutTwo className="" />
       {/* <CtaOne className="space-top" /> */}
-      <ProcessOne className="space-top space-extra-bottom" />
+      <ProcessOne className="" />
       {/* <TestimonialThree className="" /> */}
       {/* <BrandOne className="space-bottom" /> */}
       {/* <BlogTwo className="space-top space-extra-bottom"/> */}
       {/* <ContactTwo/> */}
 
       {/* <div className="container background-image" ref={contactArea}> */}
-      {/* <Toaster /> */}
+        {/* <Toaster /> */}
 
-      {/* <div
+        {/* <div
           className="row justify-content-center"
           style={{ backgroundImage: "url(images/shape/process-bg-1-1.jpg)" }}
         >
           <div className="col-lg-10 col-xl-8"> */}
-      {/* <FormThree /> */}
-      {/* </div>
+        {/* <FormThree /> */}
+        {/* </div>
         </div> */}
       {/* </div> */}
-      <FooterOne className="space-top" />
+      <FooterOne />
       <ScrollTopBtn />
     </Fragment>
   );

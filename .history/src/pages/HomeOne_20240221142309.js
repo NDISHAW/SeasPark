@@ -45,13 +45,13 @@ const HomeOne = () => {
         {/* <FeatureOne className="" /> */}
         <AboutOne className="space-top" />
       </div>
-      <ServiceThree className="space-top" />
+      <ServiceThree className="" />
       {/* <CounterOne/> */}
       {/* <TeamTwo className="" /> */}
       {/* <FaqOne className="" /> */}
-      <AboutTwo className="space-top" />
+      <AboutTwo className="" />
       {/* <CtaOne className="space-top" /> */}
-      <ProcessOne className="space-top space-extra-bottom" />
+      <ProcessOne className="" />
       {/* <TestimonialThree className="" /> */}
       {/* <BrandOne className="space-bottom" /> */}
       {/* <BlogTwo className="space-top space-extra-bottom"/> */}
@@ -69,7 +69,7 @@ const HomeOne = () => {
       {/* </div>
         </div> */}
       {/* </div> */}
-      <FooterOne className="space-top" />
+      <FooterOne />
       <ScrollTopBtn />
     </Fragment>
   );

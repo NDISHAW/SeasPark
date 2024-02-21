@@ -51,7 +51,7 @@ const HomeOne = () => {
       {/* <FaqOne className="" /> */}
       <AboutTwo className="space-top" />
       {/* <CtaOne className="space-top" /> */}
-      <ProcessOne className="space-top space-extra-bottom" />
+      <ProcessOne className="space-top" />
       {/* <TestimonialThree className="" /> */}
       {/* <BrandOne className="space-bottom" /> */}
       {/* <BlogTwo className="space-top space-extra-bottom"/> */}
@@ -69,7 +69,7 @@ const HomeOne = () => {
       {/* </div>
         </div> */}
       {/* </div> */}
-      <FooterOne className="space-top" />
+      <FooterOne className= />
       <ScrollTopBtn />
     </Fragment>
   );
