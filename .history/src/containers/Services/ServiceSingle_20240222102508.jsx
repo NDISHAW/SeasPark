@@ -276,14 +276,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
               </div>
             </div>
           </div>
-          {/* <div className="row pt-3 mb-30 pb-10 gy-30">
-            <div className="col-md-6">
-              <img src="/images/service/sr-d-1-3.jpg" alt="project" />
-            </div>
-            <div className="col-md-6">
-              <img src="/images/service/sr-d-1-4.jpg" alt="project" />
-            </div>
-          </div> */}
+          {/* c */}
           <Accordion
             defaultActiveKey={faqData[0].questionId}
             className="accordion-style1 layout2"
