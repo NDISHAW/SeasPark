@@ -299,7 +299,11 @@ import React, { useRef } from "react";
 import {
   InfoMedia,
   Button,
-  ProgressOne
+  ProgressOne,
+  TitleWrap,
+  SecSubTitle,
+  SecTitle,
+  FormThree,
 } from "../../components";
 import { useParams } from "react-router-dom";
 import teamMembers from "../../data/team.json";

@@ -1,6 +1,6 @@
 import React from "react";
 import { Seo, Breadcrumb, ScrollTopBtn } from "../components";
-import { HeaderTwo, TeamSingle, FooterOne } from "../containers";
+import { Header, TeamSingle, FooterOne } from "../containers";
 import { useParams } from "react-router-dom";
 import teamMembers from "../data/team.json";
 
@@ -13,7 +13,7 @@ const TeamDetails = () => {
   return (
     <>
       <Seo title="Team Details" />
-      <HeaderTwo />
+      <Header />
       <Breadcrumb pageName="Team Details" bgImage="/images/team/details.jpg" />
       {teamMember && (
         <TeamSingle

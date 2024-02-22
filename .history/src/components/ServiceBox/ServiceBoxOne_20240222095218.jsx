@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import {Button} from '../';
 
 const ServiceBoxOne = ({bgImage, icon, title, text, path, className,to})=> (
-  <div className={`service-style3 ${className || ''}`}>
+  <div className={`service-style1 ${className || ''}`}>
     <div className="service-bg background-image" style={{backgroundImage: 'url(' + bgImage + ')'}}></div>
     <div className="service-icon">
       <img src={icon} alt="serviceicon"/>

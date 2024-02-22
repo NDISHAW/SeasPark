@@ -306,10 +306,11 @@
   .service-text {
     margin: 0 0 15px 0;
     color: text;
-    overflow: hidden; 
-    display: -webkit-box;
-    -webkit-line-clamp: 3; // Limit text to three lines
-    -webkit-box-orient: vertical;
+    overflow: hidden; // Ensure text overflow is hidden
+    text-overflow: ellipsis; // Add ellipsis for longer text
+    white-space: nowrap; // Prevent text wrapping
+    max-height: 28em; // Limit text to three lines
+    line-height: 1.2em; // Set line height
   }
 
   .service-content {

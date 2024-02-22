@@ -26,7 +26,6 @@
 
   .service-text {
     margin: 0 0 20px 0;
-    height: max-content;
   }
 
   .service-title a {
@@ -268,8 +267,7 @@
 .service-style3 {
   text-align: center;
   margin: 0 0 30px 0;
-  position: relative;
-  height: max-content;
+  position: absolute;
 
   .service-img {
     img {
@@ -299,17 +297,9 @@
     }
   }
 
-  // .service-text {
-  //   margin: 0 0 15px 0;
-  //   color: text;
-  // }
   .service-text {
     margin: 0 0 15px 0;
-    color: text;
-    overflow: hidden; 
-    display: -webkit-box;
-    -webkit-line-clamp: 3; // Limit text to three lines
-    -webkit-box-orient: vertical;
+    color: #BED4FF;
   }
 
   .service-content {

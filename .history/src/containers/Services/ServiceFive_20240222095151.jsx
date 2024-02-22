@@ -12,7 +12,7 @@ const ServiceFive = ({ ...restProps }) => (
         {services.services.map((item) => (
           <div key={item.id} className="col-md-6 col-lg-4">
             <ServiceBoxOne
-              className="layout3"
+              className="layout2"
               path={`/service-details/${item.id}`}
               bgImage={item.bgShape}
               icon={item.icon}

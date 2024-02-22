@@ -35,7 +35,7 @@
 
 import React, { Fragment } from "react";
 import { Seo, Breadcrumb, ScrollTopBtn, HeaderTop, List, IconLink, HeaderSticky, Logo, MainMenu, MobileMenu } from "../components";
-import { HeaderOne, ServiceSingle, FooterOne, HeaderTwo } from "../containers";
+import { HeaderOne, ServiceSingle, FooterOne, HeaderTwo, HeaderThree } from "../containers";
 import { useParams } from "react-router-dom";
 import services from "../data/service.json";
 
@@ -48,7 +48,7 @@ const ServiceDetails = () => {
   return (
     <Fragment>
       <Seo title="Services Details" />
-      <HeaderTwo />
+      <HeaderThree />
       
       <Breadcrumb
         pageName="Services Details"

@@ -303,14 +303,14 @@
   //   margin: 0 0 15px 0;
   //   color: text;
   // }
-  .service-text {
-    margin: 0 0 15px 0;
-    color: text;
-    overflow: hidden; 
-    display: -webkit-box;
-    -webkit-line-clamp: 3; // Limit text to three lines
-    -webkit-box-orient: vertical;
-  }
+    .service-text {
+      margin: 0 0 15px 0;
+      color: text;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3; // Limit text to three lines
+      -webkit-box-orient: vertical;
+    }
 
   .service-content {
     padding: 0 30px 37px 30px;

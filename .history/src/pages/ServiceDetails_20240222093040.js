@@ -48,7 +48,7 @@ const ServiceDetails = () => {
   return (
     <Fragment>
       <Seo title="Services Details" />
-      <HeaderTwo />
+      <HeaderThree />
       
       <Breadcrumb
         pageName="Services Details"

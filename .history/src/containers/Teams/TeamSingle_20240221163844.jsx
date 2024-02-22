@@ -299,7 +299,11 @@ import React, { useRef } from "react";
 import {
   InfoMedia,
   Button,
-  ProgressOne
+  ProgressOne,
+  TitleWrap,
+  SecSubTitle,
+  SecTitle,
+  FormThree,
 } from "../../components";
 import { useParams } from "react-router-dom";
 import teamMembers from "../../data/team.json";
@@ -411,6 +415,14 @@ const TeamSingle = ({ teamMember, ...restProps }) => {
                 }
               />
             </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className="container" ref={contactArea}>
+        <div className="row justify-content-center">
+          <div className="col-lg-10 col-xl-8">
+            <FormThree />
           </div>
         </div>
       </div>
