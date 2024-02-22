@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Logo = ({ className }) => (
   <Link className={`vs-logo ${className || ""}`} to="/">
-    <img src="/images/logo215.png" alt="Logo" />
+    <img src="/images/logo21.png" alt="Logo" />
   </Link>
 );
 
