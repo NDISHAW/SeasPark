@@ -59,6 +59,7 @@ const HeaderTwo = () => (
       </HeaderTop.Right>
     </HeaderTop>
 
+    <HeaderSticky>
       <div className="container">
         <div className="menu-area">
           <div className="row align-items-center justify-content-between">
@@ -86,6 +87,7 @@ const HeaderTwo = () => (
           </div>
         </div>
       </div>
+    </HeaderSticky>
   </header>
 );
 

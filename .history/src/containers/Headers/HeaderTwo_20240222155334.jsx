@@ -59,11 +59,13 @@ const HeaderTwo = () => (
       </HeaderTop.Right>
     </HeaderTop>
 
+    <HeaderSticky>
       <div className="container">
         <div className="menu-area">
           <div className="row align-items-center justify-content-between">
             <div className="col-auto">
               <Logo
+                // image="images/logo21.png"
                 className="header-logo "
                 style={{ height: "10px" }}
               />
@@ -86,6 +88,7 @@ const HeaderTwo = () => (
           </div>
         </div>
       </div>
+    </HeaderSticky>
   </header>
 );
 
