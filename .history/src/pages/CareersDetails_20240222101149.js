@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Seo, Breadcrumb, ScrollTopBtn } from "../components";
-import {  ProjectSingle, FooterOne, HeaderTwo } from "../containers";
+import { HeaderOne, ProjectSingle, FooterOne, HeaderTwo } from "../containers";
 import { useParams } from "react-router-dom";
 import careers from "../data/careers.json";
 

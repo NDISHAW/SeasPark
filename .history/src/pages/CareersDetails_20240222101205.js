@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Seo, Breadcrumb, ScrollTopBtn } from "../components";
-import {  ProjectSingle, FooterOne, HeaderTwo } from "../containers";
+import { HeaderOne, ProjectSingle, FooterOne } from "../containers";
 import { useParams } from "react-router-dom";
 import careers from "../data/careers.json";
 
@@ -11,7 +11,7 @@ export default function CareersDetails() {
   return (
     <Fragment>
       <Seo title="Career-details" />
-      <HeaderTwo />
+      <HeaderOne />
       <Breadcrumb
         pageName="Career Details"
         bgImage="/images/careers/careerbg.jpg"

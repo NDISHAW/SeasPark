@@ -11,7 +11,6 @@ import {
   Logomedia,
   List,
 } from "../../components";
-import { Link } from 'react-router-dom';
 
 
 const HeaderTwo = () => (
@@ -69,7 +68,7 @@ const HeaderTwo = () => (
                 className="header-logo "
                 style={{ height: "10px" }}
               /> */}
-              <Link className="vs-logo header-logo" to="/">
+              <Link className={`vs-logo ${className || ""}`} to="/">
                 <img src="images/logo21.png" alt="Logo" />
               </Link>
             </div>
