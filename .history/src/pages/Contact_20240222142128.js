@@ -14,7 +14,7 @@ const Contact = () => (
     <Breadcrumb pageName="Contact Us" bgImage="/images/contact/contact11.jpg" />
     <ContactTwo className="space-top space-extra-bottom" />
     <FaqOne className="space-extra-bottom" />
-    <FooterOne className="space-extra-top" />
+    <FooterOne className="space-top space-extra-bottom" />
     <ScrollTopBtn />
   </Fragment>
 );

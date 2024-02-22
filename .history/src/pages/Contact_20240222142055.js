@@ -13,8 +13,8 @@ const Contact = () => (
     <HeaderTwo />
     <Breadcrumb pageName="Contact Us" bgImage="/images/contact/contact11.jpg" />
     <ContactTwo className="space-top space-extra-bottom" />
-    <FaqOne className="space-extra-bottom" />
-    <FooterOne className="space-extra-top" />
+    <FaqOne className="space-top space-extra-bottom" />
+    <FooterOne />
     <ScrollTopBtn />
   </Fragment>
 );
