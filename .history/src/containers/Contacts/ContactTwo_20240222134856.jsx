@@ -62,7 +62,7 @@ const ContactTwo = ({ ...restProps }) => (
               </div>
               <div className="col-lg-6 mb-30">
                 <div className="contact-box">
-                  <Toaster />
+                  <Toaster/>
                   <TitleWrap className="">
                     <SecTitle className="text-capitalize h1">
                       GET IN TOUCH
@@ -74,16 +74,7 @@ const ContactTwo = ({ ...restProps }) => (
                   <FormFive />
                 </div>
               </div>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.7754520982653!2d36.860516274965654!3d-1.3100420986775236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMTgnMzYuMiJTIDM2wrA1MSc0Ny4xIkU!5e0!3m2!1sen!2ske!4v1708598896155!5m2!1sen!2ske"
-                title='SeasPark'
-                width="800"
-                height="300"
-                // style="border:0;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+              
             </div>
           </Tab.Pane>
         </Tab.Content>
