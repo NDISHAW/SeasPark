@@ -65,9 +65,11 @@ const HeaderTwo = () => (
           <div className="row align-items-center justify-content-between">
             <div className="col-auto">
               <Logo
+                // image="images/logo21.png"
                 className="header-logo "
                 style={{ height: "10px" }}
               />
+
             </div>
             <div className="col-auto">
               <MainMenu className="menu-style3 d-none d-lg-block" />
