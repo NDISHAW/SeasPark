@@ -155,8 +155,8 @@ const HeaderTwo = () => (
     </HeaderTop>
     <HeaderSticky>
       <div className="container">
-        <div className="row align-items-center justify-content-between">
-          <div className="col-auto"><MobileMenu />
+        <div className="row align-items-center justify-content-between"><MobileMenu />
+          <div className="col-auto">
             <Logo className="header-logo" style={{ height: "10px" }} /> 
             
 

@@ -156,11 +156,12 @@ const HeaderTwo = () => (
     <HeaderSticky>
       <div className="container">
         <div className="row align-items-center justify-content-between">
-          <div className="col-auto"><MobileMenu />
+          <div className="col-auto">
             <Logo className="header-logo" style={{ height: "10px" }} /> 
-            
+            <MobileMenu />
 
           </div>
+
           <div className="col-auto d-none d-lg-block">
             <MainMenu className="menu-style3" />
           </div>

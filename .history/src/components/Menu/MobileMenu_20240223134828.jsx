@@ -29,7 +29,7 @@ const MobileMenu = ()=> {
 
   return (
     <Fragment>
-      <button type="button" onClick={menuOpenHandler} className="vs-menu-toggle d-inline-block d-lg-none justify-end">
+      <button type="button" onClick={menuOpenHandler} className="vs-menu-toggle d-inline-block d-lg-none justify">
         <i className="far fa-bars"></i>
       </button>
       <div ref={menuParent} className={`vs-menu-wrapper ${menuOption ? "vs-body-visible" : ""}`}>
