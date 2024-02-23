@@ -157,11 +157,14 @@ const HeaderTwo = () => (
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-auto">
-            <Logo className="header-logo" style={{ height: "10px" }} /> 
-            <MobileMenu />
-
+            <Logo className="header-logo" style={{ height: "10px" }} />
           </div>
-          <div className="col-auto d-none d-lg-block">
+          <div className="col d-lg-none"> {/* Display MobileMenu only on small screens */}
+            <div className="d-lg-none"> {/* Hide MobileMenu on large screens */}
+              <MobileMenu />
+            </div>
+          </div>
+          <div className="col-auto d-none d-lg-block"> {/* Hide MobileMenu on large screens */}
             <MainMenu className="menu-style3" />
           </div>
         </div>

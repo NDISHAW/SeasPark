@@ -161,7 +161,10 @@ const HeaderTwo = () => (
             <MobileMenu />
 
           </div>
+         
           <div className="col-auto d-none d-lg-block">
+            {" "}
+            {/* Hide MobileMenu on large screens */}
             <MainMenu className="menu-style3" />
           </div>
         </div>

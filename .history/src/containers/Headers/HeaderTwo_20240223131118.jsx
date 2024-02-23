@@ -155,14 +155,27 @@ const HeaderTwo = () => (
     </HeaderTop>
     <HeaderSticky>
       <div className="container">
-        <div className="row align-items-center justify-content-between">
-          <div className="col-auto">
-            <Logo className="header-logo" style={{ height: "10px" }} /> 
-            <MobileMenu />
-
-          </div>
-          <div className="col-auto d-none d-lg-block">
-            <MainMenu className="menu-style3" />
+        <div className="menu-area">
+          <div className="row align-items-center justify-content-between">
+            <div className="col-auto">
+              <Logo className="header-logo " style={{ height: "10px" }} />
+              </HeaderTop.Right>
+              <MobileMenu className="col-auto d-lg-none" />
+            </div>
+            <div className="col-auto">
+              <MainMenu className="menu-style3 d-none d-lg-block" />
+            </div>
+            <div className="col-auto d-none d-lg-block">
+              {/* <div className="header-btns">
+                <Button path="/contact" className="d-none d-xxl-inline-block">
+                  Contact Us
+                  <i className="far fa-arrow-right" />
+                </Button>
+                <IconButton className="style3 sideMenuToggler">
+                  <i className="far fa-bars" />
+                </IconButton>
+              </div> */}
+            </div>
           </div>
         </div>
       </div>

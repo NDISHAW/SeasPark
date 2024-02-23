@@ -157,12 +157,15 @@ const HeaderTwo = () => (
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-auto">
-            <Logo className="header-logo" style={{ height: "10px" }} /> 
-            <MobileMenu />
-
+            <Logo className="header-logo" style={{ height: "10px" }} />
           </div>
-          <div className="col-auto d-none d-lg-block">
+          <div className="col-auto">
             <MainMenu className="menu-style3" />
+          </div>
+          <div className="col-auto d-lg-none">
+            {" "}
+            {/* Display MobileMenu only on small screens */}
+            <MobileMenu />
           </div>
         </div>
       </div>

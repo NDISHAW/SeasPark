@@ -161,6 +161,7 @@ const HeaderTwo = () => (
             <MobileMenu />
 
           </div>
+         
           <div className="col-auto d-none d-lg-block">
             <MainMenu className="menu-style3" />
           </div>
