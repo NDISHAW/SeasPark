@@ -111,22 +111,22 @@ import { Link } from 'react-router-dom';
 const HeaderTwo = () => (
   <header className="vs-header header-layout1">
     {/* <HeaderTop /> */}
-        <HeaderTop>
-       <HeaderTop.Left>
-        <List className="header-links style-white">
-           <List.Item>
-            <i className="far fa-phone-alt" />
-             <a href="tel:+254780170536">(+254) 780 170 536</a>
-           </List.Item>
-          <List.Item>
-             <i className="far fa-envelope" />
-             <a href="mailto:info@seaspark.co.ke">info@seaspark.co.ke</a>
-           </List.Item>
-           <List.Item className="d-none d-xxl-inline-block">
-             <i className="far fa-map-marker-alt" />
-             Sasio Rd, Off Lunga Lunga Rd, Nairobi-Kenya
-           </List.Item>
-         </List>
+    //     <HeaderTop>
+//       <HeaderTop.Left>
+//         <List className="header-links style-white">
+//           <List.Item>
+//             <i className="far fa-phone-alt" />
+//             <a href="tel:+254780170536">(+254) 780 170 536</a>
+//           </List.Item>
+//           <List.Item>
+//             <i className="far fa-envelope" />
+//             <a href="mailto:info@seaspark.co.ke">info@seaspark.co.ke</a>
+//           </List.Item>
+//           <List.Item className="d-none d-xxl-inline-block">
+//             <i className="far fa-map-marker-alt" />
+//             Sasio Rd, Off Lunga Lunga Rd, Nairobi-Kenya
+//           </List.Item>
+//         </List>
          {/* <p className="note_style1">
            <span className="note_title">Now Hiring:</span>Are you a motivated IT
            Support Engineer?

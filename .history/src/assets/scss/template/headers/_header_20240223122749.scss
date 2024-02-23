@@ -3,7 +3,6 @@
   z-index: 41;
   height: 120px;
   line-height: 10px;
-  padding-top: 20px
 }
 
 // .will-sticky {
@@ -29,14 +28,14 @@
   left: 0;
   width: 100%;
   background-color: #ffffff;
-  padding: 10px 20px;
+  padding: 10px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: top 0.3s ease-in-out; // Smooth transition when showing/hiding
 }
 
 .sticky-wrapper.show-header-top .header-top {
   top: -120px; // Hiding the header when the user scrolls down
-  padding-top: 300px
+  
 }
 
 .will-sticky {
@@ -49,7 +48,7 @@
     background-color: #ffffff;
     transition: all ease 0.5s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 80; 
+
     &.active {
       top: 0;
     }
