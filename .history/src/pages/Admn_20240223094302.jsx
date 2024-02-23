@@ -468,7 +468,7 @@ import axios from "axios";
 import { List, Button, TableOne, Seo, TitleWrap, SecTitle } from "../components";
 import { HeaderTwo } from "../containers";
 import Breadcrumb from '../components/Breadcrumb/Breadcrumb';
-import { Toaster, toast } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 
 const CareerForm = ({ onSubmit }) => {
   const [title, setTitle] = useState("");
@@ -515,7 +515,6 @@ const CareerForm = ({ onSubmit }) => {
       setCategory("");
       setExperience("");
     } catch (error) {
-      toast.error(error);
       console.error("Error creating job opening:", error);
     }
   };
@@ -523,7 +522,7 @@ const CareerForm = ({ onSubmit }) => {
   return (
     <div className="container">
       <div className="row">
-        <Toaster/>
+        <Toaster
         <form onSubmit={handleSubmit} className="row gx-20 form-style3">
           <div className="col-md-3 form-group mb-30">
             <input

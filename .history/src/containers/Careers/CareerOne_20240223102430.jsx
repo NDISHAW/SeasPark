@@ -35,15 +35,17 @@ export default function CareerOne({ ...restProps }) {
           <br /> <br />
           {careers.map((item) => (
             <div key={item.id} className="col-md-6 col-lg-4 col-xl-3">
+              
               <CareerBox
                 path={`/careers-details/${item.id}`}
                 // image={item.image}
                 image={`/images/icon/process-2-2.png`}
                 icon={item.icon}
                 title={item.title}
-                text={item.descriptions.slice(0, 53)}
+                text={item.text.slice(0, 53)}
               />
             </div>
+            
           ))}
         </div>
       </div>

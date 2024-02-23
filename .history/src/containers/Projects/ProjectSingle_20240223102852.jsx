@@ -41,8 +41,8 @@ const ProjectSingle = ({ career, ...restProps }) => {
           </div> */}
             <h2 className="h4">{career.title}</h2>
             <List className="list-style2">
-              {career.feature.map((list, index) => (
-                <List.Item key={index}>
+              {item.feature.map((list, index) => (
+                <List.Item>
                   <i className="fas fa-check-circle" />
                   {list.description}
                 </List.Item>

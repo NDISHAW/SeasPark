@@ -41,24 +41,24 @@ const ProjectSingle = ({ career, ...restProps }) => {
           </div> */}
             <h2 className="h4">{career.title}</h2>
             <List className="list-style2">
-              {career.feature.map((list, index) => (
-                <List.Item key={index}>
-                  <i className="fas fa-check-circle" />
-                  {list.description}
-                </List.Item>
-                // <List.Item>
-                //   <i className="fas fa-check-circle" />
-                //   Exp: 2-3 yrs
-                // </List.Item>
-                // <List.Item>
-                //   <i className="fas fa-map-marker-alt" />
-                //   Nairobi
-                // </List.Item>
-                // <List.Item>
-                //   <i className="fas fa-check-circle" />
-                //   Job No: 010 {career.id}
-                // </List.Item>
-              ))}
+              {item.feature.map((list, index) => (
+              <List.Item>
+                <i className="fas fa-check-circle" />
+                Description
+              </List.Item>
+              // <List.Item>
+              //   <i className="fas fa-check-circle" />
+              //   Exp: 2-3 yrs
+              // </List.Item>
+              // <List.Item>
+              //   <i className="fas fa-map-marker-alt" />
+              //   Nairobi
+              // </List.Item>
+              // <List.Item>
+              //   <i className="fas fa-check-circle" />
+              //   Job No: 010 {career.id}
+              // </List.Item>
+             ))} 
             </List>
             <h3 className="h5 pt-xl-3">Job Description:</h3>
             <p>

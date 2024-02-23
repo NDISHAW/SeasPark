@@ -515,7 +515,7 @@ const CareerForm = ({ onSubmit }) => {
       setCategory("");
       setExperience("");
     } catch (error) {
-      toast.error(error);
+      Toast.error(error)
       console.error("Error creating job opening:", error);
     }
   };

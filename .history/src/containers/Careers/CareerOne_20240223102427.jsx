@@ -41,7 +41,7 @@ export default function CareerOne({ ...restProps }) {
                 image={`/images/icon/process-2-2.png`}
                 icon={item.icon}
                 title={item.title}
-                text={item.descriptions.slice(0, 53)}
+                text={item.descriptionsdescriptions}
               />
             </div>
           ))}

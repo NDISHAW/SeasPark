@@ -1,9 +1,8 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment } from "react";
 import { Seo, Breadcrumb, ScrollTopBtn } from "../components";
 import {  ProjectSingle, FooterOne, HeaderTwo } from "../containers";
 import { useParams } from "react-router-dom";
-// import careers from "../data/careers.json";
-import axios from "axios";
+import careers from "../data/careers.json";
 
 export default function CareersDetails() {
       const [careers, setCareers] = useState([]);

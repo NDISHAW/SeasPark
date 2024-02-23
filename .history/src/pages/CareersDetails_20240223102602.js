@@ -3,7 +3,6 @@ import { Seo, Breadcrumb, ScrollTopBtn } from "../components";
 import {  ProjectSingle, FooterOne, HeaderTwo } from "../containers";
 import { useParams } from "react-router-dom";
 // import careers from "../data/careers.json";
-import axios from "axios";
 
 export default function CareersDetails() {
       const [careers, setCareers] = useState([]);
