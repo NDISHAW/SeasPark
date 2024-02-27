@@ -28,7 +28,7 @@ const AboutThree = () => (
             <i className="fas fa-bring-forward" />
             ABOUT OUR COMPANY
           </SecSubTitle> */}
-          <SecTitle>About Our Company</SecTitle>
+          <SecTitle>Connecting people & technology</SecTitle>
           <p className="mb-6 pb-2 pe-xl-12">
             SeasPark Consultancy Ltd specializes in Business & Technology
             Consultancy having particular attention to Staffing & Recruiting,

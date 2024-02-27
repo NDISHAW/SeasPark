@@ -33,10 +33,10 @@ const About = () => (
               // style={{ backgroundImage: `url(${bgImage})` }}
             ></div>
 
-            <SecSubTitle>MISSION</SecSubTitle>
+            <SecSubTitle>VISION</SecSubTitle>
             <p className="service-text">
               To become a tusted business partner for our clients in Business
-              consulting and process through technology.
+              consulting and process through technology
             </p>
           </div>
         </div>
@@ -51,7 +51,7 @@ const About = () => (
             <SecSubTitle> VISION</SecSubTitle>
             <p className="service-text">
               To build trust in our customers by providing them tailor-made
-              solutions to their unique problems.
+              solutions to their unique problems
             </p>
           </div>
         </div>

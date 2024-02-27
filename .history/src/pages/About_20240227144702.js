@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import {Seo, Breadcrumb, ScrollTopBtn, InfoMedia, ServiceBoxThree, ServiceBoxTwo, SecSubTitle, SecTitle} from '../components';
+import {Seo, Breadcrumb, ScrollTopBtn, InfoMedia, ServiceBoxThree, ServiceBoxTwo} from '../components';
 import {
   HeaderOne,
   ServiceFour, 
@@ -32,11 +32,10 @@ const About = () => (
               className="service-shape background-image"
               // style={{ backgroundImage: `url(${bgImage})` }}
             ></div>
-
-            <SecSubTitle>MISSION</SecSubTitle>
+            <h3 className="sectitle h5">VISION</h3>
             <p className="service-text">
-              To become a tusted business partner for our clients in Business
-              consulting and process through technology.
+              To build trust in our customers by providing them tailor-made
+              solutions to their unique problems
             </p>
           </div>
         </div>
@@ -48,10 +47,10 @@ const About = () => (
               className="service-shape background-image"
               // style={{ backgroundImage: `url(${bgImage})` }}
             ></div>
-            <SecSubTitle> VISION</SecSubTitle>
+            <h3 className="service-title h5">MISSION</h3>
             <p className="service-text">
               To build trust in our customers by providing them tailor-made
-              solutions to their unique problems.
+              solutions to their unique problems
             </p>
           </div>
         </div>

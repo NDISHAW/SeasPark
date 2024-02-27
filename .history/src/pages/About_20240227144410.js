@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import {Seo, Breadcrumb, ScrollTopBtn, InfoMedia, ServiceBoxThree, ServiceBoxTwo, SecSubTitle, SecTitle} from '../components';
+import {Seo, Breadcrumb, ScrollTopBtn, InfoMedia, ServiceBoxThree, ServiceBoxTwo} from '../components';
 import {
   HeaderOne,
   ServiceFour, 
@@ -24,35 +24,46 @@ const About = () => (
     <Breadcrumb pageName="About Us" bgImage="images/breadcumb/about.jpg" />
     {/* <ServiceFour className="space-top space-extra-bottom" /> */}
     <AboutThree />
-    <div className="row gx-0 align-items-center flex-row-reverse justify-content-center mt-sm-3 pt-sm-3 mb-30 pb-10">
+    <div className="row gx-0 align-items-center flex-row-reverse justify-content-end mt-sm-3 pt-sm-3 mb-30 pb-10">
+      <div className="col-sm-auto">
+        <InfoMedia
+          className="about-call"
+          icon="fas fa-phone-alt"
+          title="MISSION"
+          info="To build trust in our customers by providing them tailor-made solutions to their unique problems"
+        />
+      </div>
+      <div className="col-sm-auto">
+        <InfoMedia
+          className="about-call"
+          icon="fas fa-phone-alt"
+          title="VISION"
+          info="To become a tusted business partner for our clients in Business consulting and process through technology"
+        />
+      </div>
+    </div>
+    <div className="row gx-0 align-items-center flex-row-reverse justify-content-end mt-sm-3 pt-sm-3 mb-30 pb-10">
       <div className="col-md-6 col-lg-4">
-        <div className="service-style2">
-          <div className="service-content">
-            <div
-              className="service-shape background-image"
-              // style={{ backgroundImage: `url(${bgImage})` }}
-            ></div>
-
-            <SecSubTitle>MISSION</SecSubTitle>
-            <p className="service-text">
-              To become a tusted business partner for our clients in Business
-              consulting and process through technology.
-            </p>
-          </div>
-        </div>
+        <ServiceBoxTwo
+          // image={image}
+          icon="/images/icon/sr-icon-3-2.png"
+          title="MISSION"
+          text="To build trust in our customers by providing them tailor-made solutions to their unique problems"
+        />
       </div>
       <div className="col-md-6 col-lg-4">
         <div className="service-style2">
+          */}
           <div className="service-content">
             <div
               className="service-shape background-image"
               // style={{ backgroundImage: `url(${bgImage})` }}
             ></div>
-            <SecSubTitle> VISION</SecSubTitle>
+            <h3 className="service-title h5">Mission</h3>
             <p className="service-text">
               To build trust in our customers by providing them tailor-made
-              solutions to their unique problems.
-            </p>
+              solutions to their unique problems
+            </p>          
           </div>
         </div>
       </div>

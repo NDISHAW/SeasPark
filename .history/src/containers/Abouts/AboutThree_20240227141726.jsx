@@ -24,12 +24,12 @@ const AboutThree = () => (
           />
         </div>
         <div className=" col-xl-6 align-self-center text-center text-xl-start">
-          {/* <SecSubTitle>
+          <SecSubTitle>
             <i className="fas fa-bring-forward" />
             ABOUT OUR COMPANY
-          </SecSubTitle> */}
-          <SecTitle>About Our Company</SecTitle>
-          <p className="mb-6 pb-2 pe-xl-12">
+          </SecSubTitle>
+          <SecTitle>Connecting people & technology</SecTitle>
+          <p className="mb-8 pb-2 pe-xl-5">
             SeasPark Consultancy Ltd specializes in Business & Technology
             Consultancy having particular attention to Staffing & Recruiting,
             SAP Services such as SAP implementations, Roll-outs, Upgrates &

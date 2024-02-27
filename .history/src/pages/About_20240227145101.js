@@ -36,7 +36,7 @@ const About = () => (
             <SecSubTitle>MISSION</SecSubTitle>
             <p className="service-text">
               To become a tusted business partner for our clients in Business
-              consulting and process through technology.
+              consulting and process through technology
             </p>
           </div>
         </div>
