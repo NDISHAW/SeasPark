@@ -311,11 +311,11 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
         <div className="col-lg-12">
           <div className="mb-3 pb-3">
             {/* Image */}
-            {/* <img
+            <img
               src={service ? service.image : "/images/team/default-image.jpg"}
               alt="Project"
               className="w-100"
-            /> */}
+            />
           </div>
           <h2 className="h4">{service.title}</h2>
           <p>{service.text}</p>
@@ -354,7 +354,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
               </div>
             </div>
           ))}
-          {/* <Accordion
+          <Accordion
             defaultActiveKey={faqData[0].questionId}
             className="accordion-style1 layout2"
           >
@@ -366,7 +366,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                 </Accordion.Body>
               </Accordion.Item>
             ))}
-          </Accordion> */}
+          </Accordion>
         </div>
         {/* <div className="col-lg-4">
           <SidebarTwo />

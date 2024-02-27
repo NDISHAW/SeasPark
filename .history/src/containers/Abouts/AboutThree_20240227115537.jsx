@@ -30,11 +30,16 @@ const AboutThree = () => (
           </SecSubTitle>
           <SecTitle>Connecting people & technology</SecTitle>
           <p className="mb-4 pb-2 pe-xl-5">
-            SeasPark Consultancy Ltd is a Kenyan based consultancy firm that
-            offers Business and Technology Solutions. We provide advanced
-            solutions to complex challenges experienced by Businesses. Our Key
-            areas of focus include Staffing & Recruitment and Business Solutions
-            & Consulting which involves SAP Services and SAP Business Solutions.
+            The company was incorporated in December 2023 with a focus on
+            Business & Technology Consultancy having particular attention to
+            Staffing & Recruiting, SAP Services such as SAP implementations,
+            Roll-outs, Upgrates & Migrations, Expert Consultancy and SAP
+            Licensed Sales, while our SAP Business Solutions portfolio includes
+            ERP Solutions (SAP ECC, S4HANA, SAP Business One, SAP Business
+            ByDesign, SAP Business Planning & Consolidation, SAP EHS, GRC),
+            Human Resource Solutions (Classic HR & SAP SuccessFactors), Data &
+            Analytics Solutions (Business Intelligence - SAP BW on HANA &
+            BW/4HANA, SAP HANA Data Warehouse Cloud, SAP Analytics Cloud).
           </p>
           <div className="row gx-60 mb-4 pb-1 gy-2 text-start justify-content-center justify-content-xl-start">
             <div className="col-auto">

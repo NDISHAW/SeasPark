@@ -311,50 +311,31 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
         <div className="col-lg-12">
           <div className="mb-3 pb-3">
             {/* Image */}
-            {/* <img
+            <img
               src={service ? service.image : "/images/team/default-image.jpg"}
               alt="Project"
               className="w-100"
-            /> */}
+            />
           </div>
           <h2 className="h4">{service.title}</h2>
           <p>{service.text}</p>
           {/* Iterate through services */}
-          {service.services.map((subService, index) => (
-            <div key={index}>
-              {/* Alphabetical Heading */}
-              <h3 className="h5">
-                {String.fromCharCode(65 + index)}. {subService.title}
-              </h3>
+          {service.services.map((subService) => (
+            <div key={subService.title}>
+              <h3 className="h5">{subService.title}</h3>
               <p>{subService.text}</p>
               {/* Iterate through sub-services */}
               <div>
-                {subService.subServices.map((subSubService, subIndex) => (
-                  <div key={subIndex}>
-                    {/* Roman Numeral Heading */}
-                    <h4>
-                      {toRoman(subIndex + 1)}. {subSubService.title}
-                    </h4>
+                {subService.subServices.map((subSubService) => (
+                  <div key={subSubService.title}>
+                    <h4>{subSubService.title}</h4>
                     <p>{subSubService.text}</p>
-                    {/* Iterate through sub-sub-services */}
-                    {subSubService.subSubServices &&
-                      subSubService.subSubServices.length > 0 && (
-                        <ul>
-                          {subSubService.subSubServices.map(
-                            (item, itemIndex) => (
-                              <li key={itemIndex}>
-                                {toAlphabetic(itemIndex + 1)}. {item}
-                              </li>
-                            )
-                          )}
-                        </ul>
-                      )}
                   </div>
                 ))}
               </div>
             </div>
           ))}
-          {/* <Accordion
+          <Accordion
             defaultActiveKey={faqData[0].questionId}
             className="accordion-style1 layout2"
           >
@@ -366,7 +347,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                 </Accordion.Body>
               </Accordion.Item>
             ))}
-          </Accordion> */}
+          </Accordion>
         </div>
         {/* <div className="col-lg-4">
           <SidebarTwo />
@@ -375,27 +356,5 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
     </div>
   </div>
 );
-
-// Function to convert number to Roman numeral
-function toRoman(num) {
-  const romanNumerals = [
-    "I",
-    "II",
-    "III",
-    "IV",
-    "V",
-    "VI",
-    "VII",
-    "VIII",
-    "IX",
-    "X",
-  ];
-  return romanNumerals[num - 1] || num;
-}
-
-// Function to convert number to Alphabetic characters
-function toAlphabetic(num) {
-  return String.fromCharCode(65 + num - 1);
-}
 
 export default ServiceSingle;

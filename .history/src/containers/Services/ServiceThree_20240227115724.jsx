@@ -70,7 +70,7 @@ const ServiceThree = ({className})=> {
                 image={item.image}
                 icon={item.icon}
                 title={item.title}
-                text={item.text.slice(90, 53)}
+                text={item.text.slice(20, 53)}
               />
             </div>
           ))}

@@ -37,20 +37,7 @@ const AboutSeven = () => (
               Data & Analytics Solutions (Business Intelligence - SAP BW on HANA
               & BW/4HANA, SAP HANA Data Warehouse Cloud, SAP Analytics Cloud).
             </p>
-            <div className="row gx-0 align-items-center flex-row-reverse justify-content-end mt-sm-3 pt-sm-3 mb-30 pb-10">
-              <div className="col-sm-auto">
-                <p className="author-degi">Founder & CEO</p>
-                <h3 className="h5 author-name">Rowland Simiyu</h3>
-              </div>
-              <div className="col-sm-auto">
-                <InfoMedia
-                  className="about-call"
-                  icon="fas fa-phone-alt"
-                  title="Call To Ask Any Queary"
-                  info={<a href="tel:+25821562154">+(254) 780 170 536</a>}
-                />
-              </div>
-            </div>
+            
             <Button path="/service">
               Order Service
               <i className="far fa-long-arrow-right" />

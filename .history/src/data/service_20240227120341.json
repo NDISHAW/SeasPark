@@ -1,0 +1,67 @@
+{
+  "services":[
+    {
+      "id": "1",
+      "path": "/service-details",
+      "image": "/images/service/recruit.jpg",
+      "icon": "/images/icon/sr-icon-3-1.png",
+      "bgShape": "/images/bg/sr-box-bg-1.jpg",
+      "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
+      "title": "Staffing & Recruitment",
+      "text": "We Leverage on our rich, diverse and experienced talent pool to deliver effective staffing and recruitment solutions to our clients. We find the best combination of exemplary skills and cultural fit for our clients thus matching people with growth & success. We specialize in identifying candidates and use our extensive database and innovative screening platforms to locate top talent, flush them to the surface and attract them to your organization. We take the initiative to help you zero in and acquire the best on the market.      Our Talent Acquisition Expert Services incluides:",
+      "title2":"Executive Search Attract Leading Executives who outperform your expectations",
+      "text2":"You can trust us to be your partner by using our proven methodology to cut through the uncertainty. As an expert, our framework is built to assess how an executive’s vision pairs with your company culture for achieving generational growth.",
+      ""
+    },
+    {
+      "id": "2",
+      "path": "/service-details",
+      "image": "/images/service/erp.jpg",
+      "icon": "/images/icon/sr-icon-3-2.png",
+      "bgShape": "/images/bg/sr-box-bg-1.jpg",
+      "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
+      "title": "SAP Services",
+      "text": "SeasPark's Recruiting Process Outsourcing offers a strategic, seamless approach. Our SCRUM, PMP, and SHRM certified teams handle everything, ensuring a seamless, strategic approach to your urgent demand RPO projects."
+    },
+    {
+      "id": "3",
+      "path": "/service-details",
+      "image": "/images/service/solutions.jpg",
+      "icon": "/images/icon/sr-icon-3-3.png",
+      "bgShape": "/images/bg/sr-box-bg-1.jpg",
+      "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
+      "title": "SAP Business Solutions",
+      "text": "SeasPark offers strategic consulting expertise in areas like enterprise application support, custom application development, and cutting-edge technologies such as cloud, voice interfaces, and IoT."
+    },
+    {
+      "id": "4",
+      "path": "/service-details",
+      "image": "/images/service/platform.jpg",
+      "icon": "/images/icon/sr-icon-3-4.png",
+      "bgShape": "/images/bg/sr-box-bg-1.jpg",
+      "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
+      "title": "Digital Platform",
+      "text": "Let SeasPark's technologists guide you through a process of planning, building, and delivering technology solutions tailored to solve your unique business challenges."
+    },
+    {
+      "id": "5",
+      "path": "/service-details",
+      "image": "/images/service/training.jpg",
+      "icon": "/images/icon/sr-icon-3-5.png",
+      "bgShape": "/images/bg/sr-box-bg-1.jpg",
+      "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
+      "title": "Trainings",
+      "text": "Explore a world beyond IT staffing. SeasPark excels in recruiting Senior Managers, Directors, and VPs, ensuring your organization is powered by leaders who drive business success."
+    },
+    {
+      "id": "6",
+      "path": "/service-details",
+      "image": "/images/service/data.jpg",
+      "icon": "/images/icon/sr-icon-1-6.png",
+      "bgShape": "/images/bg/sr-box-bg-1.jpg",
+      "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
+      "title": "Data & Analytics",
+      "text": "Explore our RPO's Three Pillars—People, Process, and Platform—optimized to meet your requirements, ensuring top-tier human resources despite short timelines and complex needs."
+    }
+  ]
+}

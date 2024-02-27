@@ -23,11 +23,10 @@ const About = () => (
     <HeaderTwo />
     <Breadcrumb pageName="About Us" bgImage="images/breadcumb/about.jpg" />
     {/* <ServiceFour className="space-top space-extra-bottom" /> */}
-    <AboutThree />
     <AboutSeven />
     {/* <AboutFour /> */}
     {/* <AboutFive /> */}
-    
+    <AboutThree />
 
     {/* <TeamTwo className="space-top space-extra-bottom" /> */}
 
