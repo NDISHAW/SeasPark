@@ -65,7 +65,7 @@ const About = () => (
 
     {/* <CtaOne className="space" /> */}
     {/* <BlogFour className="space-top space-extra-bottom"/> */}
-    <TestimonialThree className="space-extra-bottom" />
+    <TestimonialThree className=" space-extra-bottom" />
     <FooterOne />
     <ScrollTopBtn />
   </Fragment>

@@ -42,7 +42,7 @@ const About = () => (
         </div>
       </div>
       <div className="col-md-4 col-lg-3">
-        <div className="service-style1">
+        <div className="service-style2">
           <div className="service-content">
             <div
               className="service-shape background-image"
@@ -65,7 +65,7 @@ const About = () => (
 
     {/* <CtaOne className="space" /> */}
     {/* <BlogFour className="space-top space-extra-bottom"/> */}
-    <TestimonialThree className="space-extra-bottom" />
+    <TestimonialThree className="space-top space-extra-bottom" />
     <FooterOne />
     <ScrollTopBtn />
   </Fragment>
