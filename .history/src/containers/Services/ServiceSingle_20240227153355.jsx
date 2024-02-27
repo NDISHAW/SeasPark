@@ -295,7 +295,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
   </div>
 );
 
-// export default ServiceSingle;
+export default ServiceSingle;
 
 
 
