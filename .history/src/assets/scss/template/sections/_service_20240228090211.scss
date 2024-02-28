@@ -307,9 +307,10 @@
     // max-height: 1000px;
     // margin: 0 0 15px 0;
     color: #36454F;
+     /* Set a fixed height */
     overflow: hidden;
-    text-overflow: ellipsis;
-    // white-space: nowrap;
+    // text-overflow: ellipsis;
+    white-space: nowrap;
     margin-bottom: 30px; /* Adjust as needed */
   }
 

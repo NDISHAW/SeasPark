@@ -26,7 +26,7 @@ const ServiceFive = ({ ...restProps }) => (
               icon={item.icon}
               title={item.title}
               // text={truncateText(item.text, 80)}
-              text={truncateText(item.text, 30, 10)}
+              text={item.text}
             />
           </div>
         ))}

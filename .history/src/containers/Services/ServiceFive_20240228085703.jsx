@@ -5,7 +5,7 @@ import {ServiceBoxOne} from '../../components';
 // Service Data
 import services from '../../data/service.json';
 
-const truncateText = (text, maxLength, minWordsToShow) => {
+const truncateText = (text, maxLength) => {
   const words = text.trim().split(" ");
   if (words.length <= maxLength) {
     return text;
@@ -26,7 +26,6 @@ const ServiceFive = ({ ...restProps }) => (
               icon={item.icon}
               title={item.title}
               // text={truncateText(item.text, 80)}
-              text={truncateText(item.text, 30, 10)}
             />
           </div>
         ))}
