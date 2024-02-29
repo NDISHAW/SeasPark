@@ -298,165 +298,6 @@
 // export default ServiceSingle;
 
 
-// import React from "react";
-// import Accordion from "react-bootstrap/Accordion";
-// import { List, SecSubTitle, SecTitle } from "../../components";
-// import SidebarTwo from "../Sidebars/SidebarTwo";
-
-// const ServiceSingle = ({ service, className, ...restProps }) => (
-//   <div {...restProps}>
-//     <div className="container">
-//       <div className="row flex-row-reverse">
-//         <div className="col-lg-9">
-//           <div className="mb-3 pb-3">
-//             {/* Image */}
-//             {/* {service && service.image && (
-//               <img src={service.image} alt="Project" className="w-100" />
-//             )} */}
-//           </div>
-//           <SecTitle>{service && service.title}</SecTitle>
-
-//           <p>{service && service.text}</p>
-//           <div className="row gx-0 mb-4 pb-2 pt-3">
-//             <div className="col-xl-6">
-//               <img
-//                 src="/images/service/sap.jpg"
-//                 alt="project"
-//                 className="w-100"
-//               />
-//             </div>
-//             {/* Services Features */}
-//             <div className="col-xl-6">
-//               <div className="service-list-box">
-//                 <SecTitle>Features</SecTitle>
-//                 <List className="list-style3">
-//                   {service &&
-//                     service.services &&
-//                     service.services.map((subService, index) => (
-//                       <div key={index}>
-//                         {/* Alphabetical Heading */}
-//                         {String.fromCharCode(65 + index)}. {subService.title}
-//                         {/* Iterate through sub-services */}
-//                         <List className="list-style3">
-//                           {subService.subServices &&
-//                             subService.subServices.map(
-//                               (subSubService, subIndex) => (
-//                                 <List className="list-style3" key={subIndex}>
-//                                   {/* Roman Numeral Heading */}
-//                                   {toRoman(subIndex + 1)}. {subSubService.title}
-//                                   {/* Iterate through sub-sub-services */}
-//                                   {subSubService.subSubServices &&
-//                                     subSubService.subSubServices.length > 0 && (
-//                                       <List className="list-style3">
-//                                         {subSubService.subSubServices.map(
-//                                           (item, itemIndex) => (
-//                                             <List.Item key={itemIndex}>
-//                                               {toAlphabetic(itemIndex + 1)}.{" "}
-//                                               {item}
-//                                             </List.Item>
-//                                           )
-//                                         )}
-//                                       </List>
-//                                     )}
-//                                 </List>
-//                               )
-//                             )}
-//                         </List>
-//                       </div>
-//                     ))}
-//                 </List>
-//               </div>
-//             </div>
-//           </div>
-//           {/* Iterate through services */}
-//           {service &&
-//             service.services &&
-//             service.services.map((subService, index) => (
-//               <div key={index}>
-//                 {/* Alphabetical Heading */}
-//                 <SecSubTitle className="h">
-//                   <h3 className="h4">
-//                     {String.fromCharCode(65 + index)}. {subService.title}
-//                   </h3>
-//                 </SecSubTitle>
-//                 <p>{subService.text}</p>
-//                 {/* Iterate through sub-services */}
-//                 <List className="list-style3">
-//                   {subService.subServices &&
-//                     subService.subServices.map((subSubService, subIndex) => (
-//                       <List className="list-style3" key={subIndex}>
-//                         {/* Roman Numeral Heading */}
-//                         <h6>
-//                           {toRoman(subIndex + 1)}. {subSubService.title}
-//                         </h6>
-//                         <p>{subSubService.text}</p>
-//                         {/* Iterate through sub-sub-services */}
-//                         {subSubService.subSubServices &&
-//                           subSubService.subSubServices.length > 0 && (
-//                             <List className="list-style3">
-//                               {subSubService.subSubServices.map(
-//                                 (item, itemIndex) => (
-//                                   <List.Item key={itemIndex}>
-//                                     {toAlphabetic(itemIndex + 1)}. {item}
-//                                   </List.Item>
-//                                 )
-//                               )}
-//                             </List>
-//                           )}
-//                       </List>
-//                     ))}
-//                 </List>
-//               </div>
-//             ))}
-
-//           {/* <Accordion
-//             defaultActiveKey={faqData[0].questionId}
-//             className="accordion-style1 layout2"
-//           >
-//             {faqData.map((item) => (
-//               <Accordion.Item key={item.questionId} eventKey={item.questionId}>
-//                 <Accordion.Header>{item.question}</Accordion.Header>
-//                 <Accordion.Body>
-//                   <p>{item.answer}</p>
-//                 </Accordion.Body>
-//               </Accordion.Item>
-//             ))}
-//           </Accordion> */}
-//         </div>
-//         <div className="col-lg-3">
-//           <SidebarTwo />
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-// );
-
-// // Function to convert number to Roman numeral
-// function toRoman(num) {
-//   const romanNumerals = [
-//     "I",
-//     "II",
-//     "III",
-//     "IV",
-//     "V",
-//     "VI",
-//     "VII",
-//     "VIII",
-//     "IX",
-//     "X",
-//   ];
-//   return romanNumerals[num - 1] || num;
-// }
-
-// // Function to convert number to Alphabetic characters
-// function toAlphabetic(num) {
-//   return String.fromCharCode(65 + num - 1);
-// }
-
-// export default ServiceSingle;
-
-
-
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { List, SecSubTitle, SecTitle } from "../../components";
@@ -466,7 +307,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
   <div {...restProps}>
     <div className="container">
       <div className="row flex-row-reverse">
-        <div className="col-lg-12">
+        <div className="col-lg-11">
           <div className="mb-3 pb-3">
             {/* Image */}
             {/* {service && service.image && (
@@ -567,10 +408,24 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                 </List>
               </div>
             ))}
+
+          {/* <Accordion
+            defaultActiveKey={faqData[0].questionId}
+            className="accordion-style1 layout2"
+          >
+            {faqData.map((item) => (
+              <Accordion.Item key={item.questionId} eventKey={item.questionId}>
+                <Accordion.Header>{item.question}</Accordion.Header>
+                <Accordion.Body>
+                  <p>{item.answer}</p>
+                </Accordion.Body>
+              </Accordion.Item>
+            ))}
+          </Accordion> */}
         </div>
-        {/* <div className="col-lg-3">
+        <div className="col-lg-2">
           <SidebarTwo />
-        </div> */}
+        </div>
       </div>
     </div>
   </div>

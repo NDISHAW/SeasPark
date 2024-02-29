@@ -466,7 +466,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
   <div {...restProps}>
     <div className="container">
       <div className="row flex-row-reverse">
-        <div className="col-lg-12">
+        <div className="col-lg-9">
           <div className="mb-3 pb-3">
             {/* Image */}
             {/* {service && service.image && (
@@ -568,9 +568,9 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
               </div>
             ))}
         </div>
-        {/* <div className="col-lg-3">
+        <div className="col-lg-3">
           <SidebarTwo />
-        </div> */}
+        </div>
       </div>
     </div>
   </div>
