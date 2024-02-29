@@ -554,3 +554,47 @@ export default ServiceSingle;
 
 
 
+<div className="row gx-0 mb-4 pb-2 pt-3">
+  <div className="col-xl-6">
+    <img src="/images/service/sap.jpg" alt="project" className="w-100" />
+  </div>
+  {/* Services Features */}
+  <div className="col-xl-6">
+    <div className="service-list-box">
+      <SecTitle>Features</SecTitle>
+      <List className="list-style3">
+        {service &&
+          service.services &&
+          service.services.map((subService, index) => (
+            <div key={index}>
+              {/* Alphabetical Heading */}
+              {String.fromCharCode(65 + index)}. {subService.title}
+              {/* Iterate through sub-services */}
+              <List className="list-style3">
+                {subService.subServices &&
+                  subService.subServices.map((subSubService, subIndex) => (
+                    <List className="list-style3" key={subIndex}>
+                      {/* Roman Numeral Heading */}
+                      {toRoman(subIndex + 1)}. {subSubService.title}
+                      {/* Iterate through sub-sub-services */}
+                      {subSubService.subSubServices &&
+                        subSubService.subSubServices.length > 0 && (
+                          <List className="list-style3">
+                            {subSubService.subSubServices.map(
+                              (item, itemIndex) => (
+                                <List.Item key={itemIndex}>
+                                  {toAlphabetic(itemIndex + 1)}. {item}
+                                </List.Item>
+                              )
+                            )}
+                          </List>
+                        )}
+                    </List>
+                  ))}
+              </List>
+            </div>
+          ))}
+      </List>
+    </div>
+  </div>
+</div>;

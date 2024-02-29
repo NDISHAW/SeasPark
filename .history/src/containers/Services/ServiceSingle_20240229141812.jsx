@@ -476,7 +476,16 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
           <SecTitle>{service && service.title}</SecTitle>
 
           <p>{service && service.text}</p>
-          
+          <div className="row gx-0 mb-4 pb-2 pt-3">
+            <div className="col-xl-6">
+              <img
+                src="/images/service/sap.jpg"
+                alt="project"
+                className="w-100"
+              />
+            </div>
+            {/* Services Features */}
+            
           {/* Iterate through services */}
           {service &&
             service.services &&
@@ -549,8 +558,3 @@ function toAlphabetic(num) {
 }
 
 export default ServiceSingle;
-
-
-
-
-

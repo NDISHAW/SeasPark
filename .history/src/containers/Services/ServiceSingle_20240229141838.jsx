@@ -549,8 +549,3 @@ function toAlphabetic(num) {
 }
 
 export default ServiceSingle;
-
-
-
-
-

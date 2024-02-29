@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const TeamBoxOne = ({ to, desgination, image, name, className }) => (
-  <div className={`team-style1 ${className || ""}`}>
+  <div className={`team-style3 ${className || ""}`}>
     <div className="team-img">
       {/* Use Link component to navigate to the team details page */}
       <Link to={to}>
@@ -35,7 +35,6 @@ const TeamBoxOne = ({ to, desgination, image, name, className }) => (
       </h3>
       <p className="team-degi">{desgination}</p>
     </div>
-    
   </div>
 );
 

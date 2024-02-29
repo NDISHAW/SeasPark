@@ -35,7 +35,6 @@ const TeamBoxOne = ({ to, desgination, image, name, className }) => (
       </h3>
       <p className="team-degi">{desgination}</p>
     </div>
-    
   </div>
 );
 

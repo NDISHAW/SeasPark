@@ -6,8 +6,8 @@ import {
   CtaOne,
   AboutTwo,
   FooterOne,
-  TestimonialTwo,
-  FeatureOne,
+  TeamTwo,
+  TeamThree,
 } from "../containers";
 
 const Team = () => (
@@ -15,12 +15,10 @@ const Team = () => (
     <Seo title="Team" />
     <HeaderTwo />
     <Breadcrumb pageName="Team" bgImage="images/team/team.jpg" />
-    <TeamFour
+    <Teamone
       className="space-top space-extra-bottombackground-image"
       style={{ backgroundImage: "url(images/bg/skill-bg-2-1.jpg)" }}
     />
-    <TestimonialTwo className="space-top space-extra-bottom" />
-    <FeatureOne className="space-top space-extra-bottom" />
     {/* <CtaOne className="space"/> */}
     {/* <AboutTwo className="space-top space-extra-bottom background-image" style={{backgroundImage: 'url(images/bg/skill-bg-2-1.jpg)'}} /> */}
     <FooterOne />

@@ -88,7 +88,7 @@ const TeamFour = ({ ...restProps }) => (
         <br /> <br />
         {teamMembers.teamMembers.map((member) => (
           <div key={member.id} className="col-md-6 col-lg-4 col-xl-3">
-            <TeamBoxOne
+            <TeamBoxTh
               to={`/team-details/${member.id}`}
               name={member.name}
               desgination={member.desgination}

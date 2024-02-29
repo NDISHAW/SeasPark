@@ -27,6 +27,7 @@ import {
   ContactTwo,
   TestimonialTwo,
   TestimonialThree,
+  FeatureTwo,
 } from '../containers';
 import { Toaster } from "react-hot-toast";
 
@@ -42,7 +43,7 @@ const HomeOne = () => {
         className="background-image"
         style={{ backgroundImage: "url(images/bg/ab-bg-1-1.jpg)" }}
       >
-        <FeatureOne className="" />
+        <FeatureTwo className="" />
         <AboutOne className="space-top" />
       </div>
       <ServiceThree className="space-top" />
@@ -53,7 +54,7 @@ const HomeOne = () => {
       {/* <CtaOne className="space-top" /> */}
       <ProcessOne className="space-top space-extra-bottom" />
       {/* <TestimonialThree className="" /> */}
-      {/* <BrandOne className="space-bottom" /> */}
+      <BrandOne className="space-bottom" />
       {/* <BlogTwo className="space-top space-extra-bottom"/> */}
       {/* <ContactTwo/> */}
 
