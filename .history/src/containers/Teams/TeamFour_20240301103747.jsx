@@ -128,7 +128,22 @@ const TeamFour = ({ ...restProps }) => (
           </SecSubTitle> */}
                   {/* <SecTitle>{member.name}</SecTitle> */}
                   <p className="mb-6 pb-2 pe-xl-12">{member.biography}</p>
-                  
+                  <div className="row gx-60 mb-4 pb-1 gy-2 text-start justify-content-center justify-content-xl-start">
+                    <div className="col-auto">
+                      <InfoMedia
+                        className="about-media"
+                        image="images/icon/fe-1-3.png"
+                        info={member.desgination}
+                      />
+                    </div>
+                    {/* <div className="col-auto">
+                      <InfoMedia
+                        className="about-media"
+                        image="images/icon/fe-1-3.png"
+                        info="Urgent Support For Clients"
+                      />
+                    </div> */}
+                  </div>
                 </div>
               </div>
             </div>
