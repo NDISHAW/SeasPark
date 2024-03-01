@@ -71,7 +71,7 @@ const TestimonialOne = ({...restProps})=> {
               <TestimonialBoxOne
                 icon={item.icon}
                 title={item.title}
-                text={`“${item.text.slice(0, 200)}....”`}
+                text={`“${item.text.slice(0, 300)}”`}
                 name={item.name}
                 designation={item.designation}
               />

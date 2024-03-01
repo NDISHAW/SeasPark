@@ -14,7 +14,7 @@
     "icon": "fal fa-quote-right",
     "avater": "images/testimonial/auth-4-2.jpg",
     "name": "Jerzzy Lamot",
-    "designation": "SAP client",
+    "designation": "UI Customer",
     "text": "SeasPark Consultancy's SAP Implementation services offer a comprehensive solution for business transformation. With a focus on aligning with strategic objectives and maximizing ROI, they provide industry-best practices and modern tools to fast-track ERP deployment. Their expertise in change management ensures a successful transition and enhanced productivity."
   },
   {
@@ -32,7 +32,7 @@
     "icon": "fal fa-quote-right",
     "avater": "images/testimonial/auth-4-4.jpg",
     "name": "Peter Parker",
-    "designation": "SAP client",
+    "designation": "WP Developer",
     "text": "SeasPark Consultancy's SAP Expert Consultancy delivers top-notch SAP consultants for diverse project needs. With flexible support options and access to skilled professionals across various SAP modules, they ensure efficient project execution and comprehensive assistance. Their platform offers convenient access and a comprehensive dashboard for easy management of SAP projects."
   },
   {
@@ -50,8 +50,8 @@
     "icon": "fal fa-quote-right",
     "avater": "images/testimonial/auth-4-4.jpg",
     "name": "Peter Parker",
-    "designation": "ERP client",
-    "text": "SeasPark Consultancy offers comprehensive ERP solutions tailored to diverse business needs. With a focus on SAP ECC, S4HANA, SAP Business One, and SAP Business ByDesign, they provide scalable and customizable platforms for business growth. Their expertise in implementation, migration, and customization ensures seamless integration and optimal performance."
+    "designation": "WP Developer",
+    "text": "Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th did the classical Latin become so incoherent fonts"
   },
   {
     "id": "7",
@@ -59,7 +59,7 @@
     "icon": "fal fa-quote-right",
     "avater": "images/testimonial/auth-4-4.jpg",
     "name": "Peter Parker",
-    "designation": "SAP Client",
-    "text": "SeasPark SAP Expert Consultancy delivers top-notch consulting services across a wide range of SAP modules. With a commitment to providing highly skilled consultants for specific project needs, they offer flexible support options and comprehensive assistance. Their platform's user-friendly interface and dashboard facilitate efficient project management and execution."
+    "designation": "WP Developer",
+    "text": "Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th did the classical Latin become so incoherent fonts"
   }
 ]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "image": "images/about/ab-5-1.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-1.jpg",
+    "name": "William Benjm",
+    "designation": "Recruitment Customer",
+    "text": "We engaged with Talent Acquisition for our executive search needs and were impressed by their meticulous approach. They not only understood our requirements but also delved deep into our company culture to find executives who truly fit. Their expertise in matching vision with culture is commendable and has led to the acquisition of top talent that aligns perfectly with our growth strategy. We highly recommend their services for anyone seeking exceptional executive recruitment solutions."
+  },
+  {
+    "id": "2",
+    "image": "images/about/ab-5-2.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-2.jpg",
+    "name": "Jerzzy Lamot",
+    "designation": "UI Customer",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exerci"
+  },
+  {
+    "id": "3",
+    "image": "images/about/ab-5-3.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-3.jpg",
+    "name": "Vivi Marian",
+    "designation": "Recruitment Customer",
+    "text": "Talent Acquisition's RPO service has been instrumental in our company's growth. Their ability to seamlessly integrate with our internal resources and manage the recruiting process efficiently has saved us valuable time and resources. From urgent demand staffing to project staffing, their expertise and commitment to excellence shine through. Their SCRUM, PMP, and SHRM certifications further validate their competence in this field. We're grateful for their partnership and highly recommend their RPO services to any organization seeking performance-driven recruiting solutions."
+  },
+  {
+    "id": "4",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "Peter Parker",
+    "designation": "WP Developer",
+    "text": "Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th did the classical Latin become so incoherent fonts"
+  },
+  {
+    "id": "5",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "Peter Parker",
+    "designation": "WP Developer",
+    "text": "Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th did the classical Latin become so incoherent fonts"
+  },
+  {
+    "id": "6",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "Peter Parker",
+    "designation": "WP Developer",
+    "text": "Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th did the classical Latin become so incoherent fonts"
+  },
+  {
+    "id": "7",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "Peter Parker",
+    "designation": "WP Developer",
+    "text": "Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th did the classical Latin become so incoherent fonts"
+  }
+]

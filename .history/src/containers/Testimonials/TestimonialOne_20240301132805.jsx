@@ -21,58 +21,57 @@ const TestimonialOne = ({...restProps})=> {
     autoplay: true,
     autoplaySpeed: 8000,
     infinite: true,
-    arrows: false,
+    dots: true,
+    arrows: true,
     speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1200,
-        settings: {          
+        settings: {
           slidesToShow: 2,
-        }
+        },
       },
       {
         breakpoint: 992,
-        settings: {          
+        settings: {
           slidesToShow: 2,
-        }
+        },
       },
       {
         breakpoint: 767,
-        settings: {          
+        settings: {
           slidesToShow: 1,
-        }
-      }
-    ]
+        },
+      },
+    ],
   };  
   
   return (
     <div {...restProps}>
       <div className="container">
-        <div className="row justify-content-between">
-          <div className="col-lg-auto text-center text-lg-start">
-            <TitleWrap>
-              <SecTitle>
-                <i className="fas fa-bring-forward" />
-                Our Best Review’s
-              </SecTitle>
-              <SecSubTitle className="h1 text-capitalize">
-                Customer’s Feedback
-              </SecSubTitle>
-            </TitleWrap>
-          </div>
-          <div className="col-auto d-none d-lg-block">
+        <TitleWrap className="text-center">
+          <SecTitle>
+            {/* <i className="fas fa-bring-forward" /> */}
+            Our Best Review’s
+          </SecTitle>
+          <SecSubTitle className="h1 text-capitalize">
+            Customer’s Feedback
+          </SecSubTitle>
+        </TitleWrap>
+
+        {/* <div className="col-auto d-none d-lg-block">
             <SlideNavBtn slideParent={sliderWrap} />
-          </div>
-        </div>
+          </div> */}
+
         <Slider ref={sliderWrap} className="row" {...settings}>
           {testimonialData.map((item, index) => (
             <div key={index}>
               <TestimonialBoxOne
                 icon={item.icon}
                 title={item.title}
-                text={`“${item.text.slice(0, 100)}”`}
+                text={`“${item.text.slice(0, 700)}”`}
                 name={item.name}
                 designation={item.designation}
               />
