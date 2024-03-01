@@ -109,7 +109,7 @@ const TeamFour = ({ ...restProps }) => (
                     // title="Awards We won"
                     // icon="fal fa-award"
                   /> */}
-                  <div className="img-box5">
+                  <div className="img-box6">
                     <div className="img-1">
                       <img src={member.image} alt="About" />
                     </div>

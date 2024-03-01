@@ -102,18 +102,13 @@ const TeamFour = ({ ...restProps }) => (
             <div className="container">
               <div className="row gx-60">
                 <div className="col-xl-6 mb-50 mb-xl-0">
-                  {/* <ImageBoxThree
+                  <ImageBoxThree
                     imageOne={member.image}
                     // imageTwo="images/about/ab-2-2.jpg"
                     // number="100+"
                     // title="Awards We won"
                     // icon="fal fa-award"
-                  /> */}
-                  <div className="img-box5">
-                    <div className="img-1">
-                      <img src={member.image} alt="About" />
-                    </div>
-                  </div>
+                  />
                 </div>
                 <div className=" col-xl-6 align-self-center text-center text-xl-start">
                   {/* <SecSubTitle>

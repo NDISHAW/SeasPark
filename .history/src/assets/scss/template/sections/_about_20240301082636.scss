@@ -86,14 +86,11 @@
   max-width: 100%;
   padding: 40px 40px 0 0;
   box-shadow: 10px 10px 31px rgba(118, 155, 229, 0.17);
-  transition: all ease 0.4s;
 
   img {
     border-radius: 50px;
     position: relative;
-    z-index: 10;
-    transition: all ease 0.4s;
-    transform: scale(0.9);
+    z-index: 1;
   }
 
   .img-1 {
@@ -124,16 +121,6 @@
     border: 5px solid rgba(14, 89, 242, 0.1);
     border-radius: 50px 5px 5px 5px;
   }
-    &:hover {
-      background-color: #F6F7FA;
-      box-shadow: none;
-  
-      
-        .img-1 {
-          transform: scale(1.5);
-        }
-     
-    }
 }
 
 .img-box6 {
