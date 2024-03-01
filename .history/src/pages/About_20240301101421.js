@@ -15,7 +15,6 @@ import {
   // AboutTwo,
   AboutThree,
   TestimonialTwo,
-  TestimonialOne,
   // AboutFour
 } from '../containers';
 
@@ -67,7 +66,7 @@ const About = () => (
 
     {/* <CtaOne className="space" /> */}
     {/* <BlogFour className="space-top space-extra-bottom"/> */}
-    <TestimonialOne className="space-extra-bottom" />
+    <TestimonialTwo className="space-extra-bottom" />
     <FooterOne />
     <ScrollTopBtn />
   </Fragment>
