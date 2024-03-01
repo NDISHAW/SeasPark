@@ -12,7 +12,7 @@ import {
   HeroOne, 
   FeatureOne, 
   AboutOne, 
-  ServiceOne,
+  ServiceThree,
   CounterOne,
   TeamOne,
   FaqOne,
@@ -25,7 +25,10 @@ import {
   FooterOne,
   TeamTwo,
   ContactTwo,
+  TestimonialTwo,
+  TestimonialThree,
 } from '../containers';
+import { Toaster } from "react-hot-toast";
 
 const HomeOne = () => {
   const contactArea = useRef(null);
@@ -39,36 +42,34 @@ const HomeOne = () => {
         className="background-image"
         style={{ backgroundImage: "url(images/bg/ab-bg-1-1.jpg)" }}
       >
-        <FeatureOne className="space-top space-extra-bottom" />
-        <AboutOne className="space-bottom" />
+        {/* <FeatureOne className="" /> */}
+        <AboutOne className="space-top" />
       </div>
-      <ServiceOne className="space-top space-extra-bottom" />
+      <ServiceThree className="space-top" />
       {/* <CounterOne/> */}
-      <TeamTwo className="space-top space-extra-bottom" />
-      <FaqOne />
-      <AboutTwo className="space-top space-extra-bottom" />
-      <CtaOne className="space" />
+      {/* <TeamTwo className="" /> */}
+      {/* <FaqOne className="" /> */}
+      <AboutTwo className="space-top" />
+      {/* <CtaOne className="space-top" /> */}
       <ProcessOne className="space-top space-extra-bottom" />
-      <TestimonialOne className="space-top space-extra-bottom" />
-      <BrandOne className="space-bottom" />
+      {/* <TestimonialThree className="" /> */}
+      {/* <BrandOne className="space-bottom" /> */}
       {/* <BlogTwo className="space-top space-extra-bottom"/> */}
       {/* <ContactTwo/> */}
-      <TitleWrap className="text-center">
-        <SecSubTitle>Send Us Email</SecSubTitle>
-        <SecTitle className="text-capitalize h1">Feel Free To Write</SecTitle>
-      </TitleWrap>
-      <div
-        className="container"
-        ref={contactArea}
-        bgImage="/images/team/details.jpg"
-      >
-        <div className="row justify-content-center">
-          <div className="col-lg-10 col-xl-8">
-            <FormThree />
-          </div>
-        </div>
-      </div>
-      <FooterOne />
+
+      {/* <div className="container background-image" ref={contactArea}> */}
+      {/* <Toaster /> */}
+
+      {/* <div
+          className="row justify-content-center"
+          style={{ backgroundImage: "url(images/shape/process-bg-1-1.jpg)" }}
+        >
+          <div className="col-lg-10 col-xl-8"> */}
+      {/* <FormThree /> */}
+      {/* </div>
+        </div> */}
+      {/* </div> */}
+      <FooterOne className="space-top" />
       <ScrollTopBtn />
     </Fragment>
   );
