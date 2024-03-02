@@ -508,66 +508,19 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
             service.services.map((subService, index) => (
               <div key={index}>
                 <div className="row flex-row-reverse">
-                  <div className="col-lg-5 col-xxl-3 mb-30 pb-10 pb-lg-0">
+                  <div className="col-lg-5 col-xxl-auto mb-30 pb-10 pb-lg-0">
+                    <img src="images/skill/skill.jpg" alt="Skill" />
+                  </div>
+                  <div className="col-lg-7 col-xxl-6 me-xl-auto">
                     <SecTitle>
                       {/* <i className="fas fa-bring-forward" /> */}
                       {subService.title &&
                         String.fromCharCode(65 + index)}. {subService.title}
                     </SecTitle>
-                    <SecSubTitle className=" text-capitalize">
-                    {subService.text}
-                    </SecSubTitle>
-                  </div>
-                  <div className="col-lg-7 col-xxl-6 me-xl-auto">
                     {/* <SecSubTitle className="h1 text-capitalize">
                       Connecting People And Build Technology
                     </SecSubTitle> */}
-                    <p className="mb-4 pb-1">
-                      <List className="list-style3">
-                        {subService.subServices &&
-                          subService.subServices.map(
-                            (subSubService, subIndex) => (
-                              <List className="list-style4" key={subIndex}>
-                                {/* Roman Numeral Heading */}
-                                <List.Item key={subIndex}>
-                                  <h6>
-                                    {/* {toRoman(subIndex + 1)}. {subSubService.title} */}
-                                    {subSubService.title}
-                                  </h6>
-                                  <p>
-                                    {subSubService.text && (
-                                      <i className="fal fa-check-circle" />
-                                    )}
-                                    {subSubService.text}
-                                  </p>
-                                </List.Item>
-
-                                {/* Iterate through sub-sub-services */}
-                                {subSubService.subnServices &&
-                                  subSubService.subnServices.length > 0 && (
-                                    <List className="list-style3">
-                                      {subSubService.subnServices.map(
-                                        (item, itemIndex) => (
-                                          <List.Item key={itemIndex}>
-                                            <SecSubTitle className="h6">
-                                              {service && item.title}
-                                            </SecSubTitle>
-                                            {/* Conditionally render the <i> element */}
-
-                                            {item.text && (
-                                              <i className="fal fa-check-circle" />
-                                            )}
-                                            {item.text}
-                                          </List.Item>
-                                        )
-                                      )}
-                                    </List>
-                                  )}
-                              </List>
-                            )
-                          )}
-                      </List>
-                    </p>
+                    
                   </div>
                 </div>
                 {/* Alphabetical Heading */}

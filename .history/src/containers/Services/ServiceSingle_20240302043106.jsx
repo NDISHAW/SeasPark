@@ -508,15 +508,14 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
             service.services.map((subService, index) => (
               <div key={index}>
                 <div className="row flex-row-reverse">
-                  <div className="col-lg-5 col-xxl-3 mb-30 pb-10 pb-lg-0">
+                  <div className="col-lg-5 col-xxl-auto mb-30 pb-10 pb-lg-0">
                     <SecTitle>
                       {/* <i className="fas fa-bring-forward" /> */}
                       {subService.title &&
                         String.fromCharCode(65 + index)}. {subService.title}
+                        
                     </SecTitle>
-                    <SecSubTitle className=" text-capitalize">
-                    {subService.text}
-                    </SecSubTitle>
+                    
                   </div>
                   <div className="col-lg-7 col-xxl-6 me-xl-auto">
                     {/* <SecSubTitle className="h1 text-capitalize">
@@ -524,6 +523,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                     </SecSubTitle> */}
                     <p className="mb-4 pb-1">
                       <List className="list-style3">
+                       
                         {subService.subServices &&
                           subService.subServices.map(
                             (subSubService, subIndex) => (
