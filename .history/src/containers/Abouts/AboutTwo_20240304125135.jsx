@@ -15,20 +15,20 @@ const AboutTwo = ({ ...restProps }) => (
           <InfoMedia
             className="contact-media "
             image="images/skill/bsecurity.jpg"
-            info="Ensuring the safety and integrity of your operations is our top priority. Our team employs cutting-edge strategies to protect your data and assets, giving you peace of mind."
-            title="Business Security "
+            ="Ensuring the safety and integrity of your operations is our top priority. Our team employs cutting-edge strategies to protect your data and assets, giving you peace of mind."
+            info="Business Security "
           />
           <InfoMedia
             className="contact-media"
             image="images/skill/career.jpg"
-            title="Career Development "
-            info="Ensuring the safety and integrity of your operations is our top priority. Our team employs cutting-edge strategies to protect your data and assets, giving you peace of mind."
+            info="Career Development "
+            title="Ensuring the safety and integrity of your operations is our top priority. Our team employs cutting-edge strategies to protect your data and assets, giving you peace of mind."
           />
           <InfoMedia
             className="contact-media"
             image="images/skill/innovation.jpg"
-            info="Innovation is at the heart of everything we do. We are constantly exploring new ideas and technologies to help your business stay ahead of the curve and achieve sustainable growth"
-            title="Business Innovation "
+            title="Innovation is at the heart of everything we do. We are constantly exploring new ideas and technologies to help your business stay ahead of the curve and achieve sustainable growth"
+            info="Business Innovation "
           />
         </div>
         <div className="col-lg-5 col-xxl-4 me-xl-auto">

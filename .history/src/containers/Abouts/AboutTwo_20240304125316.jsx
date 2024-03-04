@@ -28,7 +28,7 @@ const AboutTwo = ({ ...restProps }) => (
             className="contact-media"
             image="images/skill/innovation.jpg"
             info="Innovation is at the heart of everything we do. We are constantly exploring new ideas and technologies to help your business stay ahead of the curve and achieve sustainable growth"
-            title="Business Innovation "
+            ="Business Innovation "
           />
         </div>
         <div className="col-lg-5 col-xxl-4 me-xl-auto">
