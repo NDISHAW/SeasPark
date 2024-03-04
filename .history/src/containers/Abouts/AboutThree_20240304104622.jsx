@@ -38,7 +38,7 @@ const AboutThree = () => (
             Business One, SAP Business ByDesign, SAP Business Planning &
             Consolidation, SAP EHS), Human Resource Solutions (Classic HR & SAP
             SuccessFactors), Data & Analytics Solutions (Business Intelligence -
-            SAP BW on HANA & BW/4HANA, SAP
+            SAP BW on HANA & BW/4HANA, SAP HANA Data Warehouse Cloud, SAP
             Analytics Cloud)<br></br> <br></br>
             Our commitment is to deliver highly proficient services with
             cost-effectiveness on time. Our aim is to ensure that our services
