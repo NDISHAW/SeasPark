@@ -476,7 +476,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
           )}
         </div>
         <div className=" col-xl-6 align-self-center text-center text-xl-start ">
-          <SecTitle>{service && service.title}</SecTitle>
+          <SecTitle className=" text-capitalize ">{service && service.title}</SecTitle>
           <p className="mb-6 pb-2 pe-xl-12">{service && service.text}</p>
           {/* <div className="row gx-60 mb-4 pb-1 gy-2 text-start justify-content-center justify-content-xl-start">
             <div className="col-auto">
@@ -507,12 +507,12 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
             service.services &&
             service.services.map((subService, index) => (
               <div key={index}>
+                
                 {/* Alphabetical Heading */}
-                <SecTitle className=" text-capitalize ">
+                <SecTitle className="">
                   {/* <h3 className="h4"> */}
                   {/* {String.fromCharCode(65 + index)}. {subService.title} */}
-                  {subService.title && String.fromCharCode(65 + index)}
-                  {")  "}
+                  {subService.title && String.fromCharCode(65 + index)}{")  "}
                   {subService.title}
                   {/* </h3> */}
                 </SecTitle>

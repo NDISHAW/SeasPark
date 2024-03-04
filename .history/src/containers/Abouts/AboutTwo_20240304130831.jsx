@@ -10,7 +10,7 @@ const AboutTwo = ({ ...restProps }) => (
   <div {...restProps}>
     <div className="container">
       <div className="row flex-row-reverse">
-        <div className="col-lg-7 col-xxl-8 mb-30 pb-10 pb-lg-0">
+        <div className="col-lg-8 col-xxl-8 mb-30 pb-10 pb-lg-0">
           {/* <img src="images/skill/skill.jpg" alt="Skill" /> */}
           <InfoMedia
             className="contact-media "

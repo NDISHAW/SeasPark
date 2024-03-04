@@ -51,7 +51,7 @@ const AboutThree = () => (
               <InfoMedia
                 className="about-media"
                 image="images/icon/ab-ic-2-1.png"
-                info="Provide professional Services"
+                info="Provide pro Services"
               />
             </div>
             <div className="col-auto">
