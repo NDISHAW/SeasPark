@@ -1,8 +1,8 @@
 :root {
   // --theme-color         : #0E5AF2;
-  --theme-color         : #0E5AF2;
+  --theme-color         : #293D8C;
   --title-color         : #1A1A1A;
-  --body-color          : #878D97;
+  --body-color          : #36454F;
   --smoke-color         : #EFF1F5;
   --secondary-color     : #EEF2FB;
   --black-color         : #000000;
@@ -18,7 +18,7 @@
   --container-gutters   : 30px;
   --section-space       : 120px;
   --section-space-mobile: 80px;
-  --section-title-space : 80px;
+  --section-title-space : 75px;
   --ripple-ani-duration : 5s;
 }
 
@@ -42,7 +42,7 @@ $icon-font   : var(--icon-font);
 // Typography
 $title-font      : var(--title-font);
 $body-font       : var(--body-font);
-$body-font-size  : 16px;
+$body-font-size  : 14px;
 $body-line-Height: 26px;
 $body-font-weight: 400;
 $p-line-Height   : 1.63;

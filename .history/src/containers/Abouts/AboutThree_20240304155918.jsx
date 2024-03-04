@@ -29,7 +29,7 @@ const AboutThree = () => (
             ABOUT OUR COMPANY
           </SecSubTitle> */}
           <SecTitle>About Our Company</SecTitle>
-          <p className="mb-6 pb-2 pe-xl-12 text-display-block">
+          <p className="mb-6 pb-2 pe-xl-12 display-block">
             SeasPark Consultancy Ltd specializes in Business & Technology
             Consultancy having particular attention to Staffing & Recruiting,
             SAP Services such as SAP implementations, Roll-outs, Upgrates &
