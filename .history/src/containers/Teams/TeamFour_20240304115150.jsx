@@ -114,11 +114,12 @@ const TeamFour = ({ ...restProps }) => (
                       <img src={member.image} alt="About" />
                     </div>
                   </div>
-                  <SecTitle className=" text-capitalize ">
-                    {member.name}
-                  </SecTitle>
-                  <p className="mb-6 pb-2 pe-xl-12">{member.desgination}</p>
-                 
+                  <SecTitle >{member.name}</SecTitle>
+                  <InfoMedia
+                    className="about-media"
+                    // image="images/icon/fe-1-3.png"
+                    info={member.desgination}
+                  />
                 </div>
                 <div className=" col-xl-6 align-self-center text-center text-xl-start">
                   {/* <SecSubTitle>
@@ -127,6 +128,7 @@ const TeamFour = ({ ...restProps }) => (
           </SecSubTitle> */}
                   {/* <SecTitle>{member.name}</SecTitle> */}
                   <p className="mb-6 pb-2 pe-xl-12">{member.biography}</p>
+                  
                 </div>
               </div>
             </div>

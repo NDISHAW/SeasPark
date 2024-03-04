@@ -114,7 +114,7 @@ const TeamFour = ({ ...restProps }) => (
                       <img src={member.image} alt="About" />
                     </div>
                   </div>
-                  <SecTitle className=" text-capitalize ">
+                  <SecTitle className="h1 text-capitalize ">
                     {member.name}
                   </SecTitle>
                   <p className="mb-6 pb-2 pe-xl-12">{member.desgination}</p>

@@ -79,7 +79,7 @@ export default function CareerOne({ ...restProps }) {
                 icon={item.icon}
                 title={item.title}
                 // text={item.text.slice(0, 53)}
-                text={item.descriptions.slice(1, 3)}
+                text={item.descriptions.slice(5, 93)}
               />
             </div>
           ))}

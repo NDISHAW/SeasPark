@@ -96,7 +96,7 @@ export default function CareersDetails() {
       {loading ? (
         <div className="container">
           {/* <NotFoundOne /> */}
-          <p className="h1 justify-items-center">Vacancies Not Available</p>
+          <p className="h1 justify-items-center">Va Not Available</p>
           <img src={NotFound} alt="img" className="img" />
         </div>
       ) : (
