@@ -45,11 +45,11 @@ const HomeOne = () => {
         {/* <FeatureOne className="" /> */}
         <AboutOne className="space-top" />
       </div>
-      <ServiceThree className="space-top" />
+      <ServiceThree className="" />
       {/* <CounterOne/> */}
       {/* <TeamTwo className="" /> */}
       {/* <FaqOne className="" /> */}
-      <AboutTwo className="" />
+      <AboutTwo className="space-top" />
       {/* <CtaOne className="space-top" /> */}
       <ProcessOne className="space-top space-extra-bottom" />
       {/* <TestimonialThree className="" /> */}

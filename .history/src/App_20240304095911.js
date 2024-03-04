@@ -10,8 +10,6 @@ import "slick-carousel/slick/slick.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/fontawesome.css";
 import "./assets/scss/style.scss";
-import ScrollToTop from './components/ScrollToTop';
-
 
 
 function App() {
@@ -19,13 +17,12 @@ function App() {
 const scrollToTop = () => {
   window.scrollTo(0, 0);
 };
-
   return (
     <Provider store={store}>
-      {/* <BrowserRouter> */}
+      <BrowserRouter>
         <AppRouters />
-        <ScrollToTop />
-      {/* </BrowserRouter> */}
+        <ScrollToTo />
+      </BrowserRouter>
     </Provider>
   );
 }
