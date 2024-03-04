@@ -15,8 +15,8 @@ const AboutTwo = ({ ...restProps }) => (
           <InfoMedia
             className="contact-media "
             image="images/skill/bsecurity.jpg"
-            title="Ensuring the safety and integrity of your operations is our top priority. Our team employs cutting-edge strategies to protect your data and assets, giving you peace of mind."
-            info="Business Security "
+            info="Ensuring the safety and integrity of your operations is our top priority. Our team employs cutting-edge strategies to protect your data and assets, giving you peace of mind."
+            ="Business Security "
           />
           <InfoMedia
             className="contact-media"

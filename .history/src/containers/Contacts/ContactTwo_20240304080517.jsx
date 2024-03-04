@@ -29,6 +29,10 @@ const ContactTwo = ({ ...restProps }) => (
                       Contact Information
                     </SecTitle>
                   </TitleWrap>
+                  {/* <p className="contact-box__text">
+                    Completely recaptiualize 24/7 communities via standards
+                    compliant metrics whereas web-enabled content
+                  </p> */}
                   <InfoMedia
                     icon="fal fa-phone-alt"
                     title="Phone Number"

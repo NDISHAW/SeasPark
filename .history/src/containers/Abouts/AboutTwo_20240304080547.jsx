@@ -10,7 +10,7 @@ const AboutTwo = ({ ...restProps }) => (
   <div {...restProps}>
     <div className="container">
       <div className="row flex-row-reverse">
-        <div className="col-lg-5 col-xxl-8 mb-30 pb-10 pb-lg-0">
+        <div className="col-lg-5 col-xxl-auto mb-30 pb-10 pb-lg-0">
           {/* <img src="images/skill/skill.jpg" alt="Skill" /> */}
           <InfoMedia
             className="contact-media "
@@ -31,7 +31,7 @@ const AboutTwo = ({ ...restProps }) => (
             info="Business Innovation "
           />
         </div>
-        <div className="col-lg-5 col-xxl-4 me-xl-auto">
+        <div className="col-lg-7 col-xxl-6 me-xl-auto">
           <SecTitle>
             {/* <i className="fas fa-bring-forward" /> */}
             The Great Company Skill

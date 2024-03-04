@@ -66,8 +66,8 @@
 {
   "id": "2",
   "path": "/service-details",
-  "image": "/images/service/sap.jpg",
-  "imagg": "/images/service/diagram.png",
+  "image": "/images/service/sap.png",
+  "imagg": "/images/service/diagram.jpg",
   "icon": "/images/icon/sr-icon-3-2.png",
   "bgShape": "/images/bg/sr-box-bg-1.jpg",
   "bgShape2": "/images/shape/sr-bg-shape-2-1.png",

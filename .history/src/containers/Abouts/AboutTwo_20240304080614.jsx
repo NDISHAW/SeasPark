@@ -31,7 +31,7 @@ const AboutTwo = ({ ...restProps }) => (
             info="Business Innovation "
           />
         </div>
-        <div className="col-lg-5 col-xxl-4 me-xl-auto">
+        <div className="col-lg-7 col-xxl-6 me-xl-auto">
           <SecTitle>
             {/* <i className="fas fa-bring-forward" /> */}
             The Great Company Skill

@@ -66,8 +66,8 @@
 {
   "id": "2",
   "path": "/service-details",
-  "image": "/images/service/sap.jpg",
-  "imagg": "/images/service/diagram.png",
+  "image": "/images/service/diagram.png",
+  "imagg": "/images/service/diagram.jpg",
   "icon": "/images/icon/sr-icon-3-2.png",
   "bgShape": "/images/bg/sr-box-bg-1.jpg",
   "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
@@ -306,7 +306,6 @@
       "id": "4",
       "path": "/service-details",
       "image": "/images/service/platform.jpg",
-      "imagg": "/images/service/platform.jpg",
       "icon": "/images/icon/sr-icon-3-4.png",
       "bgShape": "/images/bg/sr-box-bg-1.jpg",
       "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
@@ -317,7 +316,6 @@
       "id": "5",
       "path": "/service-details",
       "image": "/images/service/training.jpg",
-      "imagg": "/images/service/platform.jpg",
       "icon": "/images/icon/sr-icon-3-5.png",
       "bgShape": "/images/bg/sr-box-bg-1.jpg",
       "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
@@ -325,6 +323,7 @@
       "text": "Explore a world beyond IT staffing. SeasPark excels in recruiting Senior Managers, Directors, and VPs, ensuring your organization is powered by leaders who drive business success.",
       "services": [
         {
+          
           "text": "We offer tailored leadership development programs designed to enhance the skills and capabilities of your senior managers, directors, and VPs, empowering them to drive business success.",
           "subServices": [
             {
@@ -369,14 +368,15 @@
             }
           ]
         }
+    
       ]
+                  
     },
     {
       "id": "6",
       "path": "/service-details",
       "image": "/images/service/data.jpg",
       "icon": "/images/icon/sr-icon-1-6.png",
-      "imagg": "/images/service/platform.jpg",
       "bgShape": "/images/bg/sr-box-bg-1.jpg",
       "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
       "title": "Data & Analytics",
