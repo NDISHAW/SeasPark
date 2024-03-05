@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/folder/
+    - export DEPLOYPATH=/home/username/folder/
     - /bin/cp -R config $DEPLOYPATH
     - /bin/cp -R public $DEPLOYPATH
     - /bin/cp -R views $DEPLOYPATH
