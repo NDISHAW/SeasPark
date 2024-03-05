@@ -2,7 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/seaspark/folder/
-    -/bin/cp -R * $DEPLOYPATH
     # - /bin/cp -R config $DEPLOYPATH
     # - /bin/cp -R public $DEPLOYPATH
     # - /bin/cp -R views $DEPLOYPATH
