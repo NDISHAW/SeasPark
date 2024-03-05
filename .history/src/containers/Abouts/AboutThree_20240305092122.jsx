@@ -17,6 +17,10 @@ const AboutThree = () => (
         <div className="col-xl-6 mb-50 mb-xl-0">
           <ImageBoxThree
             imageOne="images/about/aboutus.jpg"
+            // imageTwo="images/about/ab-2-2.jpg"
+            // number="100+"
+            // title="Awards We won"
+            // icon="fal fa-award"
           />
         </div>
         <div className=" col-xl-6 align-self-center text-inline-block text-xl-start">
