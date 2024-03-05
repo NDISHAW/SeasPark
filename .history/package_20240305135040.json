@@ -2,7 +2,7 @@
   "name": "seaspark",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://seaspark.co.ke",
+  "homepage": "https://seaspark.netlify.app",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
     "@sendgrid/mail": "^7.7.0",

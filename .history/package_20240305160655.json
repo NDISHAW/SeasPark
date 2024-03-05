@@ -32,8 +32,8 @@
     "wicg-inert": "^3.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "dev": "(cd  Server && npm run start) & npm run start",
+    "dev": "react-scripts start",
+    "start": "(cd  Server && npm start) & npm  start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
