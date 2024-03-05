@@ -67,10 +67,13 @@ const About = () => (
 
     {/* <CtaOne className="space" /> */}
     {/* <BlogFour className="space-top space-extra-bottom"/> */}
-    <TestimonialOne className="space-extra-bottom" />
+    <TestimonialOne className="space" />
     <FooterOne />
     <ScrollTopBtn />
   </Fragment>
 );
 
 export default About;
+// SHA256:nk51zK/lbx4Y/5wYd0FAEVzoPhOnMxXy1tC+Fpu+Q3k
+
+// SHA256:nk51zK/lbx4Y/5wYd0FAEVzoPhOnMxXy1tC+Fpu+Q3k

@@ -511,8 +511,8 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                 <SecTitle className=" text-capitalize ">
                   {/* <h3 className="h4"> */}
                   {/* {String.fromCharCode(65 + index)}. {subService.title} */}
-                  {subService.title && String.fromCharCode(65 + index)}
-                  {")  "}
+                  {/* {subService.title && String.fromCharCode(65 + index)} */}
+                  
                   {subService.title}
                   {/* </h3> */}
                 </SecTitle>
