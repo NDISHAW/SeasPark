@@ -1,0 +1,72 @@
+
+
+{
+  "teamMembers": [
+    {
+      "id": 1,
+      "name": "Rowland Simiyu",
+      "desgination": "Managing Director",
+      "image": "images/team/722.jpg",
+      "biography": "Rowland, founder of SeasPark Consultancy, leverages 10+ years of experience in Business Management and Technology consulting across diverse industries. He offers strategic guidance on talent and growth, facilitating successful staffing, services, and project implementations at SeasPark.",
+      "personalBiography": "A graduate of University of Nairobi, Rowland has cultivated working relationships with colleges and businesses across the nation in development of innovative workforce solutions."
+    },
+    {
+      "id": 3,
+      "name": "Timothy Mbogo",
+      "desgination": "Lead SAP Developer",
+      "image": "images/team/Timothy.jpg",
+      "biography": "I am a professional software developer, with years of experience in designing and implementing complex business systems.Software Developer || SAP Certified Associate – SAP Business One Version 10. "
+    },
+
+    {
+      "id": 4,
+      "name": "Anne Nderi",
+      "desgination": "ERP Consultant",
+      "image": "images/team/Anne.jpg",
+      "biography": "Anne Nderi: ERP consultant specializing in tailored ERP solutions, optimizing operations, and increasing efficiency for businesses. Achievements include resolving business challenges, leading system integrations, providing staff training, and delivering ongoing support for sustained success. Expertise results in streamlined processes and improved decision-making capabilities for businesses."
+    },
+    {
+      "id": 5,
+      "name": "Dennis Kibunja",
+      "desgination": "Lead SAP Consultant",
+      "image": "images/team/Dennis.jpg",
+      "experience": "Ten years",
+      "biography": "SAP Business One Implementation and Support Consultant||SAP Business One Project Management||SAP Technology Associate-SAP HANA 2.0||Certified Information Systems Auditor® (CISA)||SAP S/4HANA System Administration||SAP SD",
+      "personalBiography": "💡I found my calling in leveraging my technology expertise to develop and implement SAP business solutions, thus improving information flow, database administration, process management, and data processing.  🎯As an accomplished SAP consultant with 10+ years of expertise in the installation of SUSE operating system SLES 11, 12, and SLES 15 SP02, SAP HANA Enterprise Edition 2.0 SPS05 Rev 50 for B1, SAP Business One version for SAP HANA 9.0, 9.3 and 10.0, SQL 2014 in a testing environment before deploying to production, I have a successful track record in managing SAP projects, stakeholder relationship management, providing technical user support, business systems analysis and business process improvement. Consequently, I have streamlined business operations in different industries, including Tumaini Self Service Limited, Tononoka Group of Companies, Spice World Limited, Goodlife Pharmacy T/A Mimosa Pharmacy, Mondelez Kenya, Healthy U Limited, Chandarana Food Plus Limited, and Carbacid Limited.",
+      "additionalInfo": "⭐Being a strategic leader in the technology space, I embody a transformative management style that prioritizes effective performance, motivating IT teams to deliver business solutions as per client requests and providing technical user support to optimize the user experience. In the course of my career progression, I have developed technical skills, including RAID configuration, conducting SAP Business One Upgrade testing, preparing data extraction plans, providing post-go-live support, and project life cycle management. I take pride in inspiring mutual team collaboration to ensure the achievement of project objectives and standardizing service delivery through maintaining compliance with quality assurance standards."
+    },
+    {
+      "id": 6,
+      "name": "Richard O. Omboga",
+      "desgination": "Software Engineer",
+      "image": "images/team/722.jpg",
+      "biography": "Richard: 6+ years experience in web and desktop app development. Proficient in Java, C#, Kotlin, PHP, and JavaScript. Skilled in modern methodologies, cloud tech, and DevOps. Strong leader, mentor, and problem-solver with a passion for emerging technologies.",
+      "experience": "Six years"
+    },
+    {
+      "id": 7,
+      "name": "Duncan Kwatemba",
+      "desgination": "IT Support and Data analyst",
+      "image": "images/team/DUNCAN.jpg",
+      "biography": "IT professional with 5 years' experience in IT support and data analysis. Proficient in Power BI, Tableau, and SAP predictive analytics. Team-oriented with a focus on meeting deadlines and delivering top-notch IT services.",
+      "experience": "Five years"
+    },
+    {
+      "id": 8,
+      "name": "Charity Thomas",
+      "desgination": "IT & Business Analyst",
+      "image": "images/team/CHARITY.jpg",
+      "biography": "
+Results-driven professional experienced in sales automation solutions and Fleet Management System (FMS) implementations. Skilled in data analysis, KPI extraction, and pattern identification. Proficient in drafting agreements, issue resolution, process documentation, and developing reporting tools. Strong communicator with the ability to translate data for management and support training initiatives.",
+      "experience": "Five years"
+    },
+    {
+      "id": 9,
+      "name": "Vanice Olal",
+      "desgination": "Human Resource Generalist",
+      "image": "images/team/VANICE.jpeg",
+      "biography": "Vanice Olal is an experienced HR Generalist proficient in HR policies, payroll administration, and employment law. She excels in fostering a supportive work environment, implementing effective HR policies, and ensuring compliance with regulations. With strong interpersonal skills, Vanice builds positive relationships with employees and management, resolving complex HR issues with innovative solutions. Passionate about employee development, she conducts training programs and facilitates career advancement opportunities. Overall, Vanice is a strategic thinker driving positive organizational change by aligning HR practices with business objectives for sustained success.",
+      "experience": "Five years"
+    }
+  ]
+}

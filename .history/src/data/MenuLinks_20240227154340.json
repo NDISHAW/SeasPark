@@ -1,0 +1,31 @@
+[
+  {
+    "name": "HOME",
+    "path": "/"
+  },
+  {
+    "name": "ABOUT US",
+    "path": "/about"
+  },
+  {
+    "name": "SERVICES",
+    "path": "/service"
+  },
+  {
+    "name": "OUR TEAM",
+    "path": "/team"
+  },
+  {
+    "name": "CAREERS",
+    "path": "/careers"
+  },
+  {
+    "name": "CONTACT US",
+    "path": "/contact"
+  },
+  {
+    "name": "ADMIN",
+    "path": "/login"
+  }
+]
+

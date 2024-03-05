@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "image": "images/about/ab-5-1.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-1.jpg",
+    "name": "William Benjm",
+    "designation": "Recruitment Customer",
+    "text": "Impressive executive search services! Their proven methodology ensures top-tier executives perfectly aligned with our company culture, driving generational growth. Trustworthy partners in navigating the uncertainty of talent acquisition."
+  },
+  {
+    "id": "2",
+    "image": "images/about/ab-5-2.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-2.jpg",
+    "name": "Jerzzy Lamot",
+    "designation": "UI Customer",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exerci"
+  },
+  {
+    "id": "3",
+    "image": "images/about/ab-5-3.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-3.jpg",
+    "name": "Vivi Marian",
+    "designation": "Recruitment Customer",
+    "text": "Talent Acquisition's RPO service has been instrumental in our company's growth. Their ability to seamlessly integrate with our internal resources and manage the recruiting process efficiently has saved us valuable time and resources. From urgent demand staffing to project staffing, their expertise and commitment to excellence shine through. Their SCRUM, PMP, and SHRM certifications further validate their competence in this field. We're grateful for their partnership and highly recommend their RPO services to any organization seeking performance-driven recruiting solutions."
+  },
+  {
+    "id": "4",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "Peter Parker",
+    "designation": "WP Developer",
+    "text": "Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th did the classical Latin become so incoherent fonts"
+  },
+  {
+    "id": "5",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "Peter Parker",
+    "designation": "Recruitment Customer",
+    "text": "Talent Acquisition offers a comprehensive suite of corporate staffing solutions that cater to diverse organizational needs. From executive search to contingency search, their extensive talent pool and innovative screening platforms ensure the acquisition of top-notch talent. Their commitment to understanding our unique requirements and delivering tailored staffing solutions sets them apart. Whether it's recruiting tech positions or top managerial roles, Talent Acquisition has consistently provided us with exceptional candidates. We appreciate their professionalism and highly recommend their services for anyone seeking reliable corporate staffing solutions."
+  },
+  {
+    "id": "6",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "Peter Parker",
+    "designation": "WP Developer",
+    "text": "Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th did the classical Latin become so incoherent fonts"
+  },
+  {
+    "id": "7",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "Peter Parker",
+    "designation": "WP Developer",
+    "text": "Creation timelines for the standard lorem ipsum passage vary, with some citing the 15th century and others the 20th did the classical Latin become so incoherent fonts"
+  }
+]
