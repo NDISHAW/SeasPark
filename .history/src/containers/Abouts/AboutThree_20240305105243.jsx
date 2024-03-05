@@ -23,16 +23,17 @@ const AboutThree = () => (
             ABOUT OUR COMPANY
           </SecSubTitle> */}
           <SecTitle>About Our Company</SecTitle>
-          <p className="content mb-6 pb-2 pe-xl-12 text-display-block">
+          <p className="mb-6 pb-2 pe-xl-12 text-display-block">
             SeasPark Consultancy Ltd specializes in Business & Technology
-            Consultancy having particular attention to Staffing & Recruiting,
-            SAP Services such as SAP implementations, Roll-outs, Upgrates &
-            Migrations, Expert Consultancy and SAP Licensed Sales, while our SAP
-            Business Solutions portfolio includes ERP Solutions (S4HANA, SAP
-            Business One, SAP Business ByDesign, SAP Business Planning &
-            Consolidation, SAP EHS), Human Resource Solutions (Classic HR & SAP
-            SuccessFactors), Data & Analytics Solutions (Business Intelligence -
-            SAP BW on HANA & BW/4HANA, SAP Analytics Cloud)<br></br> <br></br>
+            Consultancy having particular attention to  Staffing &
+            Recruiting, SAP Services such as SAP implementations, Roll-outs,
+            Upgrates & Migrations, Expert Consultancy and SAP Licensed Sales,
+            while our SAP Business Solutions portfolio includes ERP Solutions
+            (S4HANA, SAP Business One, SAP Business ByDesign, SAP Business
+            Planning & Consolidation, SAP EHS), Human Resource Solutions
+            (Classic HR & SAP SuccessFactors), Data & Analytics Solutions
+            (Business Intelligence - SAP BW on HANA & BW/4HANA, SAP Analytics
+            Cloud)<br></br> <br></br>
             Our commitment is to deliver highly proficient services with
             cost-effectiveness on time. Our aim is to ensure that our services
             meet the highest standards, surpassing client expectations. Our

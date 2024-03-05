@@ -15,7 +15,9 @@ const AboutThree = () => (
     <div className="container">
       <div className="row gx-60">
         <div className="col-xl-6 mb-50 mb-xl-0">
-          <ImageBoxThree imageOne="images/about/aboutus.jpg" />
+          <ImageBoxThree
+            imageOne="images/about/aboutus.jpg"
+          />
         </div>
         <div className=" col-xl-6 align-self-center text-inline-block text-xl-start">
           {/* <SecSubTitle>
@@ -32,7 +34,8 @@ const AboutThree = () => (
             Business One, SAP Business ByDesign, SAP Business Planning &
             Consolidation, SAP EHS), Human Resource Solutions (Classic HR & SAP
             SuccessFactors), Data & Analytics Solutions (Business Intelligence -
-            SAP BW on HANA & BW/4HANA, SAP Analytics Cloud)<br></br> <br></br>
+            SAP BW on HANA & BW/4HANA, SAP
+            Analytics Cloud)<br></br> <br></br>
             Our commitment is to deliver highly proficient services with
             cost-effectiveness on time. Our aim is to ensure that our services
             meet the highest standards, surpassing client expectations. Our
