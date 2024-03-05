@@ -10,11 +10,3 @@
 #     # - /bin/cp app.js $DEPLOYPATH
 #     # - /bin/cp package-lock.json $DEPLOYPATH
 #     # - /bin/cp package.json $DEPLOYPATH 
-
-	
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/seaspark/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
