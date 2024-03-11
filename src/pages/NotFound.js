@@ -5,15 +5,15 @@ import {
   ScrollTopBtn
 } from '../components';
 import {
-  HeaderOne,
   NotFoundOne,
-  FooterOne
+  FooterOne,
+  HeaderTwo
 } from '../containers';
 
 const NotFound = ()=> (
   <Fragment>
     <Seo title="Error Page" />
-    <HeaderOne />
+    <HeaderTwo />
     <Breadcrumb pageName="Error Page" bgImage="images/breadcumb/breadcumb-bg.jpg" />
     <NotFoundOne />
     <FooterOne/>
