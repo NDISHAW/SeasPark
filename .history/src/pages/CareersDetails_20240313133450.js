@@ -67,7 +67,7 @@ import { doc, getDoc } from "firebase/firestore";
 import { firestore } from "../utils/firebase.config";
 
 export default function CareersDetails() {
-  const [careers, setCareer] = useState([]);
+  const [careers, setCareer] = useState(null);
   const [loading, setLoading] = useState(true);
   const { id } = useParams();
 

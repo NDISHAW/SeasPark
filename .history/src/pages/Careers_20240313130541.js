@@ -17,14 +17,14 @@ import { actionType } from "../context/reducer";
 export default function Careers() {
     // const [{ careers }, dispatch] = useStateValue();
     const [loading, setLoading] = useState(true);
-      const [careers, setCareers] = useState(false);
+      // const [careers, setCareers] = useState(false);
         const getAllCareers = async () => {
           try {
             const items = await getDocs(
               query(collection(firestore, "careers"))
             );
             const careerData = items.docs.map((doc) => doc.data());
-            setCareers(careerData);
+            // setCareers(careerData);
             // dispatch({
             //   type: actionType.SET_CAREERS,
             //   careers: items,

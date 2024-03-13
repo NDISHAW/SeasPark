@@ -12,23 +12,22 @@ import NotFound from "../containers/NotFound.svg";
 import { firestore } from "../utils/firebase.config";
 import { collection, getDocs, query } from "firebase/firestore";
 import { useStateValue } from "../context/StateProvider";
-import { actionType } from "../context/reducer";
 
 export default function Careers() {
-    // const [{ careers }, dispatch] = useStateValue();
+    const [{ careers }, dispatch] = useStateValue();
     const [loading, setLoading] = useState(true);
-      const [careers, setCareers] = useState(false);
+      // const [careers, setCareers] = useState(false);
         const getAllCareers = async () => {
           try {
             const items = await getDocs(
               query(collection(firestore, "careers"))
             );
             const careerData = items.docs.map((doc) => doc.data());
-            setCareers(careerData);
-            // dispatch({
-            //   type: actionType.SET_CAREERS,
-            //   careers: items,
-            // });
+            // setCareers(careerData);
+            dispatch({
+              type: actionType.SET_CARTITEMS,
+              cartItems: items,
+            });
             setLoading(false); // Set loading to false after data is fetched
           } catch (error) {
             console.error("Error fetching careers:", error);

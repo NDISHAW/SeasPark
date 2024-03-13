@@ -63,9 +63,6 @@ import { collection, getDocs, orderBy, query } from 'firebase/firestore';
 import { firestore } from '../../utils/firebase.config';
 
 const CareerOne = ({ careers, ...restProps }) => {
-  console.log('====================================');
-  console.log("career1",careers);
-  console.log('====================================');
   // const [{ careers, LabReagents, cartShow }, dispatch] = useStateValue();
   //   const [careers, setCareers] = useState(false);
   // const getAllCareers = async () => {

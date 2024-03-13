@@ -17,7 +17,7 @@ import { actionType } from "../context/reducer";
 export default function Careers() {
     // const [{ careers }, dispatch] = useStateValue();
     const [loading, setLoading] = useState(true);
-      const [careers, setCareers] = useState(false);
+      // const [careers, setCareers] = useState(false);
         const getAllCareers = async () => {
           try {
             const items = await getDocs(

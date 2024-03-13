@@ -173,9 +173,9 @@ import {
 import Modal from "./modal";
 import { ToastBar, Toaster } from "react-hot-toast";
 
-const ProjectSingle = ({ careers }) => {
+const ProjectSingle = ({ careers, ...restProps }) => {
   return (
-    <div >
+    <div {...restProps}>
       <div className="container">
         <div className="row">
           {careers &&

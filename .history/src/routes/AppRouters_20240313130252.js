@@ -72,32 +72,32 @@ const AppRouters = () => {
   //   // Optional: You can render a loading spinner or message while data is being fetched.
   //   return <div>Loading...</div>;
   // }
-      // const [{ careers }, dispatch] = useStateValue();
-      // const [loading, setLoading] = useState(true);
-      // const [career, setCareer] = useState(false);
-      // const getAllCareers = async () => {
-      //   try {
-      //     const items = await getDocs(query(collection(firestore, "careers")));
-      //     const careerData = items.docs.map((doc) => doc.data());
-      //     setCareer(careerData);
-      //     dispatch({
-      //       type: actionType.SET_CAREERS,
-      //       careers: careerData,
-      //     });
-      //     setLoading(false); // Set loading to false after data is fetched
-          
-      //   } catch (error) {
-      //     console.error("Error fetching careers:", error);
-      //   }
-      // };
+      const [{ careers }, dispatch] = useStateValue();
+      const [loading, setLoading] = useState(true);
+      const [career, setCareer] = useState(false);
+      const getAllCareers = async () => {
+        try {
+          const items = await getDocs(query(collection(firestore, "careers")));
+          const careerData = items.docs.map((doc) => doc.data());
+          setCareer(careerData);
+          dispatch({
+            type: actionType.SET_CAREERS,
+            careers: careerData,
+          });
+          setLoading(false); // Set loading to false after data is fetched
+          lo
+        } catch (error) {
+          console.error("Error fetching careers:", error);
+        }
+      };
 
-      // useEffect(() => {
-      //   getAllCareers();
-      //   // setCareers(data)
-      // }, []);
-      // console.log("====================================");
-      // console.log(careers);
-      // console.log("====================================");
+      useEffect(() => {
+        getAllCareers();
+        // setCareers(data)
+      }, []);
+      console.log("====================================");
+      console.log(careers);
+      console.log("====================================");
 
   return (
     <Fragment>

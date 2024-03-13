@@ -77,12 +77,7 @@ export default function CareersDetails() {
         const careerDocRef = doc(firestore, "careers", id);
         const careerDocSnapshot = await getDoc(careerDocRef);
         if (careerDocSnapshot.exists()) {
-          // Include the id in the career data
-          const careerData = {
-            id: careerDocSnapshot.id,
-            ...careerDocSnapshot.data(),
-          };
-          setCareer(careerData);
+          setCareer(careerDocSnapshot.data());
         } else {
           console.log("Career not found.");
         }

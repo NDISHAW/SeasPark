@@ -63,9 +63,6 @@ import { collection, getDocs, orderBy, query } from 'firebase/firestore';
 import { firestore } from '../../utils/firebase.config';
 
 const CareerOne = ({ careers, ...restProps }) => {
-  console.log('====================================');
-  console.log("career1",careers);
-  console.log('====================================');
   // const [{ careers, LabReagents, cartShow }, dispatch] = useStateValue();
   //   const [careers, setCareers] = useState(false);
   // const getAllCareers = async () => {
@@ -106,6 +103,21 @@ const CareerOne = ({ careers, ...restProps }) => {
               </div>
             ))}
             
+            {careers && (<div key={item.id} className="col-md-6 col-lg-4 col-xl-3">
+        <CareerBox
+                  path={`/careers-details/${item.id}`}
+                  image={`/images/icon/process-2-2.png`}
+                  icon={item.title}
+                  title={item.title}
+                  text={item.descriptions
+                    .slice(1, 2)
+                    .map((description, index) => (
+                      <p key={index}>{description}</p>
+                    ))}
+                />
+              </div>
+        />
+      )}
         </div>
         {/* text={item.descriptions.slice(1, 3)} */}
       </div>

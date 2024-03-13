@@ -71,28 +71,25 @@ export default function CareersDetails() {
   const [loading, setLoading] = useState(true);
   const { id } = useParams();
 
-  useEffect(() => {
-    const fetchCareerDetails = async () => {
-      try {
-        const careerDocRef = doc(firestore, "careers", id);
-        const careerDocSnapshot = await getDoc(careerDocRef);
-        if (careerDocSnapshot.exists()) {
-          // Include the id in the career data
-          const careerData = {
-            id: careerDocSnapshot.id,
-            ...careerDocSnapshot.data(),
-          };
-          setCareer(careerData);
-        } else {
-          console.log("Career not found.");
-        }
-        setLoading(false);
-      } catch (error) {
-        console.error("Error fetching career details:", error);
+
+useEffect(() => {
+  const fetchCareerDetails = async () => {
+    try {
+      const careerDocRef = doc(firestore, "careers", id);
+      const careerDocSnapshot = await getDoc(careerDocRef);
+      if (careerDocSnapshot.exists()) {
+        setCareer([careerDocSnapshot.data()]);
+      } else {
+        console.log("Career not found.");
       }
-    };
-    fetchCareerDetails();
-  }, [id]);
+      setLoading(false);
+    } catch (error) {
+      console.error("Error fetching career details:", error);
+    }
+  };
+
+  fetchCareerDetails();
+}, [id]);
 
   return (
     <Fragment>

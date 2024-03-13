@@ -173,7 +173,7 @@ import {
 import Modal from "./modal";
 import { ToastBar, Toaster } from "react-hot-toast";
 
-const ProjectSingle = ({ careers }) => {
+const ProjectSingle = ({ career }) => {
   return (
     <div >
       <div className="container">

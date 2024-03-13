@@ -175,7 +175,7 @@ import { ToastBar, Toaster } from "react-hot-toast";
 
 const ProjectSingle = ({ careers }) => {
   return (
-    <div >
+    <div {...restProps}>
       <div className="container">
         <div className="row">
           {careers &&
