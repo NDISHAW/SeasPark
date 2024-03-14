@@ -14,9 +14,9 @@ const Breadcrumb = ({ pageName, bgImage }) => (
             <li>
               <Link to="/">Home</Link>
             </li>
-            {/* <li>
+            <li>
               <Link to="/">Back</Link>
-            </li> */}
+            </li>
             <li>{pageName}</li>
           </ul>
         </div>
