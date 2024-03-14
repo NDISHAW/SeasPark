@@ -20,7 +20,7 @@ const AboutOne = ({ className }) => (
           />
         </div>
         <div className="col-lg-6 col-xl-7 align-self-center">
-          <SecTitle className="text-capitalize">
+          <SecTitle className="text-">
             {/* <i className="fas fa-bring-forward" /> */}
             SeasPark where trust Transforms
           </SecTitle>

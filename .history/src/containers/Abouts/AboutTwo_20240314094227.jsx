@@ -37,7 +37,7 @@ const AboutTwo = ({ ...restProps }) => (
             Seaspark
           </SecTitle>
           <SecSubTitle className="h1 text-capitalize">
-           Build Technology, Connecting People  .
+           Build Technology, Connecting People  
           </SecSubTitle>
           <p className="mb-4 pb-1">
             We are dedicated to connecting individuals and building technology

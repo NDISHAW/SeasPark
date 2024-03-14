@@ -87,13 +87,28 @@ const TeamFour = ({ ...restProps }) => (
         </TitleWrap>
         <br /> <br />
         {teamMembers.teamMembers.map((member) => (
+          // <div key={member.id} className="col-md-12 col-lg-12 col-xl-3">
+          //   <TeamBoxOne
+          //     biography={member.biography}
+          //     name={member.name}
+          //     desgination={member.desgination}
+          //     image={member.image}
+          //   />
+          // </div>
           <div
-            className="about-wrap2 col-xl-4 background-image"
+            className="about-wrap2 col-xl-6 background-image"
             style={{ backgroundImage: "url(images/bg/ab-bg-2-1.jpg)" }}
           >
             <div className="container">
               <div className="row gx-60">
-                <div className="col-xl-12 mb-50 mb-xl-0">
+                <div className="col-xl-6 mb-50 mb-xl-0">
+                  {/* <ImageBoxThree
+                    imageOne={member.image}
+                    // imageTwo="images/about/ab-2-2.jpg"
+                    // number="100+"
+                    // title="Awards We won"
+                    // icon="fal fa-award"
+                  /> */}
                   <div className="img-box5">
                     <div className="img-1">
                       <img src={member.image} alt="About" />
@@ -103,7 +118,19 @@ const TeamFour = ({ ...restProps }) => (
                     {member.name}
                   </SecTitle>
                   <p className="mb-6 pb-2 pe-xl-12">{member.desgination}</p>
+                  <div className=" col-xl-6 align-self-center text-center text-xl-start">
+                    
+                    {/* <SecTitle>{member.name}</SecTitle> */}
                     <p className="mb-6 pb-2 pe-xl-12">{member.biography}</p>
+                  </div>
+                </div>
+                <div className=" col-xl-6 align-self-center text-center text-xl-start">
+                  {/* <SecSubTitle>
+            <i className="fas fa-bring-forward" />
+            ABOUT OUR COMPANY
+          </SecSubTitle> */}
+                  {/* <SecTitle>{member.name}</SecTitle> */}
+                  <p className="mb-6 pb-2 pe-xl-12">{member.biography}</p>
                 </div>
               </div>
             </div>

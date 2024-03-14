@@ -20,9 +20,9 @@ const AboutOne = ({ className }) => (
           />
         </div>
         <div className="col-lg-6 col-xl-7 align-self-center">
-          <SecTitle className="text-capitalize">
+          <SecTitle className="">
             {/* <i className="fas fa-bring-forward" /> */}
-            SeasPark where trust Transforms
+            SeasPark where trust trans
           </SecTitle>
           {/* <SecSubTitle className="h1">
             Elevate Your Vision with Our Trusted Business Solutions & Consulting

@@ -10,7 +10,7 @@ const HeroOne = ()=> {
       title: (
         <>
           Navigating{" "}
-          <span className="hero-innertext">The Best Recruitment Services</span>{" "}
+          <span className="hero-innertext">Get The Best  Recruitment</span>{" "}
           <br /> Talent Tides
         </>
       ),

@@ -20,14 +20,14 @@ const AboutOne = ({ className }) => (
           />
         </div>
         <div className="col-lg-6 col-xl-7 align-self-center">
-          <SecTitle className="text-capitalize">
+          <SecTitle className="">
             {/* <i className="fas fa-bring-forward" /> */}
-            SeasPark where trust Transforms
+            Get the best Business solutions
           </SecTitle>
-          {/* <SecSubTitle className="h1">
+          <SecSubTitle className="h1">
             Elevate Your Vision with Our Trusted Business Solutions & Consulting
             – Where Trust Transforms!
-          </SecSubTitle> */}
+          </SecSubTitle>
           <p className="mb-4 mt-1 pb-3">
             SeasPark Consultancy Ltd is a Kenyan based consultancy firm that
             offers Business and Technology Solutions. We provide advanced

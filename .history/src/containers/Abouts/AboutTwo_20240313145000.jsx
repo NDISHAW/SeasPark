@@ -16,7 +16,7 @@ const AboutTwo = ({ ...restProps }) => (
             className="contact-media "
             image="images/skill/bsecurity.jpg"
             info="Ensuring the safety and integrity of your operations is our top priority. Our team employs cutting-edge strategies to protect your data and assets, giving you peace of mind."
-            title="Data Security "
+            title="Business Security "
           />
           <InfoMedia
             className="contact-media"
@@ -28,7 +28,7 @@ const AboutTwo = ({ ...restProps }) => (
             className="contact-media"
             image="images/skill/innovation.jpg"
             info="Innovation is at the heart of everything we do. We are constantly exploring new ideas and technologies to help your business stay ahead of the curve and achieve sustainable growth"
-            title="Digital Innovation "
+            title="Business Innovation "
           />
         </div>
         <div className="col-lg-5 col-xxl-4 me-xl-auto">
@@ -37,11 +37,12 @@ const AboutTwo = ({ ...restProps }) => (
             Seaspark
           </SecTitle>
           <SecSubTitle className="h1 text-capitalize">
-           Build Technology, Connecting People  .
+           Build Technology, Connecting People And 
           </SecSubTitle>
           <p className="mb-4 pb-1">
             We are dedicated to connecting individuals and building technology
-            that enhances lives. Our approach integrates a wide range of meta-services <br></br> to streamline processes and enhance user experience.
+            that enhances lives. Our approach integrates a wide range of
+            meta-services to streamline processes and enhance user experience.
             We prioritize interactive customer service and maintain high
             standards to ensure reliable and effective solutions.
           </p>

@@ -88,12 +88,12 @@ const TeamFour = ({ ...restProps }) => (
         <br /> <br />
         {teamMembers.teamMembers.map((member) => (
           <div
-            className="about-wrap2 col-xl-4 background-image"
+            className="about-wrap2 col-xl-6 background-image"
             style={{ backgroundImage: "url(images/bg/ab-bg-2-1.jpg)" }}
           >
             <div className="container">
               <div className="row gx-60">
-                <div className="col-xl-12 mb-50 mb-xl-0">
+                <div className="col-xl-6 mb-50 mb-xl-0">
                   <div className="img-box5">
                     <div className="img-1">
                       <img src={member.image} alt="About" />
@@ -104,7 +104,11 @@ const TeamFour = ({ ...restProps }) => (
                   </SecTitle>
                   <p className="mb-6 pb-2 pe-xl-12">{member.desgination}</p>
                     <p className="mb-6 pb-2 pe-xl-12">{member.biography}</p>
+                  {/* </div> */}
                 </div>
+                {/* <div className=" col-xl-6 align-self-center text-center text-xl-start">
+                  <p className="mb-6 pb-2 pe-xl-12">{member.biography}</p>
+                </div> */}
               </div>
             </div>
           </div>

@@ -37,11 +37,11 @@ const AboutTwo = ({ ...restProps }) => (
             Seaspark
           </SecTitle>
           <SecSubTitle className="h1 text-capitalize">
-           Build Technology, Connecting People  .
+           Build Technology, Connecting People  
           </SecSubTitle>
           <p className="mb-4 pb-1">
             We are dedicated to connecting individuals and building technology
-            that enhances lives. Our approach integrates a wide range of meta-services <br></br> to streamline processes and enhance user experience.
+            that enhances lives. Our approach integrates a wide range of meta-services </br?to streamline processes and enhance user experience.
             We prioritize interactive customer service and maintain high
             standards to ensure reliable and effective solutions.
           </p>
