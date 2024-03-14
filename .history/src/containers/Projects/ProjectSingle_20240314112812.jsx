@@ -174,7 +174,7 @@ import Modal from "./modal";
 import { ToastBar, Toaster } from "react-hot-toast";
 
 const ProjectSingle = ({ careers }) => {
-  console.log(careers);
+  
   return (
     <div >
       <div className="container">

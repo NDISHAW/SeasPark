@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "../";
 
 export default function CareerBox({ image, icon, title, text, path = "#" }) {
-  // console.log(path);
+  console.log(path);
   return (
     // <div className="service-style3">
     //   <div className="service-front">

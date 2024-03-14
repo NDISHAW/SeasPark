@@ -105,7 +105,7 @@ export default function CareersDetails() {
       {careers && (
         <ProjectSingle
           className="space-top space-extra-bottom"
-          careers={careers}
+          career={careers}
         />
       )}
       <FooterOne />

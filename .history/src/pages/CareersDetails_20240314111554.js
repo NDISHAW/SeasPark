@@ -103,9 +103,9 @@ export default function CareersDetails() {
         bgImage="/images/careers/careerbg.jpg"
       />
       {careers && (
-        <ProjectSingle
+        <ServiceSingle
           className="space-top space-extra-bottom"
-          careers={careers}
+          service={service}
         />
       )}
       <FooterOne />

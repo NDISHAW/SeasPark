@@ -174,7 +174,6 @@ import Modal from "./modal";
 import { ToastBar, Toaster } from "react-hot-toast";
 
 const ProjectSingle = ({ careers }) => {
-  console.log(careers);
   return (
     <div >
       <div className="container">
@@ -220,7 +219,7 @@ const ProjectSingle = ({ careers }) => {
                 <h3 className="h5 pt-xl-3">Job Description:</h3>
                 <p>
                   <List className="list-style3">
-                    {careers.descriptions.map((description, index) => (
+                    {career.descriptions.map((description, index) => (
                       <List.Item key={index}>
                         <i className="fas fa-check-circle" />
                         {description}

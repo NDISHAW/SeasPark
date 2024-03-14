@@ -102,12 +102,7 @@ export default function CareersDetails() {
         pageName="Career Details"
         bgImage="/images/careers/careerbg.jpg"
       />
-      {careers && (
-        <ProjectSingle
-          className="space-top space-extra-bottom"
-          careers={careers}
-        />
-      )}
+      
       <FooterOne />
       <ScrollTopBtn />
     </Fragment>

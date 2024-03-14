@@ -102,12 +102,20 @@ export default function CareersDetails() {
         pageName="Career Details"
         bgImage="/images/careers/careerbg.jpg"
       />
-      {careers && (
-        <ProjectSingle
-          className="space-top space-extra-bottom"
-          careers={careers}
-        />
-      )}
+      /
+      // ) : (
+        // Display loader while data is being fetched
+        // Display ProjectSingle component once data is fetched
+        // <ProjectSingle
+        //   key={careers.length > 0 && careers[0].id}
+        //   career={careers.length > 0 && careers[0]}
+        // />
+      //   <ProjectSingle
+      //     key={careers.length > 0 && careers[0].id}
+      //     career={careers.length > 0 && careers[0]}
+      //   />
+      // )}
+      {/* {career && <ProjectSingle career={career} />} */}
       <FooterOne />
       <ScrollTopBtn />
     </Fragment>

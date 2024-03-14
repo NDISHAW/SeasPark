@@ -102,12 +102,26 @@ export default function CareersDetails() {
         pageName="Career Details"
         bgImage="/images/careers/careerbg.jpg"
       />
-      {careers && (
-        <ProjectSingle
+      {loading ? (
+        <div className="container">
+          {/* <NotFoundOne /> */}
+          <p className="h1 justify-items-center">Vacancies Not Available</p>
+          <img src={NotFound} alt="img" className="img" />
+        </div>
+      ) : (
+        // Display loader while data is being fetched
+        // Display ProjectSingle component once data is fetched
+        // <ProjectSingle
+        //   key={careers.length > 0 && careers[0].id}
+        //   career={careers.length > 0 && careers[0]}
+        // />
+        {service && (
+        <ServiceSingle
           className="space-top space-extra-bottom"
-          careers={careers}
+          service={service}
         />
       )}
+      
       <FooterOne />
       <ScrollTopBtn />
     </Fragment>

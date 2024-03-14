@@ -88,7 +88,7 @@ const TeamFour = ({ ...restProps }) => (
         <br /> <br />
         {teamMembers.teamMembers.map((member) => (
           <div
-            className="about-wrap2 col-xl-3 background-image"
+            className="about-wrap2 col-xl-6 background-image"
             style={{ backgroundImage: "url(images/bg/ab-bg-2-1.jpg)" }}
           >
             <div className="container">
