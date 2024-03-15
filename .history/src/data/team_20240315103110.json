@@ -1,0 +1,69 @@
+
+
+{
+  "teamMembers": [
+    {
+      "id": 1,
+      "name": "Rowland Simiyu",
+      "desgination": "Managing Director",
+      "image": "images/team/722.jpg",
+      "biography": "Rowland, founder of SeasPark Consultancy, leverages several years of experience as a SAP Consultant across diverse industries. He is responsible for steering SeasPark’s overall vision, mission, and business strategy. His focus is driving the company's growth and maintaining a competitive position in the market. He is a people-oriented leader and has a deep understanding of business processes and operations",
+      "personalBiography": "A graduate of University of Nairobi, Rowland has cultivated working relationships with colleges and businesses across the nation in development of innovative workforce solutions."
+    },
+    {
+      "id": 3,
+      "name": "Timothy Mbogo",
+      "desgination": "Lead SAP Developer",
+      "image": "images/team/Timothy.jpg",
+      "biography": "Timothy is a professional software developer with over 10 years of experience in designing and implementing complex business systems. He is a Certified SAP Developer whose focus is on development and intergration of SAP Solution  "
+    },
+
+    {
+      "id": 4,
+      "name": "Anne Nderi",
+      "desgination": "ERP Consultant",
+      "image": "images/team/Anne.jpg",
+      "biography": "Anne is an experienced ERP consultant specializing in tailored ERP solutions, optimizing operations, and increasing efficiency for businesses. Her focus is on resolving business challenges, leading system integrations, providing user training, and delivering ongoing support for sustained success. Expertise results in streamlined processes and improved decision-making capabilities for businesses."
+    },
+    {
+      "id": 5,
+      "name": "Dennis Kibunja",
+      "desgination": "Lead SAP Consultant",
+      "image": "images/team/Dennis.jpg",
+      "experience": "Ten years",
+      "biography": "Dennis is an experienced and Certified SAP Consultant with many years of implementing and supporting SAP Solutions such as SAP Business One, SAP SD, SAP HANA & S/4HANA solutions. He is also a Certified Information Systems Auditor® (CISA)."
+    },
+    {
+      "id": 6,
+      "name": "Richard O. Omboga",
+      "desgination": "Software Engineer",
+      "image": "images/team/722.jpg",
+      "biography": "Richard is an experienced software Engineer who is proficient in Java, C#, Kotlin, PHP, and JavaScript. He is also skilled in modern methodologies, cloud tech, and DevOps. A strong leader, mentor, and problem-solver with a passion for emerging technologies",
+      "experience": "Six years"
+    },
+    {
+      "id": 7,
+      "name": "Duncan Kwatemba",
+      "desgination": "IT Support and Data analyst",
+      "image": "images/team/DUNCAN.jpg",
+      "biography": "IT professional with 5 years' experience in IT support and data analysis. Proficient in Power BI, Tableau, and SAP predictive analytics. Team-oriented with a focus on meeting deadlines and delivering top-notch IT services.",
+      "experience": "Five years"
+    },
+    {
+      "id": 8,
+      "name": "Charity Thomas",
+      "desgination": "IT & Business Analyst",
+      "image": "images/team/CHARITY.jpg",
+      "biography": "Experienced professional in sales automation and Fleet Management System (FMS) implementations. Skilled in data analysis, KPI extraction, agreement drafting, issue resolution, process documentation, and reporting tool development. Strong communicator, adept at translating data for management and supporting training initiatives.",
+      "experience": "Five years"
+    },
+    {
+      "id": 9,
+      "name": "Vanice Olal",
+      "desgination": "Human Resource Generalist",
+      "image": "images/team/VANICE.jpeg",
+      "biography": "Vanice is an Experienced HR Generalist with key skills in HR policies, payroll, and employment law. Her focus is to foster supportive environments, ensuring compliance, and resolving HR issues. She is proficient in building relationships and driving employee development while strategically aligning HR practices with business objectives for sustained success.",
+      "experience": "Five years"
+    }
+  ]
+}
