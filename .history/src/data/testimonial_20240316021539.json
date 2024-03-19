@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "image": "images/about/ab-5-1.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-1.jpg",
+    "name": "William Musoti",
+    "designation": "Recruitment Customer",
+    "text": "Impressive executive search services! Their proven methodology ensures top-tier executives perfectly aligned with our company culture, driving generational growth. Trustworthy partners in navigating the uncertainty of talent acquisition."
+  },
+  {
+    "id": "2",
+    "image": "images/about/ab-5-2.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-2.jpg",
+    "name": "Alfred Khaemba",
+    "designation": "SAP client",
+    "text": "SeasPark Consultancy's SAP Implementation services offer a comprehensive solution for business transformation. With a focus on aligning with strategic objectives and maximizing ROI, they provide industry-best practices and modern tools to fast-track ERP deployment. Their expertise in change management ensures a successful transition and enhanced productivity."
+  },
+  {
+    "id": "3",
+    "image": "images/about/ab-5-3.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-3.jpg",
+    "name": "Vivian Mulondi",
+    "designation": "Recruitment Customer",
+    "text": "Exceptional corporate staffing solutions! Beyond IT, they secure top-notch managers—Senior Managers, Directors, and VPs, empowering our business with the right talent. Dependable in delivering the people who fuel our success."
+  },
+  {
+    "id": "4",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "Peter Njoroge",
+    "designation": "SAP client",
+    "text": "SeasPark Consultancy's SAP Expert Consultancy delivers top-notch SAP consultants for diverse project needs. With flexible support options and access to skilled professionals across various SAP modules, they ensure efficient project execution and comprehensive assistance. Their platform offers convenient access and a comprehensive dashboard for easy management of SAP projects."
+  },
+  {
+    "id": "5",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "James Kasyoki",
+    "designation": "Recruitment Customer",
+    "text": "Outstanding RPO expertise! Seamlessly integrating with internal resources, they position us for performance and growth. With a blend of technology and certified experts, they efficiently meet project demands, ensuring projects are completed on-time and on-budget."
+  },
+  {
+    "id": "6",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "Scarlet Mumbua",
+    "designation": "ERP client",
+    "text": "SeasPark Consultancy offers comprehensive ERP solutions tailored to diverse business needs. With a focus on SAP ECC, S4HANA, SAP Business One, and SAP Business ByDesign, they provide scalable and customizable platforms for business growth. Their expertise in implementation, migration, and customization ensures seamless integration and optimal performance."
+  },
+  {
+    "id": "7",
+    "image": "images/about/ab-5-4.jpg",
+    "icon": "fal fa-quote-right",
+    "avater": "images/testimonial/auth-4-4.jpg",
+    "name": "John Museti",
+    "designation": "SAP Client",
+    "text": "SeasPark SAP Expert Consultancy delivers top-notch consulting services across a wide range of SAP modules. With a commitment to providing highly skilled consultants for specific project needs, they offer flexible support options and comprehensive assistance. Their platform's user-friendly interface and dashboard facilitate efficient project management and execution."
+  }
+]
