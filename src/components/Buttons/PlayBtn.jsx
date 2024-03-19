@@ -391,9 +391,9 @@ const PlayBtn = ({
                   defaultValue={id}
                   onChange={(e) => setJobNumber(e.target.value)}
                   disabled
+                  hidden
                 />
-              </div>
-              <div className="col-12 form-group ">
+                <i className="fal fa-upload " />
                 <input
                   className="pt-xl-3 text-center h1"
                   type="file"
@@ -401,8 +401,8 @@ const PlayBtn = ({
                   onChange={(e) => setPdfFile(e.target.files[0])}
                   required
                 ></input>
-                <i className="fal fa-upload " />
               </div>
+              <div className="col-12 form-group "></div>
               {/* <textarea
                 contenteditable
                 name="message"

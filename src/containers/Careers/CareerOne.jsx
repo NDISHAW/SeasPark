@@ -70,24 +70,7 @@ const CareerOne = ({ onCareerClick, ...restProps }) => {
   console.log("====================================");
   console.log("career1", careers);
   console.log("====================================");
-  // const [{ careers, LabReagents, cartShow }, dispatch] = useStateValue();
-  //   const [careers, setCareers] = useState(false);
-  // const getAllCareers = async () => {
-  //   const items = await getDocs(
-  //     query(collection(firestore, "careers"))
-  //   );
-  //     console.log(items);
-  //   return items.docs.map((doc) => doc.data());
-  // };
-
-  //  useEffect(() => {
-  //    getAllCareers();
-  //  }, []);
-
-  //  if (!careers) {
-  //    // Optional: You can render a loading spinner or message while data is being fetched.
-  //    return <div>Loading...</div>;
-  //  }
+ 
 
   return (
     <div {...restProps} className="space-top space-extra-bottom">
@@ -110,18 +93,18 @@ const CareerOne = ({ onCareerClick, ...restProps }) => {
                       <>
                         <SecTitle className="h4">{item.title}</SecTitle>
                         <List className="list-style2">
-                          <List.Item>
+                          {/* <List.Item>
                             <i className="fas fa-check-circle" />
                             {item.experience}
-                          </List.Item>
+                          </List.Item> */}
                           <List.Item>
                             <i className="fas fa-check-circle" />
-                            Exp: 2-3 yrs
+                            Experience: {item.experience}
                           </List.Item>
-                          <List.Item>
+                          {/* <List.Item>
                             <i className="fas fa-map-marker-alt" />
                             Nairobi
-                          </List.Item>
+                          </List.Item> */}
                           <List.Item>
                             <i className="fas fa-check-circle" />
                             Job No: 010 {item.id}
@@ -163,11 +146,7 @@ const CareerOne = ({ onCareerClick, ...restProps }) => {
                         </p>
                       </>
                     )}
-                    <PlayBtn
-                      className="style5"
-                      title={careers.title}
-                      id={careers.id}
-                    >
+                    <PlayBtn className="style5" title={item.title} id={item.id}>
                       <button className="style1">
                         Apply Now
                         <i className="far fa-long-arrow-right" />
@@ -185,17 +164,17 @@ const CareerOne = ({ onCareerClick, ...restProps }) => {
                       <InfoMedia
                         icon="fas fa-layer-group"
                         title="Category:"
-                        info={careers.category}
+                        info={item.category}
                       />
                       <InfoMedia
                         icon="fas fa-calendar-alt"
                         title="Date:"
-                        info={careers.created_at}
+                        info={item.created_at}
                       />
                       <InfoMedia
                         icon="fas fa-map-marker-alt"
                         title="Address:"
-                        info={careers.address}
+                        info={item.address}
                       />
                     </div>
                   </div>
