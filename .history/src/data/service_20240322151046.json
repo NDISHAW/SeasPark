@@ -1,0 +1,330 @@
+{
+  "services":[
+    {
+      "id": "1",
+      "path": "/service-details",
+      "image": "/images/service/recruit.jpg",
+      "imagg": "/images/service/talent.jpg",
+      "icon": "/images/icon/sr-icon-3-1.png",
+      "bgShape": "/images/bg/sr-box-bg-1.jpg",
+      "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
+      "title": "Talent Acquisition ",
+      "tex": "We heavily rely on our rich and diverse talent pool to ensure we deliver effective staffing as well as the recruitment solutions for our clients. In...",
+      "text": "We heavily rely on our rich and diverse experience to leverage our talent pool to ensure we deliver effective staffing as well as the recruitment solutions for our clients. In this sense, we find the best skills and fit for our clients. We take the steps to help you zero in and acquire the very best on the market.",
+      "services": [
+        {
+          "title": "Executive Search",
+          "text": "We can be your partner to help in attracting the leading executives who outperform your expectations. Ou framework is built to assess how an executive vision pairs with your company culture to achieve generational growth.",
+          "subServices": [
+            {
+              "title": "Retained Search",
+              "text": "We built retained search through collaborating, listening and precise communication. We draw directly from our talent pool depending on your needs whether you are seeking enterprise solutions like SAP, Oracle or in need of unique disparate skills."
+            },
+            {
+              "title": "Corporate Staffing",
+              "text": "While we’ve long recruited tech positions and teams for diverse markets, we do more than IT staffing. We also recruit top managers for you—Senior Managers, Directors, and VPs. You can trust us to secure the People that Power your Business."
+            },
+            {
+              "title": "Contingency Search",
+              "text": "From corporate functions to supervisors and management-level positions, you’ll benefit from our deep candidate research and highly-qualified pool of top talent. We find A+ candidates to fill your toughest roles fast, and only get compensated when ours are hired."
+            }
+          ]
+        },
+        {
+          "title": "Recruiting Process Outsourcing (RPO)",
+          "text": "Positioning for Performance and Growth. Whether you need to hand off some or all of your recruiting process, our RPO experts can seamlessly integrate with your internal resources to build on and build out their effort.",
+          "subServices": [
+            {
+              "title": "Urgent Demand Staffing",
+              "text": "We take ownership of your recruiting process by bringing people, technology, and processes together to efficiently meet project demands. Our RPO teams are true experts who closely manage your project. We are SCRUM, PMP and SHRM certified as well as Data Analytics Masters."
+            },
+            {
+              "title": "Project Staffing",
+              "text": "We bring right candidates on board when needed, as needed to make progress happen for your company when you need to ramp up staff. We make staff augmentation easy so projects can be completed on-time and on-budget."
+            },
+            {
+              "title": "Our RPO combines the following Three Pillars",
+              "text": "The key pillars that make our RPO successful are;",
+              "subnServices": [
+                {
+                  "title": "People",
+                  "text": "Once your needs ae understood, we select our human resources who will direct your recruiting. We optimize the number of people at every level to meet your needs and increase exponentially."
+                },
+                {
+                  "title": "Platform",
+                  "text": "Client HR departments and C-level executives appreciate how our RPO projects deliver what we call “scalable candidates”, talent whose subject matter expertise mean one person can fill two positions or more."
+                },
+                {
+                  "title": "Process",
+                  "text": "SeasPark runs RPO projects basing on Urgent demand staff model for both our clients by assembling the correct personnel for your needs, and many clients have benefitted from our methodical approach."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+{
+  "id": "2",
+  "path": "/service-details",
+  "image": "/images/service/sap.jpg",
+  "imagg": "/images/service/diagram.png",
+  "icon": "/images/icon/sr-icon-3-2.png",
+  "bgShape": "/images/bg/sr-box-bg-1.jpg",
+  "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
+  "title": "SAP Services",
+  "tex": "SeasPark offers various SAP Services ranging fro SAP Implementation, Roll-Outs, Expert Consultancy, Licence Sale, SAP Upgrade & Migration and support services. Our..",
+  "text": "SeasPark offers various SAP Services ranging from SAP Implementation, Roll-Outs, Expert Consultancy, Licence Sale, SAP Upgrade & Migration and support services. Our SAP Services include -:-",
+  "services": [
+    {
+      "title": "End to End SAP Implementation",
+      "text": "Our Implementation Services portfolio assists organizations in business transformation initiatives. Our blend of industry best practices, proven implementation methodologies, and modern configuration tools can enable you to fast-track the deployment of your SAP ERP solution.  ",
+      "img": "/images/service/e2esap.jpg",
+      "subServices": [
+        {
+          "title": "Typical implementation engagement cover is achieved through;",
+          "subnServices": [
+            {
+              "text": "Implementation Project Plan and monitor the execution, configure and test the underlying technical infrastructure."
+            },
+            {
+              "text": "Define, design, map and configure business processes and customize business processes if needed"
+            },
+            {
+              "text": "Perform Change Management through effective Knowledge Transfer and end user education programs"
+            }
+          ]
+        },
+        {
+          "title": "Roll Out",
+          "text": "Roll out typically involves;",
+          "subnServices": [
+            {
+              "text": "Template rollout to geographies"
+            },
+            {
+              "text": "Process mapping country extensions"
+            },
+            {
+              "text": "Configuring country extensions "
+            },
+            {
+              "text": "Custom developments for country extensions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "SAP Upgrade and migration – your choice SAP upgrade",
+      "text": "If you’re planning to upgrade to the latest version of your SAP platform, you can partner with us to help you flawlessly upgrade your SAP system on a predictable timeline and budget and with minimal business disruption. Upgrade and Migration capabilities include Upgrade implementation plan, Deployment of environment, Migration, System testing, new system adaptability, post go live support. We also help in our customers moving to Cloud deployment which helps to lower total cost of ownership, and the convenience of outsourcing maintenance, support, and upgrades.",
+      "img": "/images/service/upgrademigration.jpg"
+    },
+    {
+      "title": "SAP roll out – We make your ERP work",
+      "text": "SeasPark Consultancy has extensive experience in Template solutions rollout for different clients across their business units and geographies. We offer multiple delivery models wherein we can align your specific business processes, systems and strategies for achieving your business objectives. Apart from this, our ready to use SAP roll-out guidelines, standards and procedures help you accelerate the roll out process and speed up the business operations. This rollout includes;",
+      "img": "/images/service/rollout.jpg",
+      "subServices": [
+        {
+          "title": "Process mapping country extensions"
+        },
+        {
+          "text": "Process mapping country extensions"
+        },
+        {
+          "text": "Process mapping country extensions"
+        },
+        {
+          "text": "Configuring country extensions"
+        },
+        {
+          "text": "Custom developments for country extensions"
+        },
+        {
+          "text": "Deployment through change management"
+        }
+      ]
+    },
+    {
+      "title": "SAP Expert Consultancy ",
+      "text": "The easy-to-use services provide you with the most qualified SAP consultants to help you with your specific SAP projects. Our Expert consulting services can be used for anything from one quick answer to longer-term support with no contractual commitment. The easy-to-use services provide you with the most qualified SAP consultants to help you with your specific SAP projects. The platform also includes a comprehensive dashboard to keep track of your past and current work.",
+
+      "subServices": [
+        {
+          "title": "  We service the following SAP modules;  ",
+          "text": "  FI/CO, S/4 HANA, SD, MM, PP, HCM, PS, B1, ByD, BW, BI/BUSINESS OBJECTS, PM, QM"
+        }
+      ]
+    },
+    {
+      "title": "SAP Licensed Sale",
+      "text": "Our SAP software reseller team enables you to buy the most cost-effective licenses for SAP software use our expertise to identify the exact licenses you need add long-term value. License optimization is not only a matter of reducing cost but the practice of continuously monitoring the demand for software in your organization, and only buying what you need. Our licensing experts can help you with license consolidation, infrastructure optimization, contract optimization, improving documentation, license transfer, or re-harvesting.",
+      "subServices": [
+        {
+          "title": "Types of Licenses;"
+        },
+        {
+          "text": "Analytics and BI Licences (Business Objects and SAC)."
+        },
+        {
+          "text": "ERP Licences (Business One, Business ByDesign and S4HANA)."
+        },
+        {
+          "text": "Enterprise management Licences (SAP BPC)."
+        },
+        {
+          "text": "Human Resources Licences (Success Factors)."
+        }
+      ]
+    }
+  ]
+},
+    {
+      "id": "4",
+      "path": "/service-details",
+      "image": "/images/service/platform.jpg",
+      "imagg": "/images/service/platform.jpg",
+      "icon": "/images/icon/sr-icon-3-4.png",
+      "bgShape": "/images/bg/sr-box-bg-1.jpg",
+      "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
+      "title": "Digital Platforms",
+      "tex": "Our Digital Business Services is ready to help you build, and accelerate your Intelligent Enterprise for faster value creation with greater visibility, focus and agility. We help you define...",
+      "text": "Let SeasPark’s technologists guide you through a process of planning, building, and delivering technology solutions tailored to solve your unique business challenges. Digital Strategy Development: We help you define and refine your digital strategy to align with your business objectives, ensuring that your technology investments yield maximum returns. Digital Transformation: Our experts assist you in transforming your business processes and operations through the adoption of digital technologies, enhancing efficiency and competitiveness. Data Analytics and Business Intelligence: We help you harness the power of data by implementing analytics and BI solutions that provide actionable insights for informed decision-making."
+    },
+    {
+      "id": "5",
+      "path": "/service-details",
+      "image": "/images/service/training.jpg",
+      "imagg": "/images/service/platform.jpg",
+      "icon": "/images/icon/sr-icon-3-5.png",
+      "bgShape": "/images/bg/sr-box-bg-1.jpg",
+      "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
+      "title": "Trainings",
+      "tex": "Explore a world beyond IT staffing. SeasPark excels in recruiting Senior Managers, Directors, and VPs, ensuring your organization is powered by leaders who drive business success.",
+      "text": "Explore a world beyond IT staffing. SeasPark excels in recruiting Senior Managers, Directors, and VPs, ensuring your organization is powered by leaders who drive business success.",
+      "services": [
+        {
+          "text": "We offer tailored leadership development programs designed to enhance the skills and capabilities of your senior managers, directors, and VPs, empowering them to drive business success.",
+          "subServices": [
+            {
+              "title": "Leadership Development Programs:",
+              "text": "We offer tailored leadership development programs designed to enhance the skills and capabilities of your senior managers, directors, and VPs, empowering them to drive business success."
+            },
+            {
+              "title": "Management Training Workshops:",
+              "text": "Our interactive management training workshops cover a wide range of topics, including strategic planning, team management, and effective decision-making, equipping your leaders with the tools they need to excel."
+            },
+            {
+              "title": "Executive Coaching Services:",
+              "text": "Our experienced executive coaches provide one-on-one coaching sessions to help your senior leaders enhance their leadership skills, overcome challenges, and achieve their professional goals."
+            },
+            {
+              "title": "Succession Planning: ",
+              "text": "We assist you in developing and implementing succession plans to ensure a smooth transition of leadership roles within your organization, minimizing disruptions and maintaining continuity."
+            },
+            {
+              "title": "Leadership Assessments:",
+              "text": "We conduct comprehensive leadership assessments to identify strengths, areas for improvement, and development opportunities for your senior managers, directors, and VPs"
+            },
+            {
+              "title": "Customized Training Solutions:",
+              "text": "We tailor our training programs to meet your organization's specific needs and objectives, ensuring that the content is relevant, engaging, and impactful."
+            },
+            {
+              "title": "Industry-specific Training Programs:",
+              "text": "We offer industry-specific training programs that address the unique challenges and opportunities faced by your organization, keeping your leaders abreast of the latest trends and best practices."
+            },
+            {
+              "title": "Team Building Activities:",
+              "text": "We organize team building activities and workshops to foster collaboration, communication, and trust among your senior management team, enhancing team cohesion and performance."
+            },
+            {
+              "title": "Soft Skills Training: ",
+              "text": "We provide training in essential soft skills such as communication, leadership, and emotional intelligence, enabling your leaders to effectively manage teams and drive results."
+            },
+            {
+              "title": "Continuous Learning Programs: ",
+              "text": "We promote a culture of continuous learning and development within your organization, offering ongoing training programs to keep your senior managers, directors, and VPs updated with the latest industry trends and practices."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "path": "/service-details",
+      "image": "/images/service/data.jpg",
+      "icon": "/images/icon/sr-icon-1-6.png",
+      "imagg": "/images/service/platform.jpg",
+      "bgShape": "/images/bg/sr-box-bg-1.jpg",
+      "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
+      "title": "Data & Analytics",
+      "tex": "Our Data & Analytics solutions helps our clients make better decisions and react to opportunities and threats quickly. A strategic approach to analytics will..",
+      "text": "Our Data & Analytics solutions is build on the best available analytics technologies and business intelligence (BI) platforms to accelerate insights and data-driven outcomes to and deliver measurable value. We turn data into business value by giving you the insights to problem-solve, strategize, manage, and optimize. Our Data & Analytics offering includes",
+      "services": [
+        {
+          "title": "Business Intelligence ",
+          "text": "We help your team analyze data faster, with more self-service tools to enable your business to become data-driven.",
+          "subServices": [
+            {
+              "text": ["Business analytics"]
+            },
+            {
+              "text": ["Data warehousing (SAP BW, BW4HANA)"]
+            },
+            {
+              "text": ["Self-service analytics"]
+            },
+
+            {
+              "title": "SAP Analytics Cloud (SAC).",
+              "text": "SAP S/4HANA Cloud is a complete enterprise resource planning (ERP) system with built-in intelligent technologies, including AI, machine learning, and advanced analytics. It helps companies adopt new business models, manage business change at speed, orchestrate internal and external resources, and use the predictive power of AI. Benefit from tight, native integration between processes, industry depth, and a consistent in-memory data model. • End-to-end analytics on the Cloud. • Prior expertise in deploying data warehousing, reporting & analytics on the cloud. • Cloud BI & Analytics. • Hybrid On-Premise + Cloud BI. • Integrate your cloud platforms with existing on-premise investments and enhance ROI. • SAP Tools & Platforms."
+            }
+          ]
+        },
+        {
+          "title": "Data Engineering",
+          "text": "We have hands-on expertise using cutting-edge technologies and platforms to modernize your data strategy, governance, and operating models, with a focus on creating insights to drive business outcomes.",
+          "subServices": [
+            {
+              "text": ["Data strategy"]
+            },
+            {
+              "text": ["Data architecture"]
+            },
+            {
+              "text": ["Data enrichment"]
+            },
+            {
+              "text": ["Data governance"]
+            },
+            {
+              "text": ["Data management"]
+            }
+          ]
+        },
+        {
+          "title": "Operational Analytics",
+          "text": "By creating meaningful insights to assess and drive performance in key operational areas, we help you modernize and transform your operational processes to drive efficiencies, with added flexibility to support changing business requirements—improving your responsiveness, agility, and speed to value.",
+          "subServices": [
+            {
+              "text": ["Data strategy"]
+            },
+            {
+              "text": ["Data architecture"]
+            },
+            {
+              "text": ["Data enrichment"]
+            },
+            {
+              "text": ["Data governance"]
+            },
+            {
+              "text": ["Data management"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
