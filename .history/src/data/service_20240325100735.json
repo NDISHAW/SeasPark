@@ -43,7 +43,7 @@
               ]
             }
           ]
-        },
+        }
         {
           "title": "Corporate Staffing",
               "text": "While we’ve long recruited tech positions and teams for diverse markets, we do more than IT staffing. We also recruit top managers for you—Senior Managers, Directors, and VPs. You can trust us to secure the People that Power your Business.",
@@ -79,7 +79,7 @@
         {
           "title": "End to End SAP Implementation",
           "text": "Our Implementation Services portfolio assists organizations in business transformation initiatives. Our blend of industry best practices, proven implementation methodologies, and modern configuration tools can enable you to fast-track the deployment of your SAP ERP solution.  ",
-          "img": "/images/service/e2esap1.jpg",
+          "img": "/images/service/e2esap.jpg",
           "subServices": [
             {
               "title": "Typical implementation engagement cover is achieved through;",
