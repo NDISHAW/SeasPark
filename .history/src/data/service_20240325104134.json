@@ -404,7 +404,8 @@
               "text": ["Business analytics"]
             },
             {
-              "text": ["Data warehousing (SAP BW, BW4HANA)"]
+              "text": ["Data warehousing (SAP BW, BW4HANA)"],
+              "img": "/images/service/BW4HANA.jpg"
             },
             {
               "text": ["Self-service analytics"]

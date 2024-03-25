@@ -323,7 +323,7 @@
       "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
       "title": "Digital Platforms",
       "tex": "Our Digital Business Services is ready to help you build, and accelerate your Intelligent Enterprise for faster value creation with greater visibility, focus and agility. We help you define...",
-      "text": "Proven pre-built Digital Platforms with ready to roll out process and use cases that can be launched as-a-service. SeasPark Digital Platforms realizes customer management, revenue management, policy control and charging, enterprise product catalogue, service orchestration and analytics-based service assurance for service providers using best of the breed products from the industry. Platform services are exposed using standards-compliant open APIs, enabling easy integration of front channels, partner systems and third party applications. Platform’s ready to roll out pre-built process and industry-specific use cases substantially reduce the time and effort for implementation. Platform ecosystem is offered as-a-service over cloud or as a standalone implementation."
+      "text": "Let SeasPark’s technologists guide you through a process of planning, building, and delivering technology solutions tailored to solve your unique business challenges. Digital Strategy Development: We help you define and refine your digital strategy to align with your business objectives, ensuring that your technology investments yield maximum returns. Digital Transformation: Our experts assist you in transforming your business processes and operations through the adoption of digital technologies, enhancing efficiency and competitiveness. Data Analytics and Business Intelligence: We help you harness the power of data by implementing analytics and BI solutions that provide actionable insights for informed decision-making."
     },
     {
       "id": "5",
@@ -404,7 +404,8 @@
               "text": ["Business analytics"]
             },
             {
-              "text": ["Data warehousing (SAP BW, BW4HANA)"]
+              "text": ["Data warehousing (SAP BW, BW4HANA)"],
+              "img": "/images/service/BW4HANA.jpg"
             },
             {
               "text": ["Self-service analytics"]
