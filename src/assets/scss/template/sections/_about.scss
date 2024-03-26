@@ -454,6 +454,22 @@
   top: 0;
   color: rgba(14, 89, 242, 0.07);
 }
+.about-shape2 {
+  height: 90vh;
+  font-size: 150px;
+  font-weight: 400;
+  font-family: $title-font;
+  line-height: 1;
+  display: inline-block;
+  writing-mode: tb-rl;
+  text-transform: uppercase;
+  transform: rotate(180deg);
+  position: absolute;
+  right: 95px;
+  bottom: 1000px;
+  top: 0;
+  color: rgba(14, 89, 242, 0.07);
+}
 
 .contact-media {
   display: flex;
@@ -616,6 +632,11 @@
     font-size: 80px;
     right: 50px;
     bottom: 70px;
+  }
+  .about-shape2 {
+    font-size: 80px;
+    right: 50px;
+    bottom: 700px;
   }
 
   .img-box2 {

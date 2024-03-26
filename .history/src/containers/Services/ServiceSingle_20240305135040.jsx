@@ -465,7 +465,7 @@ import SidebarTwo from "../Sidebars/SidebarTwo";
 const ServiceSingle = ({ service, className, ...restProps }) => (
   <div {...restProps}>
     <div className="container">
-      <div className="row gx-60 space-top">
+      <div className="row gx-60 ">
         <div className="col-xl-6 mb-50 mb-xl-0 ">
           {service && service.image && (
             <ImageBoxThree

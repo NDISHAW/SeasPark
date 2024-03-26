@@ -500,108 +500,115 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
           </Button>
         </div>
       </div>
+
       <div className="row flex-row-reverse">
         <div className="col-lg-12">
           {/* Iterate through services */}
           {service &&
             service.services &&
             service.services.map((subService, index) => (
-              <div key={index} className="row gx-60 space-top">
+              <div className="row gx-60 ">
+                {/* <div className="row gx-60 space-top">
+                  {subService && subService.img ? (
+                    <>
+                      <div className="col-xl-6 align-self-center text-center text-xl-start">
+                        <SecTitle className="text-capitalize">
+                          {service.title}
+                        </SecTitle>
+                        <p className="mb-6 pb-2 pe-xl-12">{service.text}</p>
+                      </div>
+                      <div className="col-xl-6 mb-50 mb-xl-0">
+                        <ImageBoxThree
+                          imageOne={service.img}
+                          alt="Project"
+                          className="w-100"
+                        />
+                      </div>
+                    </>
+                  ) : (
+                    <div className="col-xl-12 align-self-center text-center text-xl-start">
+                      <SecTitle className="text-capitalize">
+                        {subService.title}
+                      </SecTitle>
+                      <p className="mb-6 pb-2 pe-xl-12">{subService.text}</p>
+                    </div>
+                  )}
+                </div> */}
+
                 {/* Alphabetical Heading */}
 
-                {/* <div className="col-auto">
-                  <InfoMedia
-                    className="about-media"
-                    // image={subService.img}
-                    // title={subService.text}
-                  />
-                </div> */}
-                
-                <div className="col-xl-6 align-self-center text-center text-xl-end">
-                  <h6 className=" text-capitalize ">
-                    {subService.title}
-                  </h6>
-                  <p>
-                    {subService.text && <i className="fal fa-check-circle" />}
-                    {subService.text}
-                  </p>
-                </div>
-                <div className="col-xl-6 mb-50 mb-xl-0">
-                  {subService.img && (
-                    <ImageBoxThree
-                      imageOne={subService.img}
-                      alt="Project"
-                      className="w-100"
-                    />
-                  )}
-                </div>
+                {subService.img ? (
+                  <div className="row gx-60 space-top">
+                    <div className="col-xl-6 mb-50 mb-xl-0">
+                      <SecTitle className=" text-capitalize ">
+                        {subService.title}
+                      </SecTitle>
+                      <p className="mb-6 pb-2 pe-xl-12">{subService.text}</p>
+                    </div>
+                    <div className="col-xl-6 mb-50 mb-xl-0">
+                      <ImageBoxThree
+                        imageOne={subService.img}
+                        alt="Project"
+                        className="w-100"
+                      />
+                    </div>
+                  </div>
+                ) : (
+                  <div className="col-xl-12 align-self-center text-center text-xl-start">
+                    <SecTitle className="text-capitalize">
+                      {subService.title}
+                    </SecTitle>
+                    <p className="mb-6 pb-2 pe-xl-12">{subService.text}</p>
+                  </div>
+                )}
+
                 {/* Iterate through sub-services */}
                 <List className="list-style3">
-                  {/* <p>{subService.text}</p> */}
                   {subService.subServices &&
                     subService.subServices.map((subSubService, subIndex) => (
                       <>
                         <List className="list-style4" key={subIndex}>
                           {/* Roman Numeral Heading */}
                           <List.Item key={subIndex}>
-                            <div className="row gx-60 ">
-                              {subSubService && subSubService.img ? (
-                                <>
-                                  <div className="col-xl-6 mb-50 mb-xl-0">
-                                    {subSubService.img && (
-                                      <ImageBoxThree
-                                        imageOne={subSubService.img}
-                                        alt="Project"
-                                        className="w-100"
-                                      />
-                                    )}
-                                  </div>
-                                  <div className="col-xl-6 align-self-center text-center text-xl-start">
-                                    <h6>
-                                      {/* {toRoman(subIndex + 1)}. {subSubService.title} */}
-                                      {subSubService.title}
-                                    </h6>
-                                    <p>
-                                      {subSubService.text && (
-                                        <i className="fal fa-check-circle" />
-                                      )}
-                                      {subSubService.text}
-                                    </p>
-                                  </div>
-                                </>
-                              ) : (
-                                <div className="col-xl-12 align-self-center text-center text-xl-start">
-                                  <SecTitle className="text-capitalize">
-                                    {subSubService.title}
-                                  </SecTitle>
-                                  <p className="mb-6 pb-2 pe-xl-12">
-                                    {subSubService.text}
-                                  </p>
-                                </div>
+                            <h6>{subSubService.title}</h6>
+                            <p>
+                              {subSubService.text && (
+                                <i className="fal fa-check-circle" />
                               )}
-                            </div>
+                              {subSubService.text}
+                            </p>
                           </List.Item>
 
                           {/* Iterate through sub-sub-services */}
                           {subSubService.subnServices &&
                             subSubService.subnServices.length > 0 && (
-                              <List className="list-style3">
-                                {subSubService.subnServices.map(
-                                  (item, itemIndex) => (
-                                    <List.Item key={itemIndex}>
-                                      <SecSubTitle className="h6">
-                                        {service && item.title}
-                                      </SecSubTitle>
-                                      {/* Conditionally render the <i> element */}
-
-                                      {item.text && (
-                                        <i className="fal fa-check-circle" />
-                                      )}
-                                      {item.text}
-                                    </List.Item>
-                                  )
-                                )}
-                              </List>
+                              <div className="row gx-60 ">
+                                {subSubService.img ? (
+                                  <div className="col-xl-6 mb-50 mb-xl-0">
+                                    <ImageBoxThree
+                                      imageOne={subSubService.img}
+                                      alt="Project"
+                                      className="w-100"
+                                    />
+                                  </div>
+                                ) : null}
+                                <div className="col-xl-6 align-self-center text-center text-xl-start">
+                                  {subSubService.subnServices.map(
+                                    (item, itemIndex) => (
+                                      <div key={itemIndex}>
+                                        <SecSubTitle className="h6">
+                                          {service && item.title}
+                                        </SecSubTitle>
+                                        {/* Conditionally render the <i> element */}
+                                        {item.text && (
+                                          <i className="fal fa-check-circle" />
+                                        )}
+                                        {item.text}
+                                      </div>
+                                    )
+                                  )}
+                                </div>
+                              </div>
                             )}
                         </List>
                       </>
