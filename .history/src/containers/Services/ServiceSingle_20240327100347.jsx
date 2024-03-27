@@ -576,7 +576,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                               {subSubService.text && (
                                 <i className="fal fa-check-circle" />
                               )}
-                              {subSubService.text}
+                              {/* {subSubService.text} */}
                             </p>
                           </List.Item>
 

@@ -99,7 +99,6 @@
             {
               "title": "Roll Out",
               "text": "Roll out typically involves;",
-              
               "subnServices": [
                 {
                   "text": "Template rollout to geographies"
@@ -125,7 +124,7 @@
         {
           "title": "SAP roll out – We make your ERP work",
           "text": "SeasPark Consultancy has extensive experience in Template solutions rollout for different clients across their business units and geographies. We offer multiple delivery models wherein we can align your specific business processes, systems and strategies for achieving your business objectives. Apart from this, our ready to use SAP roll-out guidelines, standards and procedures help you accelerate the roll out process and speed up the business operations. This rollout includes;",
-          
+          "img": "/images/service/rollout.jpg",
           "subServices": [
             {
               "title": "Process mapping country extensions"
@@ -273,7 +272,7 @@
         {
           "title": "SAP Business ByDesign for Localization ",
           "text": "Business ByDesign supports businesses with international locations and operations. If your business operates across countries, SAP Business ByDesign allows multiple companies in multiple countries with multiple sets of books to reside in the same system simultaneously.",
-          "img": "/images/service/localization1.jpg",
+          "img": "/images/service/localization.jpg",
           "subServices": [
             {
               "title": "This involves;",
@@ -303,10 +302,10 @@
         {
           "title": "SAP Licensed Sale",
           "text": "Our SAP software reseller team enables you to buy the most cost-effective licenses for SAP software use our expertise to identify the exact licenses you need add long-term value. License optimization is not only a matter of reducing cost but the practice of continuously monitoring the demand for software in your organization, and only buying what you need. Our licensing experts can help you with license consolidation, infrastructure optimization, contract optimization, improving documentation, license transfer, or re-harvesting.",
-          "img": "/images/service/licence1.jpg",
+          "img": "/images/service/licence.jpg",
           "subServices": [
             {
-              "title": "Types of licences includes;",
+              "title": "Types of licences ;",
               "text": "Analytics and BI Licences (Business Objects and SAC). "
             },
             {

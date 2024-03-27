@@ -99,7 +99,7 @@
             {
               "title": "Roll Out",
               "text": "Roll out typically involves;",
-              
+              "img": "/images/service/rollout.jpg",
               "subnServices": [
                 {
                   "text": "Template rollout to geographies"

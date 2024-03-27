@@ -99,9 +99,9 @@
             {
               "title": "Roll Out",
               "text": "Roll out typically involves;",
-              
               "subnServices": [
                 {
+                  
                   "text": "Template rollout to geographies"
                 },
                 {
@@ -125,7 +125,7 @@
         {
           "title": "SAP roll out – We make your ERP work",
           "text": "SeasPark Consultancy has extensive experience in Template solutions rollout for different clients across their business units and geographies. We offer multiple delivery models wherein we can align your specific business processes, systems and strategies for achieving your business objectives. Apart from this, our ready to use SAP roll-out guidelines, standards and procedures help you accelerate the roll out process and speed up the business operations. This rollout includes;",
-          
+          "img": "/images/service/rollout.jpg",
           "subServices": [
             {
               "title": "Process mapping country extensions"

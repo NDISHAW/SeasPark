@@ -570,13 +570,13 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                         <List className="list-style" key={subIndex}>
                           {/* Roman Numeral Heading */}
                           <List.Item key={subIndex}>
-                            {/* typically */}
+                            {/* typical */}
                             <h6>{subSubService && subSubService.title}</h6>
                             <p>
                               {subSubService.text && (
                                 <i className="fal fa-check-circle" />
                               )}
-                              {subSubService.text}
+                              {/* {subSubService.text} */}
                             </p>
                           </List.Item>
 

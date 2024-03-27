@@ -84,6 +84,7 @@
           "subServices": [
             {
               "title": "Typical implementation engagement cover is achieved through;",
+              "img": "/images/service/rollout.jpg",
               "subnServices": [
                 {
                   "text": "Implementation Project Plan and monitor the execution, configure and test the underlying technical infrastructure."

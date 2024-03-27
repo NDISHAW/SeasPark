@@ -543,7 +543,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                       <SecTitle className=" text-capitalize ">
                         {subService.title}
                       </SecTitle>
-                      <p className="mb-6 pb-2 pe-xl-12">{subService.text}</p>
+                      {/* <p className="mb-6 pb-2 pe-xl-12">{subService.text}</p> */}
                     </div>
                     <div className="col-xl-6 mb-50 mb-xl-0">
                       <ImageBoxThree
@@ -570,7 +570,6 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                         <List className="list-style" key={subIndex}>
                           {/* Roman Numeral Heading */}
                           <List.Item key={subIndex}>
-                            {/* typically */}
                             <h6>{subSubService && subSubService.title}</h6>
                             <p>
                               {subSubService.text && (
@@ -593,7 +592,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                                     />
                                   </div>
                                 ) : null}
-                                <div className="col-xl-12 align-self-center text-center text-xl-start">
+                                <div className="col-xl-6 align-self-center text-center text-xl-start">
                                   {subSubService.subnServices.map(
                                     (item, itemIndex) => (
                                       <div key={itemIndex}>

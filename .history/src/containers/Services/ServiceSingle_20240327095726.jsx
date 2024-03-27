@@ -570,7 +570,6 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                         <List className="list-style" key={subIndex}>
                           {/* Roman Numeral Heading */}
                           <List.Item key={subIndex}>
-                            {/* typically */}
                             <h6>{subSubService && subSubService.title}</h6>
                             <p>
                               {subSubService.text && (
@@ -593,12 +592,12 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                                     />
                                   </div>
                                 ) : null}
-                                <div className="col-xl-12 align-self-center text-center text-xl-start">
+                                <div className="col-xl-6 align-self-center text-center text-xl-start">
                                   {subSubService.subnServices.map(
                                     (item, itemIndex) => (
                                       <div key={itemIndex}>
                                         <SecSubTitle className="h6">
-                                          {service && item.title}
+                                          {/* {service && item.title} */}
                                         </SecSubTitle>
                                         {/* Conditionally render the <i> element */}
                                         {item.text && (

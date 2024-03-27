@@ -86,7 +86,8 @@
               "title": "Typical implementation engagement cover is achieved through;",
               "subnServices": [
                 {
-                  "text": "Implementation Project Plan and monitor the execution, configure and test the underlying technical infrastructure."
+                  "text": "Implementation Project Plan and monitor the execution, configure and test the underlying technical infrastructure.",
+                  
                 },
                 {
                   "text": "Define, design, map and configure business processes and customize business processes if needed"
