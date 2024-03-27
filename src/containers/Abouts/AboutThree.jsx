@@ -15,7 +15,13 @@ const AboutThree = () => (
     <div className="container">
       <div className="row gx-60">
         <div className="col-xl-6 mb-50 mb-xl-0">
-          <ImageBoxThree imageOne="images/about/aboutus.jpg" />
+          <ImageBoxThree imageOne="images/about/about1.jpg" />
+          <i className="copyright-text2">
+            <a href="https://www.freepik.com/free-photo/diverse-business-colleagues-shoo_2861374.htm#query=soft%20skills&position=26&from_view=keyword&track=ais&uuid=5e1e4e53-3e5a-4e18-a285-4cf8b2ee2653">
+              Image by rawpixel.com
+            </a>{" "}
+            on Freepik
+          </i>
         </div>
         <div className=" col-xl-6 align-self-center text-inline-block text-xl-start">
           {/* <SecSubTitle>

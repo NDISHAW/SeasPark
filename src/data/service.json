@@ -165,8 +165,7 @@
           "img": "/images/service/licence1.jpg",
           "subServices": [
             {
-              "title": "Types of Licenses;",
-              "img": "/images/service/licence.jpg"
+              "title": "Types of Licenses;"
             },
             {
               "text": "Analytics and BI Licences (Business Objects and SAC)."
@@ -273,27 +272,33 @@
         {
           "title": "SAP Business ByDesign for Localization ",
           "text": "Business ByDesign supports businesses with international locations and operations. If your business operates across countries, SAP Business ByDesign allows multiple companies in multiple countries with multiple sets of books to reside in the same system simultaneously.",
-          "img": "/images/service/localization1.jpg",
           "subServices": [
             {
               "title": "This involves;",
-              "text": "Template rollout to geographies"
-            },
-            {
-              "text": "Process mapping country extensions"
-            },
-            {
-              "text": "Configuring country extensions"
-            },
-            {
-              "text": "Custom developments for country extensions"
-            },
-            {
-              "text": "Additional module rollouts and training and development"
-            },
-            {
-              "text": "Deployment through change management"
+              "img": "/images/service/localization.jpg",
+              
+              "subnServices":[
+                {
+                  "text": "Template rollout to geographies"
+                },
+                {
+                  "text": "Process mapping country extensions"
+                },
+                {
+                  "text": "Configuring country extensions"
+                },
+                {
+                  "text": "Custom developments for country extensions"
+                },
+                {
+                  "text": "Additional module rollouts and training and development"
+                },
+                {
+                  "text": "Deployment through change management"
+                }
+              ]
             }
+            
           ]
         },
         {
@@ -344,10 +349,10 @@
       "bgShape2": "/images/shape/sr-bg-shape-2-1.png",
       "title": "Trainings",
       "tex": "Explore a world beyond IT staffing. SeasPark excels in recruiting Senior Managers, Directors, and VPs, ensuring your organization is powered by leaders who drive business success.",
-      "text": "Explore a world beyond IT staffing. SeasPark excels in recruiting Senior Managers, Directors, and VPs, ensuring your organization is powered by leaders who drive business success.",
+      "text": "Explore a world beyond IT staffing. SeasPark excels in recruiting Senior Managers, Directors, and VPs, ensuring your organization is powered by leaders who drive business success. ",
       "services": [
         {
-          "text": "We offer tailored leadership development programs designed to enhance the skills and capabilities of your senior managers, directors, and VPs, empowering them to drive business success.",
+          "text": "",
           "subServices": [
             {
               "title": "Leadership Development Programs:",
@@ -383,7 +388,8 @@
             },
             {
               "title": "Soft Skills Training: ",
-              "text": "We provide training in essential soft skills such as communication, leadership, and emotional intelligence, enabling your leaders to effectively manage teams and drive results."
+              "text": "We provide training in essential soft skills such as communication, leadership, and emotional intelligence, enabling your leaders to effectively manage teams and drive results.",
+              "img": "/images/service/soft.jpg"
             },
             {
               "title": "Continuous Learning Programs: ",
