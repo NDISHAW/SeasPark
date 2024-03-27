@@ -584,7 +584,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                           {subSubService.subnServices &&
                             subSubService.subnServices.length > 0 && (
                               <div className="row gx-60 ">
-                                {/* S/4 HANA  people Process */}
+                                {/* S/4 HANA */}
                                 {subSubService.img ? (
                                   <>
                                     <div className="col-xl-6 mb-50 mb-xl-0">
@@ -593,6 +593,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                                         alt="Project"
                                         className="w-100"
                                       />
+                                      How do I get this out of here
                                     </div>
                                     <div className="col-xl-6 align-self-center text-center text-xl-start">
                                       {subSubService.subnServices.map(

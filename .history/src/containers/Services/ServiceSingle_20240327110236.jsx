@@ -593,6 +593,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                                         alt="Project"
                                         className="w-100"
                                       />
+                                      How do I get this out of here
                                     </div>
                                     <div className="col-xl-6 align-self-center text-center text-xl-start">
                                       {subSubService.subnServices.map(

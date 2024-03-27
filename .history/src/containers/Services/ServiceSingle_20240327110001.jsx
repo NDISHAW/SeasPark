@@ -584,51 +584,16 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                           {subSubService.subnServices &&
                             subSubService.subnServices.length > 0 && (
                               <div className="row gx-60 ">
-                                {/* S/4 HANA  people Process */}
                                 {subSubService.img ? (
-                                  <>
-                                    <div className="col-xl-6 mb-50 mb-xl-0">
-                                      <ImageBoxThree
-                                        imageOne={subSubService.img}
-                                        alt="Project"
-                                        className="w-100"
-                                      />
-                                    </div>
-                                    <div className="col-xl-6 align-self-center text-center text-xl-start">
-                                      {subSubService.subnServices.map(
-                                        (item, itemIndex) => (
-                                          <div key={itemIndex}>
-                                            <SecSubTitle className="h6">
-                                              {service && item.title}
-                                            </SecSubTitle>
-                                            {/* Conditionally render the <i> element */}
-                                            {item.text && (
-                                              <i className="fal fa-check-circle" />
-                                            )}
-                                            {item.text}
-                                          </div>
-                                        )
-                                      )}
-                                    </div>
-                                  </>
-                                ) : (
-                                  <div className="col-xl-12 align-self-center text-center text-xl-start">
-                                    {subSubService.subnServices.map(
-                                      (item, itemIndex) => (
-                                        <div key={itemIndex}>
-                                          <SecSubTitle className="h6">
-                                            {service && item.title}
-                                          </SecSubTitle>
-                                          {/* Conditionally render the <i> element */}
-                                          {item.text && (
-                                            <i className="fal fa-check-circle" />
-                                          )}
-                                          {item.text}
-                                        </div>
-                                      )
-                                    )}
+                                  <div className="col-xl-6 mb-50 mb-xl-0">How do I get this out of here
+                                    <ImageBoxThree
+                                      imageOne={subSubService.img}
+                                      alt="Project"
+                                      className="w-100"
+                                    />
+                                    
                                   </div>
-                                )}
+                                ) : null}
                                 <div className="col-xl-12 align-self-center text-center text-xl-start">
                                   {subSubService.subnServices.map(
                                     (item, itemIndex) => (
