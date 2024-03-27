@@ -507,7 +507,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
           {service &&
             service.services &&
             service.services.map((subService, index) => (
-              <div className="row gx-60 space-bottom">
+              <div className="row gx-60 space-top">
                 {/* <div className="row gx-60 space-top">
                   {subService && subService.img ? (
                     <>

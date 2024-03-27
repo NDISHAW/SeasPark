@@ -507,7 +507,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
           {service &&
             service.services &&
             service.services.map((subService, index) => (
-              <div className="row gx-60 space-bottom">
+              <div className="row gx-60 ">
                 {/* <div className="row gx-60 space-top">
                   {subService && subService.img ? (
                     <>
@@ -538,7 +538,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                 {/* Alphabetical Heading */}
 
                 {subService.img ? (
-                  <div className="row gx-60 ">
+                  <div className="row gx-60 space-top">
                     <div className="col-xl-6 mb-50 mb-xl-0">
                       <SecTitle className=" text-capitalize ">
                         {subService.title}

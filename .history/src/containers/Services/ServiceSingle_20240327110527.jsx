@@ -507,7 +507,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
           {service &&
             service.services &&
             service.services.map((subService, index) => (
-              <div className="row gx-60 space-bottom">
+              <div className="row gx-60 ">
                 {/* <div className="row gx-60 space-top">
                   {subService && subService.img ? (
                     <>
@@ -583,7 +583,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                           {/* Iterate through sub-sub-services */}
                           {subSubService.subnServices &&
                             subSubService.subnServices.length > 0 && (
-                              <div className="row gx-60 ">
+                              <div className="row gx-60 space-top">
                                 {/* S/4 HANA  people Process */}
                                 {subSubService.img ? (
                                   <>
@@ -629,6 +629,7 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                                     )}
                                   </div>
                                 )}
+                               
                               </div>
                             )}
                         </List>
