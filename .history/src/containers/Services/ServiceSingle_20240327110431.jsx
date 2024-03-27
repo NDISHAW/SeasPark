@@ -629,7 +629,22 @@ const ServiceSingle = ({ service, className, ...restProps }) => (
                                     )}
                                   </div>
                                 )}
-                               
+                                <div className="col-xl-12 align-self-center text-center text-xl-start">
+                                  {subSubService.subnServices.map(
+                                    (item, itemIndex) => (
+                                      <div key={itemIndex}>
+                                        <SecSubTitle className="h6">
+                                          {/* {service && item.title} */}
+                                        </SecSubTitle>
+                                        {/* Conditionally render the <i> element */}
+                                        {item.text && (
+                                          <i className="fal fa-check-circle" />
+                                        )}
+                                        {item.text}
+                                      </div>
+                                    )
+                                  )}
+                                </div>
                               </div>
                             )}
                         </List>
